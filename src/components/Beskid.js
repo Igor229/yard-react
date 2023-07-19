@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import React, { useState } from 'react'
-import icons from './assets/icons/besket-icons.svg'
+import icons from '../assets/icons/besket-icons.svg'
 import Slider from './BeskedSlider';
 import ContactForm from './ContactForm';
 import './Complexes.scss'

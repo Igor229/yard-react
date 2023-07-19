@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import mainLogoWhite from './assets/images/main-logo-white.png'
-import menuOpen from './assets/icons/menu-open.svg'
-import menuClose from './assets/icons/menu-close.svg'
-import icons from './assets/icons/sprite.svg'
+import mainLogoWhite from '../assets/images/main-logo-white.png'
+import menuOpen from '../assets/icons/menu-open.svg'
+import menuClose from '../assets/icons/menu-close.svg'
+import icons from '../assets/icons/sprite.svg'
 import Modal from './Modal'
 import './Header.scss'
 

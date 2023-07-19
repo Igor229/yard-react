@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Modal.scss'
-import icon from './assets/icons/sprite.svg'
+import icon from '../assets/icons/sprite.svg'
 
 function Modal({active, setActive}) {
     return (

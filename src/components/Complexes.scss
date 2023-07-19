@@ -7,17 +7,6 @@ $text-color: #969F9A;
 .complexes {
     margin-top: 110px;
 
-    &__title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: $base-font;
-        font-size: 60px;
-        font-weight: 600;
-        line-height: 68px;
-        color: $main-color;
-    }
-
     &__items {
         display: flex;
         flex-direction: column;

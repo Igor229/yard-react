@@ -1,5 +1,5 @@
-import footerLogo from './assets/images/footer-logo.png'
-import icons from './assets/icons/sprite.svg'
+import footerLogo from '../assets/images/footer-logo.png'
+import icons from '../assets/icons/sprite.svg'
 import './Footer.scss'
 
 function Footer () {

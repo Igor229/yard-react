@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import icons from './assets/icons/west-icons.svg'
+import icons from '../assets/icons/west-icons.svg'
 import Slider from './WestSlider';
 import ContactForm from './ContactForm';
 import './Complexes.scss'
