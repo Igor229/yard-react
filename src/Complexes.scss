@@ -1,0 +1,172 @@
+$base-font: 'Work Sans', sans-serif;
+$main-color: #181E1A;
+$title-color: #7F9E56;
+$button-color: #527246;
+$text-color: #969F9A;
+
+.complexes {
+    margin-top: 110px;
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $base-font;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 68px;
+        color: $main-color;
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    .complex {
+
+        &__info {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+            &-slider {
+                width: 620px;
+                height: 620px;
+            }
+
+            &-types {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                justify-content: start;
+                align-items: center;
+                
+                .type__button {
+                    width: 85px;
+                    height: 45px;
+                    background-color: #fff;
+                    color: $title-color;
+                    border: 1px solid $title-color;
+
+                    &--active {
+                        background-color: $button-color;
+                        color: #fff;
+                        border: none;
+                    }
+                }
+            }
+
+            &-text {
+                width: 620px;
+                height: 620px;
+                background-color: $main-color;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                gap: 20px;
+                padding: 0 36px;
+                border-radius: 0 20px 20px 0;
+                
+                
+
+                .info__title {
+                    font-family: $base-font;
+                    color: $title-color;
+                    font-size: 32px;
+                    font-weight: 500;
+                    line-height: 40px;
+                    text-transform: uppercase;
+                }
+
+                .info__text {
+                    font-size: 16px;
+                    color: $text-color;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: -0.176px;
+
+                    & span {
+                        color: $title-color;
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                }
+
+                .info__price {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            }
+        }
+
+        &__base-card {
+            justify-content: start;
+            padding-top: 36px;
+            gap: 20px;
+
+            .text-container {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .sizes-container {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 70px;
+                }
+            }
+
+            .info__container {
+                display: flex;
+                flex-direction: row;
+                gap: 12px;               
+
+                .info-text {
+                    font-size: 16px;
+                    color: $text-color;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: -0.176px;
+                }
+            }
+        }
+
+        .form {
+            margin-top: 45px;
+            margin-bottom: 110px;
+
+            &__container {
+                display: flex;
+                flex-direction: column;
+                
+                &-title {
+                    font-family: $base-font;
+                    color: $main-color;
+                    font-size: 32px;
+                    font-weight: 500;
+                    line-height: 40px;
+                }
+
+                &-actions {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-top: 45px;
+                    gap: 25px;
+
+                    & .item {
+                        flex: 1 1 266.66px;
+                    }
+                }
+            }
+        }
+    }
+}

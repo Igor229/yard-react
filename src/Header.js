@@ -1,0 +1,118 @@
+import React, { useState } from 'react'
+import mainLogoWhite from './assets/images/main-logo-white.png'
+import menuOpen from './assets/icons/menu-open.svg'
+import menuClose from './assets/icons/menu-close.svg'
+import icons from './assets/icons/sprite.svg'
+import Modal from './Modal'
+import './Header.scss'
+
+function Header() {
+    const [modalActive, setModalActive] = useState(false)
+
+    // show burger menu
+    const [burger_class, setBurgerClass] = useState("burger__menu")
+    const [burger_icon, setBurgerIcon] = useState(menuOpen)
+    const [isClicked, setIsClicked] = useState(false)
+    const showBurger = () => {
+        if (!isClicked) {
+            setBurgerClass("burger__menu showMenu")
+            setIsClicked(true)
+            setBurgerIcon(menuClose)
+            document.body.style.overflow = 'hidden'
+        } else {
+            setBurgerClass("burger__menu")
+            setIsClicked(false)
+            setBurgerIcon(menuOpen)
+            document.body.style.overflow = 'auto'
+        }
+    }
+
+    // change header background while scrolling
+    const [color, setColor] = useState(false)
+    const changeColor = () => {
+        if (window.scrollY >= 90){
+            setColor(true)
+        } else {
+            setColor(false)
+        }
+    }
+    window.addEventListener('scroll', changeColor)
+
+    return (
+        <header className={color ? 'header header-bg' : 'header'}>
+
+            <Modal active={modalActive} setActive={setModalActive}/>
+
+            <div className='burger'>
+                <div className="burger__items">
+                    <div className="humburger">
+                        <img src={burger_icon} alt="menu-open" className="burger__items-icon menuIcon" onClick={showBurger}/>
+                        <img src={burger_icon} alt="menu-close" className="burger__items-icon closeIcon" onClick={showBurger}/>
+                    </div> 
+                    <img src={mainLogoWhite} alt="main-logo" className="header__items-logo"/>
+                </div>
+
+                <div className={burger_class}>
+                    <div className="burger__container">
+                        <h4 className="burger__menu-title">Замовити індивідуальну консультацію</h4>
+
+                        <form className="burger__menu-actions">
+                            <input className="form-input burger-input" type="tel" name="phone" pattern="[+]{1}[0-9]{11,14}" maxLength="13" placeholder="Номер телефону" required/>
+                            <button className="burger-button main-button">Замовити</button>
+                        </form>
+
+                        <div className="burger__menu-contacts">
+                            <div className="contacts__container">
+                                <h4 className="contacts__container-title">Наші комплекси</h4>
+                                <a href="#west-town" className="contacts__container-text burger-link" onClick={showBurger}>WEST TOWN</a>
+                                <a href="#beskid-resort" className="contacts__container-text burger-link" onClick={showBurger}>BESKID HOME RESORT</a>
+                            </div>
+                            <div className="contacts__container">
+                                <h4 className="contacts__container-title">Контактна інформація</h4>
+                                <a href="#" className="contacts__container-text">+380 (98) 22 55 800 (Viber, Telegram)</a>
+                                <a href="#" className="contacts__container-text">yarddevelopment34@gmail.com</a>
+
+                                <div className="footer__actions-socials">
+                                    <svg className="social-icon">
+                                        <use href={icons + '#instagram'}></use>
+                                    </svg>
+            
+                                    <svg className="social-icon">
+                                        <use href={icons + '#facebook'}></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="wrapper">
+            <div className="header__items">
+                <div className="header__items-nav">
+
+                    <a href="#main-container"><img src={mainLogoWhite} alt="main-logo" className="header__items-logo"/></a>
+                    <ul className="navigations">
+                        <li><a href="#west-town" className="navigations__action">West town</a></li>
+                        <li><a href="#beskid-resort" className="navigations__action">Beskid home resort</a></li>
+                    </ul>
+                </div>
+
+                <div className="header__items-contacts">
+                    <p className="contacts__number">+380 (98) 22 55 800</p>
+                    <button className="contacts__button main-button" id='contacts__button' onClick={() => setModalActive(true)}>Замовити дзвінок</button>
+                </div>
+            </div>
+
+            <div className="header__menu">
+                <div className="wrapper">
+                    <h2 className="menu__title"></h2>
+                </div>
+            </div>
+        </div>
+        </header>
+
+    )
+}
+
+export default Header;

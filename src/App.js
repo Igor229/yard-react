@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './Header';
+import About from './About';
+import Beskid from './Beskid';
+import WestTown from './WestTown';
+import Footer from './Footer';
+import './style.scss'
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <About />
+
+      <section className='complexes'>
+        <div className='wrapper'>
+          <h2 className='complexes__title'>Наші комплекси</h2>
+          <div className='complexes__items'>
+            <Beskid />
+            <WestTown />
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </>
   );
 }
 
