@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yard-react/static/css/main.dc349f6d.css",
-    "main.js": "/yard-react/static/js/main.a9e3c2b4.js",
+    "main.css": "/yard-react/static/css/main.5b54f6ad.css",
+    "main.js": "/yard-react/static/js/main.6a339647.js",
     "static/js/787.3a6277e1.chunk.js": "/yard-react/static/js/787.3a6277e1.chunk.js",
     "static/media/main-video_better-quality.MP4": "/yard-react/static/media/main-video_better-quality.66450af365805b627d16.MP4",
     "static/media/main-video.MP4": "/yard-react/static/media/main-video.e54680186d815d44d6e5.MP4",
@@ -20,12 +20,13 @@
     "static/media/west3.jpg": "/yard-react/static/media/west3.ad791a99a5eae46ba2a9.jpg",
     "static/media/besked4.JPG": "/yard-react/static/media/besked4.bd898639777bdc271d2b.JPG",
     "static/media/besked6.JPG": "/yard-react/static/media/besked6.54d33d6019f53040890e.JPG",
+    "static/media/status-west1.jpg": "/yard-react/static/media/status-west1.3ce9b090ea8ed25a1a77.jpg",
     "static/media/besked7.JPG": "/yard-react/static/media/besked7.d7e05233cc4cfd2ddf50.JPG",
+    "static/media/status-west2.jpg": "/yard-react/static/media/status-west2.1337c8b495d1781c1b94.jpg",
+    "static/media/status-beskid1.jpg": "/yard-react/static/media/status-beskid1.5285b3311c2f99b13436.jpg",
     "static/media/besked-news.jpg": "/yard-react/static/media/besked-news.4c6423decf87fd7bea63.jpg",
-    "static/media/status-west2.jpg": "/yard-react/static/media/status-west2.1495db2613e99e8b42ee.jpg",
+    "static/media/status-beskid2.jpg": "/yard-react/static/media/status-beskid2.827a8652118bf0482870.jpg",
     "static/media/spa-news.jpg": "/yard-react/static/media/spa-news.f2679b6f8dce9855ec3f.jpg",
-    "static/media/status-west1.jpg": "/yard-react/static/media/status-west1.b6d1c9dc0cc929b66d30.jpg",
-    "static/media/status-west3.jpg": "/yard-react/static/media/status-west3.4c7330ce265a7b2e7c4a.jpg",
     "static/media/west-town_news.jpg": "/yard-react/static/media/west-town_news.727aab8435f8b42021b6.jpg",
     "static/media/besked8.jpg": "/yard-react/static/media/besked8.cdb6cc968c9b634281a4.jpg",
     "static/media/west9.JPG": "/yard-react/static/media/west9.93bfac5c3c8250fec800.JPG",
@@ -35,12 +36,12 @@
     "index.html": "/yard-react/index.html",
     "static/media/menu-open.svg": "/yard-react/static/media/menu-open.e47cad21270d448e17cd07096172c4e8.svg",
     "static/media/menu-close.svg": "/yard-react/static/media/menu-close.83af43c5ad2451fc6cbcb8abd0ede7c5.svg",
-    "main.dc349f6d.css.map": "/yard-react/static/css/main.dc349f6d.css.map",
-    "main.a9e3c2b4.js.map": "/yard-react/static/js/main.a9e3c2b4.js.map",
+    "main.5b54f6ad.css.map": "/yard-react/static/css/main.5b54f6ad.css.map",
+    "main.6a339647.js.map": "/yard-react/static/js/main.6a339647.js.map",
     "787.3a6277e1.chunk.js.map": "/yard-react/static/js/787.3a6277e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc349f6d.css",
-    "static/js/main.a9e3c2b4.js"
+    "static/css/main.5b54f6ad.css",
+    "static/js/main.6a339647.js"
   ]
 }
