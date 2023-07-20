@@ -89,7 +89,7 @@ function Beskid () {
                 </div>
             </div>
 
-            <ContactForm title = {'Отримати повний огляд котеджу'} />
+            <ContactForm title = {'Отримати повний огляд котеджу'}/>
         </div>
     )
 }

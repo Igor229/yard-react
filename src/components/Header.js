@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
+import emailjs from '@emailjs/browser';
 import mainLogoWhite from '../assets/images/main-logo-white.png'
 import menuOpen from '../assets/icons/menu-open.svg'
 import menuClose from '../assets/icons/menu-close.svg'
@@ -8,6 +9,18 @@ import './Header.scss'
 
 function Header() {
     const [modalActive, setModalActive] = useState(false)
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+  
+      emailjs.sendForm('service_5qtaya8', 'form_without_name', form.current, 'lrG-SRJzI2YZWRDiE')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
 
     // show burger menu
     const [burger_class, setBurgerClass] = useState("burger__menu")
@@ -56,8 +69,8 @@ function Header() {
                     <div className="burger__container">
                         <h4 className="burger__menu-title">Замовити індивідуальну консультацію</h4>
 
-                        <form className="burger__menu-actions">
-                            <input className="form-input burger-input" type="tel" name="phone" pattern="[+]{1}[0-9]{11,14}" maxLength="13" placeholder="Номер телефону" required/>
+                        <form ref={form} onSubmit={sendEmail} className="burger__menu-actions">
+                            <input className="form-input burger-input" type="tel" name="phone" maxLength="13" placeholder="Номер телефону" required/>
                             <button className="burger-button main-button">Замовити</button>
                         </form>
 

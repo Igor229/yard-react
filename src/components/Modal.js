@@ -1,8 +1,22 @@
-import React, { useState } from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './Modal.scss'
 import icon from '../assets/icons/sprite.svg'
 
 function Modal({active, setActive}) {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+  
+      emailjs.sendForm('service_5qtaya8', 'form_without_name', form.current, 'lrG-SRJzI2YZWRDiE')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
     return (
         <div className={active ? 'modal--active' : 'modal'} onClick={() => setActive(false)}>
             <div className="modal__container" onClick={e => e.stopPropagation()}>
@@ -15,7 +29,7 @@ function Modal({active, setActive}) {
         
         
                     <h2 className="modal__title">Замовити індивідуальну консультацію</h2>
-                    <form className="modal__actions">
+                    <form ref={form} onSubmit={sendEmail} className="modal__actions">
                         <input className="modal__actions-action form-input" type="tel" name="phone" maxLength="13" placeholder="Номер телефону" required/>
                         <button className="modal__actions-action main-button">Відправити</button>
                     </form>
