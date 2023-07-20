@@ -7,12 +7,15 @@ function ContactForm (props) {
     const form = useRef();
 
     const sendEmail = (e) => {
+        e.preventDefault();
   
       emailjs.sendForm('service_5qtaya8', 'contact_form', form.current, 'lrG-SRJzI2YZWRDiE')
         .then((result) => {
             console.log(result.text);
+            window.location.reload()
         }, (error) => {
             console.log(error.text);
+            alert('ERROR')
         });
     };
 

@@ -1,7 +1,5 @@
 .build-status {
     
-    margin-top: 145px;
-
     &__items {
         display: flex;
         justify-content: space-between;
@@ -49,7 +47,12 @@
     }
 
     &__slider {
+        display: block;
         margin: 125px 0;
+    }
+
+    .slider-hidden {
+        display: none;
     }
 }
 

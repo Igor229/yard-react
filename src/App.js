@@ -8,6 +8,7 @@ import BuildingStatus from './components/BuildingStatus';
 import westTownNewsImg from './assets/images/news/west-town_news.jpg'
 import spaNewsImg from './assets/images/news/spa-news.jpg'
 import beskedNewsImage from './assets/images/news/besked-news.jpg'
+import YouTubeVideo from './components/YouTubeVideo';
 import './style.scss'
 
 
@@ -17,6 +18,7 @@ function App() {
     <>
       <Header />
       <About />
+      <YouTubeVideo/>
 
       <section className='complexes'>
         <div className='wrapper'>
@@ -27,6 +29,8 @@ function App() {
           </div>
         </div>
       </section>
+
+      <BuildingStatus/>
 
       <section className='news' id='news'>
         <div className='wrapper'>
@@ -53,8 +57,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      <BuildingStatus/>
 
       <Footer />
     </>

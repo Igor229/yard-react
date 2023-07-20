@@ -11,9 +11,10 @@ import { FreeMode, Autoplay } from 'swiper/modules';
 
 import west1 from '../assets/images/build-status/status-west1.jpg'
 import west2 from '../assets/images/build-status/status-west2.jpg'
-import west3 from '../assets/images/build-status/status-west3.jpg'
+import beskid1 from '../assets/images/build-status/status-beskid1.jpg'
+import beskid2 from '../assets/images/build-status/status-beskid2.jpg'
 
-export default function BuildStatusSlider() {
+export default function WestStatusSlider() {
   return (
     <>
       <Swiper
@@ -21,10 +22,6 @@ export default function BuildStatusSlider() {
         spaceBetween={30}
         freeMode={true}
         pagination={false}
-        autoplay={{
-            delay: 5000,
-            disableOnInteraction: false,
-        }}
 
         breakpoints={{
             279: {
@@ -44,9 +41,8 @@ export default function BuildStatusSlider() {
       >
         <SwiperSlide><img className='buildStatusImg' src={west1} alt="west-town"/></SwiperSlide>
         <SwiperSlide><img className='buildStatusImg' src={west2} alt="west-town"/></SwiperSlide>
-        <SwiperSlide><img className='buildStatusImg' src={west3} alt="west-town"/></SwiperSlide>
-        <SwiperSlide><img className='buildStatusImg' src={west2} alt="west-town"/></SwiperSlide>
-        <SwiperSlide><img className='buildStatusImg' src={west1} alt="west-town"/></SwiperSlide>
+        <SwiperSlide><img className='buildStatusImg' src={beskid1} alt="beskid"/></SwiperSlide>
+        <SwiperSlide><img className='buildStatusImg' src={beskid2} alt="beskid"/></SwiperSlide>
       </Swiper>
     </>
   );

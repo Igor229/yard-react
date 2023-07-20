@@ -37,3 +37,15 @@
       border-radius: 20px 20px 0 0;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .swiper-slide {
+      height: 440px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .swiper-slide {
+      height: 280px;
+    }
+  }

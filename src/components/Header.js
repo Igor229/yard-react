@@ -13,12 +13,15 @@ function Header() {
     const form = useRef();
 
     const sendEmail = (e) => {
+        e.preventDefault();
   
       emailjs.sendForm('service_5qtaya8', 'form_without_name', form.current, 'lrG-SRJzI2YZWRDiE')
         .then((result) => {
             console.log(result.text);
+            window.location.reload()
         }, (error) => {
             console.log(error.text);
+            alert('ERROR')
         });
     };
 
@@ -26,17 +29,19 @@ function Header() {
     const [burger_class, setBurgerClass] = useState("burger__menu")
     const [burger_icon, setBurgerIcon] = useState(menuOpen)
     const [isClicked, setIsClicked] = useState(false)
-    const showBurger = () => {
+    const showBurger = (e) => {
         if (!isClicked) {
             setBurgerClass("burger__menu showMenu")
             setIsClicked(true)
             setBurgerIcon(menuClose)
             document.body.style.overflow = 'hidden'
+            setColor(true)
         } else {
             setBurgerClass("burger__menu")
             setIsClicked(false)
             setBurgerIcon(menuOpen)
             document.body.style.overflow = 'auto'
+            setColor(false)
         }
     }
 
@@ -88,13 +93,17 @@ function Header() {
                                 <a href="#" className="contacts__container-text">yarddevelopment34@gmail.com</a>
 
                                 <div className="footer__actions-socials">
-                                    <svg className="social-icon">
-                                        <use href={icons + '#instagram'}></use>
-                                    </svg>
-            
-                                    <svg className="social-icon">
-                                        <use href={icons + '#facebook'}></use>
-                                    </svg>
+                                    <a href="https://www.instagram.com/yard.development/" target="_blank" onClick={showBurger}>
+                                        <svg className="social-icon">
+                                            <use href={icons + '#instagram'}></use>
+                                        </svg>
+                                    </a>
+
+                                    <a href="https://www.facebook.com/profile.php?id=100093522396873" target="_blank" onClick={showBurger}>
+                                        <svg className="social-icon">
+                                            <use href={icons + '#facebook'}></use>
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                         </div>
