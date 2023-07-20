@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/yard-react/static/css/main.0169737d.css",
-    "main.js": "/yard-react/static/js/main.8bd429ea.js",
+    "main.css": "/yard-react/static/css/main.94977247.css",
+    "main.js": "/yard-react/static/js/main.f6d6e506.js",
     "static/js/787.3a6277e1.chunk.js": "/yard-react/static/js/787.3a6277e1.chunk.js",
+    "static/media/main-video_better-quality.MP4": "/yard-react/static/media/main-video_better-quality.66450af365805b627d16.MP4",
     "static/media/west7.jpg": "/yard-react/static/media/west7.0a52a2a4f14ceae878f3.jpg",
     "static/media/west6.jpg": "/yard-react/static/media/west6.a587644dc5d9a5d8324c.jpg",
     "static/media/west8.jpg": "/yard-react/static/media/west8.5fbd99e23315007d1785.jpg",
+    "static/media/main-video.MP4": "/yard-react/static/media/main-video.e54680186d815d44d6e5.MP4",
     "static/media/west4.jpg": "/yard-react/static/media/west4.3613f8abfed27be7ca84.jpg",
     "static/media/west5.jpg": "/yard-react/static/media/west5.5ee6740cc84ea5f68e88.jpg",
     "static/media/west2.jpg": "/yard-react/static/media/west2.ae309a7c2cb77983b398.jpg",
@@ -19,7 +21,6 @@
     "static/media/besked7.JPG": "/yard-react/static/media/besked7.d6333935ae982a649051.JPG",
     "static/media/besked6.JPG": "/yard-react/static/media/besked6.cb94f008b32919f05f45.JPG",
     "static/media/besked4.JPG": "/yard-react/static/media/besked4.330c3ac3ed290cd6f8cc.JPG",
-    "static/media/main-bg.png": "/yard-react/static/media/main-bg.2ad372356f75d158ea76.png",
     "static/media/besked-news.jpg": "/yard-react/static/media/besked-news.4c6423decf87fd7bea63.jpg",
     "static/media/status-west2.jpg": "/yard-react/static/media/status-west2.1495db2613e99e8b42ee.jpg",
     "static/media/spa-news.jpg": "/yard-react/static/media/spa-news.f2679b6f8dce9855ec3f.jpg",
@@ -34,12 +35,12 @@
     "index.html": "/yard-react/index.html",
     "static/media/menu-open.svg": "/yard-react/static/media/menu-open.e47cad21270d448e17cd07096172c4e8.svg",
     "static/media/menu-close.svg": "/yard-react/static/media/menu-close.83af43c5ad2451fc6cbcb8abd0ede7c5.svg",
-    "main.0169737d.css.map": "/yard-react/static/css/main.0169737d.css.map",
-    "main.8bd429ea.js.map": "/yard-react/static/js/main.8bd429ea.js.map",
+    "main.94977247.css.map": "/yard-react/static/css/main.94977247.css.map",
+    "main.f6d6e506.js.map": "/yard-react/static/js/main.f6d6e506.js.map",
     "787.3a6277e1.chunk.js.map": "/yard-react/static/js/787.3a6277e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0169737d.css",
-    "static/js/main.8bd429ea.js"
+    "static/css/main.94977247.css",
+    "static/js/main.f6d6e506.js"
   ]
 }
