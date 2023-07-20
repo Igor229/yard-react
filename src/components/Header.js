@@ -66,6 +66,8 @@ function Header() {
                                 <h4 className="contacts__container-title">Наші комплекси</h4>
                                 <a href="#west-town" className="contacts__container-text burger-link" onClick={showBurger}>WEST TOWN</a>
                                 <a href="#beskid-resort" className="contacts__container-text burger-link" onClick={showBurger}>BESKID HOME RESORT</a>
+                                <a href="#news" className="contacts__container-text burger-link" onClick={showBurger}>Новини</a>
+                                <a href="#building-status" className="contacts__container-text burger-link" onClick={showBurger}>Стан будівництва</a>
                             </div>
                             <div className="contacts__container">
                                 <h4 className="contacts__container-title">Контактна інформація</h4>
@@ -95,6 +97,8 @@ function Header() {
                     <ul className="navigations">
                         <li><a href="#west-town" className="navigations__action">West town</a></li>
                         <li><a href="#beskid-resort" className="navigations__action">Beskid home resort</a></li>
+                        <li><a href="#news" className="navigations__action">Новини</a></li>
+                        <li><a href="#building-status" className="navigations__action">Стан будівництва</a></li>
                     </ul>
                 </div>
 

@@ -4,6 +4,7 @@ import Beskid from './components/Beskid';
 import WestTown from './components/WestTown';
 import Footer from './components/Footer';
 import News from './components/News';
+import BuildingStatus from './components/BuildingStatus';
 import westTownNewsImg from './assets/images/news/west-town_news.jpg'
 import spaNewsImg from './assets/images/news/spa-news.jpg'
 import beskedNewsImage from './assets/images/news/besked-news.jpg'
@@ -27,7 +28,7 @@ function App() {
         </div>
       </section>
 
-      <section className='news'>
+      <section className='news' id='news'>
         <div className='wrapper'>
           <h2 className='main-title'>Новини</h2>
           <div className='news__container'>
@@ -52,6 +53,8 @@ function App() {
           </div>
         </div>
       </section>
+
+      <BuildingStatus/>
 
       <Footer />
     </>

@@ -16,6 +16,13 @@ function Footer () {
                         <a href="#west-town" className="content__item-text">WEST TOWN</a>
                         <a href="#beskid-resort" className="content__item-text">BESKID HOME RESORT</a>
                     </div>
+
+                    <div className="content__item">
+                        <h4 className="content__item-title">Yard Development</h4>
+                        <a href='#news' className="content__item-text">Новини</a>
+                        <a href='#building-status' className="content__item-text">Стан будівництва</a>
+                    </div>
+
                     <div className="content__item">
                         <h4 className="content__item-title">Контактна інформація</h4>
                         <p className="content__item-text">+380 (98) 22 55 800 (Viber, Telegram)</p>
