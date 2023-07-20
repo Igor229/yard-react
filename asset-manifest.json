@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yard-react/static/css/main.94977247.css",
-    "main.js": "/yard-react/static/js/main.a0680df4.js",
+    "main.css": "/yard-react/static/css/main.95ff5cca.css",
+    "main.js": "/yard-react/static/js/main.8a88d160.js",
     "static/js/787.3a6277e1.chunk.js": "/yard-react/static/js/787.3a6277e1.chunk.js",
     "static/media/main-video_better-quality.MP4": "/yard-react/static/media/main-video_better-quality.66450af365805b627d16.MP4",
     "static/media/west7.jpg": "/yard-react/static/media/west7.0a52a2a4f14ceae878f3.jpg",
@@ -35,12 +35,12 @@
     "index.html": "/yard-react/index.html",
     "static/media/menu-open.svg": "/yard-react/static/media/menu-open.e47cad21270d448e17cd07096172c4e8.svg",
     "static/media/menu-close.svg": "/yard-react/static/media/menu-close.83af43c5ad2451fc6cbcb8abd0ede7c5.svg",
-    "main.94977247.css.map": "/yard-react/static/css/main.94977247.css.map",
-    "main.a0680df4.js.map": "/yard-react/static/js/main.a0680df4.js.map",
+    "main.95ff5cca.css.map": "/yard-react/static/css/main.95ff5cca.css.map",
+    "main.8a88d160.js.map": "/yard-react/static/js/main.8a88d160.js.map",
     "787.3a6277e1.chunk.js.map": "/yard-react/static/js/787.3a6277e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94977247.css",
-    "static/js/main.a0680df4.js"
+    "static/css/main.95ff5cca.css",
+    "static/js/main.8a88d160.js"
   ]
 }
