@@ -104,11 +104,20 @@ svg {
         margin: 0 16px;
     }
     .complexes {
+
         .complex__info {
 
             &-slider {
                 width: 500px;
                 height: 500px;
+            }
+
+            .info__title {
+                font-size: 24px;
+            }
+
+            .info__sub-title {
+                font-size: 16px;
             }
 
             &-text {
@@ -121,14 +130,19 @@ svg {
                     line-height: 20px;
                 }
             }
-            
-            &-types {
-                padding: 5px 0;
-            }
-
         }
+
+        .complex__base-card {
+            padding-top: 10px;
+
+            .info-text {
+                font-size: 14px !important;
+            }
+        }
+        
         .besket_text {
             gap: 8px !important;
+            padding-top: 8px;
         }
     }
 
@@ -142,6 +156,12 @@ svg {
 
     .header__items {
         display: none !important;
+    }
+
+    .footer__content {
+        .content__item-text {
+            font-size: 10px;
+        }
     }
 
     .burger {
@@ -216,6 +236,10 @@ svg {
                     font-weight: 500;
                     line-height: 24px;
                     color: #fff;
+                }
+
+                .burger-link {
+                    text-transform: uppercase;
                 }
             }
         }
@@ -357,22 +381,22 @@ svg {
 
             .footer__logo {
                 align-items: center;
-                
-                .content__item {
-                    &-logo {
-                        width: 200px;
-                        height: 120px;
-                    }
+            }
 
-                    &-title {
-                        font-size: 14px;
-                        line-height: 20px;
-                    }
+            .content__item {
+                &-logo {
+                    width: 200px;
+                    height: 120px;
+                }
 
-                    &-text {
-                        font-size: 14px;
-                        line-height: 24px;
-                    }
+                &-title {
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+
+                &-text {
+                    font-size: 14px;
+                    line-height: 24px;
                 }
             }
         }
@@ -512,22 +536,22 @@ svg {
 
             .footer__logo {
                 align-items: center;
-                
-                .content__item {
-                    &-logo {
-                        width: 200px;
-                        height: 120px;
-                    }
+            }
 
-                    &-title {
-                        font-size: 14px;
-                        line-height: 20px;
-                    }
+            .content__item {
+                &-logo {
+                    width: 200px;
+                    height: 120px;
+                }
 
-                    &-text {
-                        font-size: 14px;
-                        line-height: 24px;
-                    }
+                &-title {
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+
+                &-text {
+                    font-size: 14px;
+                    line-height: 24px;
                 }
             }
         }

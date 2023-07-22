@@ -5,6 +5,7 @@ import menuOpen from '../assets/icons/menu-open.svg'
 import menuClose from '../assets/icons/menu-close.svg'
 import icons from '../assets/icons/sprite.svg'
 import Modal from './Modal'
+import tiktokIcon from '../assets/icons/tiktok.svg'
 import './Header.scss'
 
 function Header() {
@@ -72,7 +73,7 @@ function Header() {
 
                 <div className={burger_class}>
                     <div className="burger__container">
-                        <h4 className="burger__menu-title">Замовити індивідуальну консультацію</h4>
+                        <h4 className="burger__menu-title">Замовити консультацію</h4>
 
                         <form ref={form} onSubmit={sendEmail} className="burger__menu-actions">
                             <input className="form-input burger-input" type="tel" name="phone" maxLength="13" placeholder="Номер телефону" required/>
@@ -103,6 +104,10 @@ function Header() {
                                         <svg className="social-icon">
                                             <use href={icons + '#facebook'}></use>
                                         </svg>
+                                    </a>
+
+                                    <a href="https://www.tiktok.com/@yarddevelopment?_t=8eAdRa2Vt5B&_r=1" target="_blank" onClick={showBurger}>
+                                        <img src={tiktokIcon} alt='tiktok' className="tiktok-icon" />
                                     </a>
                                 </div>
                             </div>

@@ -1,5 +1,6 @@
 import footerLogo from '../assets/images/footer-logo.png'
 import icons from '../assets/icons/sprite.svg'
+import tiktokIcon from '../assets/icons/tiktok.svg'
 import './Footer.scss'
 
 function Footer () {
@@ -13,14 +14,14 @@ function Footer () {
                     </div>
                     <div className="content__item">
                         <h4 className="content__item-title">Наші комплекси</h4>
-                        <a href="#west-town" className="content__item-text">WEST TOWN</a>
-                        <a href="#beskid-resort" className="content__item-text">BESKID HOME RESORT</a>
+                        <a href="#west-town" className="content__item-text upper">WEST TOWN</a>
+                        <a href="#beskid-resort" className="content__item-text upper">BESKID HOME RESORT</a>
                     </div>
 
                     <div className="content__item">
                         <h4 className="content__item-title">Yard Development</h4>
-                        <a href='#news' className="content__item-text">Новини</a>
-                        <a href='#building-status' className="content__item-text">Стан будівництва</a>
+                        <a href='#news' className="content__item-text upper">Новини</a>
+                        <a href='#building-status' className="content__item-text upper">Стан будівництва</a>
                     </div>
 
                     <div className="content__item">
@@ -42,6 +43,9 @@ function Footer () {
                             <svg className="social-icon">
                                 <use href={icons + '#facebook'}/>
                             </svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@yarddevelopment?_t=8eAdRa2Vt5B&_r=1" target="_blank">
+                            <img src={tiktokIcon} alt='tiktok' className="tiktok-icon" />
                         </a>
                     </div>
                 </div>

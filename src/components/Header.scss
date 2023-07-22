@@ -15,11 +15,6 @@
         justify-content: space-between;
         align-items: center;
 
-        &-logo {
-            width: 100px;
-            height: 65px;
-        }
-
         &-nav {
             display: flex;
             flex-direction: row;
@@ -35,15 +30,16 @@
 
             &__action {
                 color: #fff;
-                font-weight: 500;
+                font-weight: 400;
                 line-height: 24px;
                 text-transform: uppercase;
+                font-size: 14px;
     
                 &::after {
                     content: '';
                     display: block;
                     width: 0;
-                    height: 2px;
+                    height: 1px;
                     background: #fff;
                     transition: width .3s;
                 }
@@ -62,14 +58,15 @@
 
             .contacts__number {
                 color: #fff;
-                font-weight: 500;
+                font-weight: 400;
                 line-height: 24px;
+                font-size: 14px;
     
                 &::after {
                     content: '';
                     display: block;
                     width: 0;
-                    height: 2px;
+                    height: 1px;
                     background: #fff;
                     transition: width .3s;
                 }
@@ -81,8 +78,10 @@
             }
 
             .contacts__button {
-                width: 215px;
+                width: 230px;
                 height: 65px;
+                font-size: 14px;
+                font-weight: 400;
             }
         }
     }

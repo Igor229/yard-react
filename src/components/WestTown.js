@@ -18,7 +18,7 @@ function WestTown () {
                     <h3 className="info__title">West Town</h3>
 
                     <div className="text-container">
-                        <p className="info-text">89 будинків введено в експлуатацію.</p>
+                        <p className="info-text upper-text">89 будинків введено в експлуатацію.</p>
                         <div className="sizes-container">
                             <p className="info__text"> - Площа 120 м2;</p>
                             <p className="info__text"> - Ділянка - від 1,65 сотих;</p>
@@ -55,7 +55,7 @@ function WestTown () {
                         </div>
 
                         <div className="info__container">
-                            <p className="info-text">Розтермінування до 24-х місяців.</p>
+                            <p className="info-text upper-text">Розтермінування до 24-х місяців.</p>
                         </div>
                     </div>
                 </div>

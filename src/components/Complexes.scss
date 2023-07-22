@@ -71,8 +71,15 @@ $text-color: #969F9A;
                     text-transform: uppercase;
                 }
 
+                .info__sub-title {
+                    font-size: 18px;
+                    color: $text-color;
+                    font-weight: 500;
+                    line-height: 32px;
+                    text-transform: uppercase;
+                }
+
                 .info__text {
-                    font-size: 16px;
                     color: $text-color;
                     font-weight: 400;
                     line-height: 24px;
@@ -97,12 +104,12 @@ $text-color: #969F9A;
         &__base-card {
             justify-content: start;
             padding-top: 36px;
-            gap: 20px;
+            gap: 15px;
 
             .text-container {
                 display: flex;
                 flex-direction: column;
-                gap: 20px;
+                gap: 15px;
 
                 .sizes-container {
                     display: flex;
@@ -124,11 +131,16 @@ $text-color: #969F9A;
                     letter-spacing: -0.176px;
                 }
             }
+
+            .upper-text {
+                text-transform: uppercase;
+            }
         }
 
         .form {
             margin-top: 45px;
             margin-bottom: 110px;
+            padding: 0 16px;
 
             &__container {
                 display: flex;

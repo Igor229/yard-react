@@ -27,7 +27,9 @@ function Beskid () {
                 </div>
 
                 <div className="complex__info-text complex__base-card">
-                    <h3 className="info__title">Beskid home resort</h3>
+                    <h3 className="info__title">BESKID HOME RESORT (BUKOVEL)</h3>
+
+                    <p className='info__sub-title'>Комплекс розташований в с.Поляниця, урочище Вишня (BUKOVEL).</p>
 
                     <div className="complex__info-types">
                         <button className={buttonClassActive} id="typeButton-one" onClick={handleClick}>Тип - 1</button>
@@ -89,7 +91,7 @@ function Beskid () {
                 </div>
             </div>
 
-            <ContactForm title = {'Отримати повний огляд котеджу'}/>
+            <ContactForm title = {'Отримати презентацію комплексу із розрахунком окупності'}/>
         </div>
     )
 }

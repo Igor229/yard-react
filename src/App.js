@@ -18,13 +18,13 @@ function App() {
     <>
       <Header />
       <About />
-      <YouTubeVideo/>
 
       <section className='complexes'>
         <div className='wrapper'>
           <h2 className='main-title'>Наші комплекси</h2>
           <div className='complexes__items'>
             <Beskid />
+            <YouTubeVideo/>
             <WestTown />
           </div>
         </div>
