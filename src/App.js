@@ -24,7 +24,7 @@ function App() {
           <h2 className='main-title'>Наші комплекси</h2>
           <div className='complexes__items'>
             <Beskid />
-            <YouTubeVideo/>
+            
             <WestTown />
           </div>
         </div>
