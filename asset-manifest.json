@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yard-react/static/css/main.5b54f6ad.css",
-    "main.js": "/yard-react/static/js/main.6a339647.js",
+    "main.css": "/yard-react/static/css/main.40e141f0.css",
+    "main.js": "/yard-react/static/js/main.f376adc0.js",
     "static/js/787.3a6277e1.chunk.js": "/yard-react/static/js/787.3a6277e1.chunk.js",
     "static/media/main-video_better-quality.MP4": "/yard-react/static/media/main-video_better-quality.66450af365805b627d16.MP4",
     "static/media/main-video.MP4": "/yard-react/static/media/main-video.e54680186d815d44d6e5.MP4",
@@ -34,14 +34,15 @@
     "static/media/west-icons.svg": "/yard-react/static/media/west-icons.6e38f6b5326e6f87bbc7369876438a1f.svg",
     "static/media/sprite.svg": "/yard-react/static/media/sprite.1f4b7f387b9fb70c46f36b7ae9c0c8df.svg",
     "index.html": "/yard-react/index.html",
+    "static/media/tiktok.svg": "/yard-react/static/media/tiktok.83e784ecc95c8e7c1f3b9f396f0f49b9.svg",
     "static/media/menu-open.svg": "/yard-react/static/media/menu-open.e47cad21270d448e17cd07096172c4e8.svg",
     "static/media/menu-close.svg": "/yard-react/static/media/menu-close.83af43c5ad2451fc6cbcb8abd0ede7c5.svg",
-    "main.5b54f6ad.css.map": "/yard-react/static/css/main.5b54f6ad.css.map",
-    "main.6a339647.js.map": "/yard-react/static/js/main.6a339647.js.map",
+    "main.40e141f0.css.map": "/yard-react/static/css/main.40e141f0.css.map",
+    "main.f376adc0.js.map": "/yard-react/static/js/main.f376adc0.js.map",
     "787.3a6277e1.chunk.js.map": "/yard-react/static/js/787.3a6277e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b54f6ad.css",
-    "static/js/main.6a339647.js"
+    "static/css/main.40e141f0.css",
+    "static/js/main.f376adc0.js"
   ]
 }
