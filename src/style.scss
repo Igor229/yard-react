@@ -103,65 +103,9 @@ svg {
     .wrapper {
         margin: 0 16px;
     }
-    .complexes {
-
-        .complex__info {
-
-            &-slider {
-                width: 500px;
-                height: 500px;
-            }
-
-            .info__title {
-                font-size: 24px;
-            }
-
-            .info__sub-title {
-                font-size: 16px;
-            }
-
-            &-text {
-                width: 500px;
-                height: 500px;
-                gap: 6px;
-
-                .info__text {
-                    font-size: 16px;
-                    line-height: 20px;
-                }
-            }
-        }
-
-        .complex__base-card {
-            padding-top: 10px;
-
-            .info-text {
-                font-size: 14px !important;
-            }
-        }
-        
-        .besket_text {
-            gap: 8px !important;
-            padding-top: 8px;
-        }
-    }
-
-}
-
-@media screen and (max-width: 992px) {
-
-    .wrapper {
-        margin: 0 55px;
-    }
-
+    
     .header__items {
-        display: none !important;
-    }
-
-    .footer__content {
-        .content__item-text {
-            font-size: 10px;
-        }
+        display: none;
     }
 
     .burger {
@@ -270,6 +214,63 @@ svg {
 
         .closeIcon {
             display: none;
+        }
+    }
+
+    .complexes {
+
+        .complex__info {
+
+            &-slider {
+                width: 500px;
+                height: 500px;
+            }
+
+            .info__title {
+                font-size: 24px;
+            }
+
+            .info__sub-title {
+                font-size: 16px;
+            }
+
+            &-text {
+                width: 500px;
+                height: 500px;
+                gap: 6px;
+
+                .info__text {
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        .complex__base-card {
+            padding-top: 10px;
+
+            .info-text {
+                font-size: 14px !important;
+            }
+        }
+        
+        .besket_text {
+            gap: 8px !important;
+            padding-top: 8px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .wrapper {
+        margin: 0 55px;
+    }
+
+    .footer__content {
+        .content__item-text {
+            font-size: 10px;
         }
     }
 
@@ -461,6 +462,10 @@ svg {
         }
         &__container {
             margin: 0 16px;
+        }
+
+        &__socials {
+            border-bottom: none !important;
         }
     }
 

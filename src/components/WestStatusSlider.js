@@ -14,7 +14,49 @@ import west2 from '../assets/images/build-status/status-west2.jpg'
 import beskid1 from '../assets/images/build-status/status-beskid1.jpg'
 import beskid2 from '../assets/images/build-status/status-beskid2.jpg'
 
+function SliderCard(props) {
+  const {month, title, info, img} = props
+    return (
+      <div>
+        <img className='buildStatusImg' src={img} alt="west-town"/>
+        <div className='status-info__container'>
+          <p className='status-info__date'>{month}</p>
+          <h3 className='status-info__title'>{title}</h3>
+          <p className='status-info__text'>{info}</p>
+        </div>
+      </div>
+    )
+}
+
 export default function WestStatusSlider() {
+
+  const cardData = [
+    {
+      img: west1,
+      month: 'липень',
+      title: 'west town',
+      info: '-у таунхаусах 13-24 (черга 8) - здійснюються фасадні роботи'
+    },
+    {
+      img: west2,
+      month: 'липень',
+      title: 'west town',
+      info: ''
+    },
+    {
+      img: beskid1,
+      month: 'липень',
+      title: 'BESKID HOME RESORT',
+      info: '- здійснюються внутрішні ремонтні роботи у котеджі №2 (тип 1) - здійснюються електромонтажні роботи у котеджі №3 (тип 1)'
+    },
+    {
+      img: beskid2,
+      month: 'липень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    }
+  ]
+
   return (
     <>
       <Swiper
@@ -22,6 +64,7 @@ export default function WestStatusSlider() {
         spaceBetween={30}
         freeMode={true}
         pagination={false}
+        autoHeight = {true}
 
         breakpoints={{
             279: {
@@ -39,10 +82,12 @@ export default function WestStatusSlider() {
         modules={[FreeMode, Autoplay]}
         className="buildStatusSlider"
       >
-        <SwiperSlide><img className='buildStatusImg' src={west1} alt="west-town"/></SwiperSlide>
-        <SwiperSlide><img className='buildStatusImg' src={west2} alt="west-town"/></SwiperSlide>
-        <SwiperSlide><img className='buildStatusImg' src={beskid1} alt="beskid"/></SwiperSlide>
-        <SwiperSlide><img className='buildStatusImg' src={beskid2} alt="beskid"/></SwiperSlide>
+          {cardData.map((item, index) => {
+            return (
+            <SwiperSlide>
+              <SliderCard key={index} {...item} />
+            </SwiperSlide>)
+          })}
       </Swiper>
     </>
   );

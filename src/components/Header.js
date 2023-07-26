@@ -42,7 +42,7 @@ function Header() {
             setIsClicked(false)
             setBurgerIcon(menuOpen)
             document.body.style.overflow = 'auto'
-            setColor(false)
+            // setColor(false)
         }
     }
 
@@ -93,7 +93,7 @@ function Header() {
                                 <a href="#" className="contacts__container-text">+380 (98) 22 55 800 (Viber, Telegram)</a>
                                 <a href="#" className="contacts__container-text">yarddevelopment34@gmail.com</a>
 
-                                <div className="footer__actions-socials">
+                                <div className="footer__actions-socials burger__socials">
                                     <a href="https://www.instagram.com/yard.development/" target="_blank" onClick={showBurger}>
                                         <svg className="social-icon">
                                             <use href={icons + '#instagram'}></use>

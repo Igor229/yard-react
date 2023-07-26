@@ -31,10 +31,10 @@ function Modal({active, setActive}) {
                     </div>
         
         
-                    <h2 className="modal__title">Замовити індивідуальну консультацію</h2>
+                    <h2 className="modal__title">Замовити консультацію</h2>
                     <form ref={form} onSubmit={sendEmail} className="modal__actions">
                         <input className="modal__actions-action form-input" type="tel" name="phone" maxLength="13" placeholder="Номер телефону" required/>
-                        <button className="modal__actions-action main-button">Відправити</button>
+                        <button className="modal__actions-action main-button">Замовити</button>
                     </form>
                 </div>
         </div>

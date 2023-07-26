@@ -8,7 +8,6 @@ import BuildingStatus from './components/BuildingStatus';
 import westTownNewsImg from './assets/images/news/west-town_news.jpg'
 import spaNewsImg from './assets/images/news/spa-news.jpg'
 import beskedNewsImage from './assets/images/news/besked-news.jpg'
-import YouTubeVideo from './components/YouTubeVideo';
 import './style.scss'
 
 
