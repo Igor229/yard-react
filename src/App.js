@@ -5,6 +5,8 @@ import WestTown from './components/WestTown';
 import Footer from './components/Footer';
 import News from './components/News';
 import BuildingStatus from './components/BuildingStatus';
+import Map from './components/Map';
+
 import westTownNewsImg from './assets/images/news/west-town_news.jpg'
 import spaNewsImg from './assets/images/news/spa-news.jpg'
 import beskedNewsImage from './assets/images/news/besked-news.jpg'
@@ -57,6 +59,7 @@ function App() {
         </div>
       </section>
 
+      <Map />
       <Footer />
     </>
   );

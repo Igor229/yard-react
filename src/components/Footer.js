@@ -26,7 +26,7 @@ function Footer () {
 
                     <div className="content__item">
                         <h4 className="content__item-title">Контактна інформація</h4>
-                        <p className="content__item-text">+380 (98) 22 55 800 (Viber, Telegram)</p>
+                        <p className="content__item-text">+380 (98) 22 55 800 (Viber, Telegram, Messenger)</p>
                         <p className="content__item-text">yarddevelopment34@gmail.com</p>
                     </div>
                 </div>

@@ -22,7 +22,7 @@ function BuildingStatus() {
                     <div className="build-status__item">
                         <h2 className="build-status__title main-title">Стани будівництва</h2>
                         <div className="build-status__actions">
-                            <button type="button" className={buttonClassActive} onClick={handleClick}>WEST TOWN черга №8</button>
+                            <button type="button" className={buttonClassActive} onClick={handleClick} id='wes-town__button'>WEST TOWN</button>
                             <button type="button" className={buttonClass} onClick={handleClick}>BESKID HOME RESORT</button>
                         </div>
                     </div>

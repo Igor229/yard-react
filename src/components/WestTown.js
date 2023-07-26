@@ -28,7 +28,7 @@ function WestTown () {
                             <svg className="text-icon">
                                 <use href={icons + '#school'}/>
                             </svg>
-                            <p className="info-text">Школа знаходиться в межах 700 м.</p>
+                            <p className="info-text">Школа знаходиться в межах 700 м;</p>
                         </div>
 
 
@@ -36,7 +36,7 @@ function WestTown () {
                             <svg className="text-icon">
                             <use href={icons + '#kindergarten'}/>
                             </svg>
-                            <p className="info-text">Дитячий садочок знаходиться в межах 500 м.</p>
+                            <p className="info-text">Дитячий садочок знаходиться в межах 500 м;</p>
                         </div>
 
 
@@ -44,7 +44,7 @@ function WestTown () {
                             <svg className="text-icon">
                                 <use href={icons + '#lake'}/>
                             </svg>
-                            <p className="info-text">До міського озера на будь-якому транспорті ви зможете дістатись всього за 10 хвилин.</p>
+                            <p className="info-text">До міського озера на будь-якому транспорті ви зможете дістатись всього за 10 хвилин;</p>
                         </div>
 
                         <div className="info__container">

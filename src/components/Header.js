@@ -90,7 +90,7 @@ function Header() {
                             </div>
                             <div className="contacts__container">
                                 <h4 className="contacts__container-title">Контактна інформація</h4>
-                                <a href="#" className="contacts__container-text">+380 (98) 22 55 800 (Viber, Telegram)</a>
+                                <a href="#" className="contacts__container-text">+380 (98) 22 55 800 (Viber, Telegram, Messenger)</a>
                                 <a href="#" className="contacts__container-text">yarddevelopment34@gmail.com</a>
 
                                 <div className="footer__actions-socials burger__socials">

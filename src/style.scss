@@ -83,6 +83,11 @@ body {
     line-height: 40px;
     color: $main-color;
     letter-spacing: -0.35px;
+    text-align: center;
+}
+
+.map-title {
+    padding-bottom: 52px;
 }
 
 .burger {
@@ -427,7 +432,7 @@ svg {
     
             .form {
                 &__container {
-                    margin: 0 16px;
+                    margin: 16px 16px;
                     &-title {
                         text-align: center;
                     }

@@ -5,11 +5,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-
+import 'swiper/css/navigation';
 import './ComplexSlider.css';
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 
 import beskid1 from '../assets/images/beskid-home/besked1.jpg'
 import beskid2 from '../assets/images/beskid-home/besked2.JPG'
@@ -27,7 +27,12 @@ export default function Slider() {
         pagination={{
           dynamicBullets: true,
         }}
-        modules={[Pagination]}
+        navigation={true}
+        modules={[Pagination, Navigation]}
+        style={{
+          "--swiper-navigation-color": "#7F9E56",
+          "--swiper-navigation-size": "25px",
+        }}
         className="mySwiper"
       >
         <SwiperSlide>
