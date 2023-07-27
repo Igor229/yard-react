@@ -33,25 +33,25 @@ export default function BeskidStatusSlider() {
   const cardData = [
     {
       img: beskid1,
-      month: 'липень',
+      month: 'Липень',
       title: 'BESKID HOME RESORT',
       info: '- здійснюються внутрішні ремонтні роботи у котеджі №2 (тип 1) - здійснюються електромонтажні роботи у котеджі №3 (тип 1)'
     },
     {
       img: beskid2,
-      month: 'липень',
+      month: 'Липень',
       title: 'BESKID HOME RESORT',
       info: ''
     },
     {
       img: west1,
-      month: 'липень',
+      month: 'Липень',
       title: 'west town',
       info: '-у таунхаусах 13-24 (черга 8) - здійснюються фасадні роботи'
     },
     {
       img: west2,
-      month: 'липень',
+      month: 'Липень',
       title: 'west town',
       info: ''
     }

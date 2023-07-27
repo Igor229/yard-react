@@ -20,11 +20,11 @@ function ContactForm (props) {
     };
 
     return (
-        <form ref={form} className="form" onSubmit={sendEmail}>
+        <form ref={form} className="form box" onSubmit={sendEmail}>
         <div className="form__container">
-            <h4 className="form__container-title">{title}</h4>
+            <h4 className="form__container-title box">{title}</h4>
 
-            <div className="form__container-actions">
+            <div className="form__container-actions box">
                 <input className="form-input item" type="tel" name="phone" maxLength="13" placeholder="Номер телефону" required/>
                 <input className="form-input item" type="text" name="name" placeholder="Ваше ім’я" required/>
                 <button className="form-button main-button item">Відправити</button>

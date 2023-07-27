@@ -13,7 +13,7 @@ function Map() {
         return (<div>Loading...</div>)
     } else {
         return (
-            <div className="map-container">
+            <div className="map-container box">
                 <h2 className="main-title map-title">Де нас знайти</h2>
                 <GoogleMap
                     zoom={12}

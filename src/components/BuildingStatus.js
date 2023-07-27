@@ -16,7 +16,7 @@ function BuildingStatus() {
     const beskidTypeActive = isActive ? 'build-status__slider' : 'build-status__slider slider-hidden'
 
     return (
-        <section className="build-status" id='building-status'>
+        <section className="build-status box" id='building-status'>
             <div className="wrapper">
                 <div className="build-status__items">
                     <div className="build-status__item">

@@ -21,29 +21,29 @@ function Beskid () {
 
     return (
         <div className='complex' id="beskid-resort">
-            <div className="complex__info">
+            <div className="complex__info box">
 
                 <div className='complex__info-slider'>
                 <Slider />
                 </div>
 
                 <div className="complex__info-text complex__base-card">
-                    <h3 className="info__title">BESKID HOME RESORT (BUKOVEL)</h3>
+                    <h3 className="info__title box">BESKID HOME RESORT (BUKOVEL)</h3>
 
-                    <p className='info__sub-title'>Комплекс розташований в с.Поляниця, урочище Вишня (BUKOVEL).</p>
+                    <p className='info__sub-title box'>Комплекс розташований в с.Поляниця, урочище Вишня (BUKOVEL).</p>
 
-                    <div className="complex__info-types">
+                    <div className="complex__info-types box">
                         <button className={buttonClassActive} id="typeButton-one" onClick={handleClick}>Тип - 1</button>
                         <button className={buttonClass} id="typeButton-two" onClick={handleClick}>Тип - 2</button>
                     </div>
 
-                    <div className="text-container besket_text">
+                    <div className="text-container besket_text box">
                         <div className="sizes-container">
                             <p className="info__text"> - Площа - {squareContent} м2</p>
                             <p className="info__text"> - Тераса – {terraceContent} м2</p>
                         </div>
 
-                        <div className="info__container">
+                        <div className="info__container box">
                             <p className="info-text">
                                 Двоповерхові високоякісні котеджі продаються повністю укомплектовані 
                                 до проживання – з ремонтом, меблями та побутовою технікою. Будинок 
@@ -52,7 +52,7 @@ function Beskid () {
                             </p>
                         </div>
 
-                        <div className="info__container">
+                        <div className="info__container box">
                             <svg className="text-icon">
                                 <use href={icons + '#elevator'}/>
                             </svg>
@@ -60,7 +60,7 @@ function Beskid () {
                         </div>
 
 
-                        <div className="info__container">
+                        <div className="info__container box">
                             <svg className="text-icon">
                             <use href={icons + '#spa-zone'}/>
                             </svg>
@@ -68,21 +68,21 @@ function Beskid () {
                         </div>
 
 
-                        <div className="info__container">
+                        <div className="info__container box">
                             <svg className="text-icon">
                                 <use href={icons + '#pool'}/>
                             </svg>
                             <p className="info-text">сезонний басейн;</p>
                         </div>
 
-                        <div className="info__container">
+                        <div className="info__container box">
                             <svg className="text-icon">
                                 <use href={icons + '#terrace'}/>
                             </svg>
                             <p className="info-text">велика тераса з виглядом на гори;</p>
                         </div>
 
-                        <div className="info__container">
+                        <div className="info__container box">
                             <svg className="text-icon">
                                 <use href={icons + '#company'}/>
                             </svg>
