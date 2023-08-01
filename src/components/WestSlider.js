@@ -32,8 +32,8 @@ export default function Slider() {
         navigation={true}
         modules={[Pagination, Navigation]}
         style={{
-          "--swiper-navigation-color": "#7F9E56",
-          "--swiper-navigation-size": "25px",
+          "--swiper-navigation-color": "#fff",
+          "--swiper-navigation-size": "8px",
         }}
         className="mySwiper"
       >

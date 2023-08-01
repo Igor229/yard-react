@@ -9,7 +9,7 @@ function ContactForm (props) {
     const sendEmail = (e) => {
         e.preventDefault();
   
-      emailjs.sendForm('service_5qtaya8', 'contact_form', form.current, 'lrG-SRJzI2YZWRDiE')
+      emailjs.sendForm('service_fmre69r', 'contact_form', form.current, 'd8OBmhhtk0a-n4BwO')
         .then((result) => {
             console.log(result.text);
             window.location.reload()

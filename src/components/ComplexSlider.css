@@ -31,6 +31,15 @@
     top: 0;
     left: 0;
   }
+
+  .swiper-button-next, .swiper-button-prev {
+    background-color: #527246;
+    border-radius: 100px;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+  }
   
   @media screen and (max-width: 992px) {
     .swiper {
