@@ -11,14 +11,76 @@ import './ComplexSlider.css';
 // import required modules
 import { Navigation, Pagination } from 'swiper/modules';
 
-import beskid1 from '../assets/images/beskid-home/besked1.jpg'
-import beskid2 from '../assets/images/beskid-home/besked2.JPG'
-import beskid3 from '../assets/images/beskid-home/besked3.JPG'
-import beskid4 from '../assets/images/beskid-home/besked4.JPG'
-import beskid5 from '../assets/images/beskid-home/besked5.JPG'
-import beskid6 from '../assets/images/beskid-home/besked6.JPG'
-import beskid7 from '../assets/images/beskid-home/besked7.JPG'
-import beskid8 from '../assets/images/beskid-home/besked8.jpg'
+const imgArr = [
+  {
+    src: 'besked1',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked2',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked3',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked4',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked5',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked6',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked7',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked8',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked9',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked10',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked11',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked12',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked13',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked14',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked15',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked16',
+    alt: 'beskid-home'
+  },
+  {
+    src: 'besked17',
+    alt: 'beskid-home'
+  },
+]
 
 export default function Slider() {
   return (
@@ -35,27 +97,15 @@ export default function Slider() {
         }}
         className="mySwiper"
       >
-        <SwiperSlide>
-            <img className="slider-img" src={beskid1} alt="beskid-home"/><div className="shadow"></div>
-        </SwiperSlide>
-        <SwiperSlide>
-            <img className="slider-img" src={beskid2} alt="beskid-home"/><div className="shadow"></div>
-        </SwiperSlide>
-        <SwiperSlide>
-            <img className="slider-img" src={beskid3} alt="beskid-home"/><div className="shadow"></div>
-        </SwiperSlide>
-        <SwiperSlide>
-            <img className="slider-img" src={beskid4} alt="beskid-home"/><div className="shadow"></div>
-        </SwiperSlide>
-        <SwiperSlide>
-            <img className="slider-img" src={beskid5} alt="beskid-home"/><div className="shadow"></div>
-        </SwiperSlide>
-        <SwiperSlide>
-            <img className="slider-img" src={beskid6} alt="beskid-home"/><div className="shadow"></div>
-        </SwiperSlide>
-        <SwiperSlide>
-            <img className="slider-img" src={beskid7} alt="beskid-home"/><div className="shadow"></div>
-        </SwiperSlide>
+
+        {imgArr.map((item, index) => {
+          return (
+            <SwiperSlide key={index}>
+              <img className="slider-img" src={require('../assets/images/beskid-home/' + item.src + '.webp')} alt={item.alt}/><div className="shadow"></div>
+            </SwiperSlide>
+          )
+        })}
+        
       </Swiper>
     </>
   );
