@@ -1,5 +1,4 @@
 import './About.scss'
-import MainVideoBG from '../assets/videos/main-video.MP4'
 import MainVideoBGQuality from '../assets/videos/main-video_better-quality.MP4'
 
 function About () {
