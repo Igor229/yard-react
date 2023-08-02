@@ -49,6 +49,17 @@ $title-color: #7F9E56;
     }
 }
 
+@media screen and (max-width: 1124px) {
+    .about {
+        .video-container {
+            height: 420px;
+        }
+        .main-video {
+            height: 420px;
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
     .about__content {
         &-title {
@@ -67,6 +78,14 @@ $title-color: #7F9E56;
 }
 
 @media screen and (max-width: 620px) {
+    .about {
+        .video-container {
+            height: 300px;
+        }
+        .main-video {
+            height: 300px;
+        }
+    }
     .about__content {
         &-title {
             font-size: 40px;
@@ -84,6 +103,14 @@ $title-color: #7F9E56;
 }
 
 @media screen and (max-width: 413px) {
+    .about {
+        .video-container {
+            height: 285px;
+        }
+        .main-video {
+            height: 285px;
+        }
+    }
     .about__content {
         &-title {
             font-size: 27px;

@@ -15,7 +15,7 @@ import beskid1 from '../assets/images/build-status/status-beskid1.jpg'
 import beskid2 from '../assets/images/build-status/status-beskid2.jpg'
 
 function SliderCard(props) {
-  const {month, title, info, img} = props
+  const {month, title, info, img, subinfo} = props
     return (
       <div>
         <img className='buildStatusImg' src={img} alt="west-town"/>
@@ -23,6 +23,7 @@ function SliderCard(props) {
           <p className='status-info__date'>{month}</p>
           <h3 className='status-info__title'>{title}</h3>
           <p className='status-info__text'>{info}</p>
+          <p className='status-info__text'>{subinfo}</p>
         </div>
       </div>
     )
@@ -35,25 +36,26 @@ export default function WestStatusSlider() {
       img: west1,
       month: 'Липень',
       title: 'west town',
-      info: '-у таунхаусах 13-24 (черга 8) - здійснюються фасадні роботи'
+      info: '-у таунхаусах 13-24 (черга 8) - здійснюються фасадні роботи.'
     },
     {
       img: west2,
       month: 'Липень',
       title: 'west town',
-      info: ''
+      info: `- у таунхаусах 1-6 завершуються мурування зовнішніх та внутрішніх стін;`,
+      subinfo: ' - у таунхаусах 7-12 - здійснюється перекриття даху.'
     },
     {
       img: beskid1,
       month: 'Липень',
       title: 'BESKID HOME RESORT',
-      info: '- здійснюються внутрішні ремонтні роботи у котеджі №2 (тип 1) - здійснюються електромонтажні роботи у котеджі №3 (тип 1)'
+      info: '- здійснюються внутрішні ремонтні роботи у котеджі №2 (тип 1).'
     },
     {
       img: beskid2,
       month: 'Липень',
       title: 'BESKID HOME RESORT',
-      info: ''
+      info: '- здійснюються електромонтажні роботи у котеджі №3 (тип 1).'
     }
   ]
 
