@@ -100,8 +100,8 @@ export default function Slider() {
 
         {imgArr.map((item, index) => {
           return (
-            <SwiperSlide key={index}>
-              <img className="slider-img" src={require('../assets/images/beskid-home/' + item.src + '.webp')} alt={item.alt}/><div className="shadow"></div>
+            <SwiperSlide>
+              <img className="slider-img" src={require('../assets/images/beskid-home/' + index + '.jpg')} alt={item.alt}/><div className="shadow"></div>
             </SwiperSlide>
           )
         })}
