@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ba526c93.css",
-    "main.js": "/static/js/main.5ad3cb69.js",
+    "main.js": "/static/js/main.a6822ff3.js",
     "static/js/787.3a6277e1.chunk.js": "/static/js/787.3a6277e1.chunk.js",
     "static/media/main-video_better-quality.MP4": "/static/media/main-video_better-quality.66450af365805b627d16.MP4",
     "static/media/1.jpg": "/static/media/1.c306ed1320e5924308ae.jpg",
@@ -25,7 +25,7 @@
     "static/media/west4.jpg": "/static/media/west4.0e3280268a32b874ab60.jpg",
     "static/media/15.jpg": "/static/media/15.aa54d920bf94662b2c13.jpg",
     "static/media/west8.jpg": "/static/media/west8.c6880833cd4b93e6be93.jpg",
-    "static/media/west10.jpg": "/static/media/west10.87a28739af5cbbba4db7.jpg",
+    "static/media/west10.jpg": "/static/media/west10.220da3fda238767bcba0.jpg",
     "static/media/west1.jpg": "/static/media/west1.71feb67e8d6d6ba5620c.jpg",
     "static/media/west3.jpg": "/static/media/west3.ef2c0b316103e753dbd4.jpg",
     "static/media/11.jpg": "/static/media/11.12750352f9becb8f9aaa.jpg",
@@ -33,7 +33,6 @@
     "static/media/west9.jpg": "/static/media/west9.b7778ce7d568c673555e.jpg",
     "static/media/status-west1.jpg": "/static/media/status-west1.3ce9b090ea8ed25a1a77.jpg",
     "static/media/west11.jpg": "/static/media/west11.07a49f0ae6108ae81a79.jpg",
-    "static/media/west12.jpg": "/static/media/west12.83c5badb3a8eb0f0f383.jpg",
     "static/media/status-west2.jpg": "/static/media/status-west2.1337c8b495d1781c1b94.jpg",
     "static/media/status-beskid1.jpg": "/static/media/status-beskid1.5285b3311c2f99b13436.jpg",
     "static/media/besked-news.jpg": "/static/media/besked-news.4c6423decf87fd7bea63.jpg",
@@ -49,11 +48,11 @@
     "static/media/menu-open.svg": "/static/media/menu-open.e47cad21270d448e17cd07096172c4e8.svg",
     "static/media/menu-close.svg": "/static/media/menu-close.83af43c5ad2451fc6cbcb8abd0ede7c5.svg",
     "main.ba526c93.css.map": "/static/css/main.ba526c93.css.map",
-    "main.5ad3cb69.js.map": "/static/js/main.5ad3cb69.js.map",
+    "main.a6822ff3.js.map": "/static/js/main.a6822ff3.js.map",
     "787.3a6277e1.chunk.js.map": "/static/js/787.3a6277e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba526c93.css",
-    "static/js/main.5ad3cb69.js"
+    "static/js/main.a6822ff3.js"
   ]
 }
