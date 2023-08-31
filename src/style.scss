@@ -77,9 +77,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 40px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 28px;
     color: $main-color;
     letter-spacing: -0.35px;
     text-align: center;
@@ -184,10 +184,6 @@ svg {
                     font-weight: 500;
                     line-height: 24px;
                     color: #fff;
-                }
-
-                .burger-link {
-                    text-transform: uppercase;
                 }
             }
         }
@@ -338,6 +334,10 @@ svg {
 }
 
 @media screen and (max-width: 768px) {
+    .main-title {
+        font-size: 28px;
+    }
+
     .wrapper {
         margin: 0 56px;
     }
@@ -436,6 +436,9 @@ svg {
 }
 
 @media screen and (max-width: 480px) {
+    .main-title {
+        font-size: 23px;
+    }
 
     .burger {
         &__menu {

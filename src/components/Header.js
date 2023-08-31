@@ -82,11 +82,12 @@ function Header() {
 
                         <div className="burger__menu-contacts">
                             <div className="contacts__container">
-                                <h4 className="contacts__container-title">Наші комплекси</h4>
-                                <a href="#west-town" className="contacts__container-text burger-link" onClick={showBurger}>WEST TOWN</a>
+                                <h4 className="contacts__container-title">Yard Development</h4>
                                 <a href="#beskid-resort" className="contacts__container-text burger-link" onClick={showBurger}>BESKID HOME RESORT</a>
-                                <a href="#news" className="contacts__container-text burger-link" onClick={showBurger}>Новини</a>
+                                <a href="#beskid-resort" className="contacts__container-text burger-link" onClick={showBurger}>Огляд котеджу</a>
+                                <a href="#west-town" className="contacts__container-text burger-link" onClick={showBurger}>WEST TOWN</a>
                                 <a href="#building-status" className="contacts__container-text burger-link" onClick={showBurger}>Стан будівництва</a>
+                                <a href="#news" className="contacts__container-text burger-link" onClick={showBurger}>Новини</a>
                             </div>
                             <div className="contacts__container">
                                 <h4 className="contacts__container-title">Контактна інформація</h4>
