@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import icons from '../assets/icons/west-icons.svg'
+import mainIcon from '../assets/icons/west-town_icon.png'
 import Slider from './WestSlider';
 import ContactForm from './ContactForm';
 import './Complexes.scss'
@@ -15,14 +16,18 @@ function WestTown () {
                 </div>
 
                 <div className="complex__info-text complex__base-card">
-                    <h3 className="info__title box">West Town</h3>
+                    <div className="info__title box">
+                        <img src={mainIcon}/>
+                    </div>
 
                     <div className="text-container box">
-                        <p className="info-text upper-text">89 будинків введено в експлуатацію.</p>
+                        <p className="info-text upper-text">Одне з найбільших котеджних містечок таунхаусів у західному регіоні.</p>
                         <div className="sizes-container">
                             <p className="info__text"> - Площа 120 м2;</p>
-                            <p className="info__text"> - Ділянка - від 1,65 сотих;</p>
+                            <p className="info__text"> - Внутрішні таунхауси - ділянка 1,65 сотих;</p>
+                            <p className="info__text"> - Крайні таунхауси - ділянка 2,5 сотих;</p>
                         </div>
+                        <p className="info-text upper-text">РОЗТЕРМІНУВАННЯ ДО 24-х МІСЯЦІВ. <br/>Перший внесок від 18 000$</p>
 
                         <div className="info__container box">
                             <svg className="text-icon">
@@ -55,7 +60,13 @@ function WestTown () {
                         </div>
 
                         <div className="info__container box">
-                            <p className="info-text upper-text">Розтермінування до 24-х місяців.</p>
+                            <p className="info-text">
+                                Таунхауси розташовані у Крихівцях, розташовані поруч містечка Калинова Слобода.
+                                У вартість вже входить штукатурка стін "під маяки", встановлення 6-тикамерних вікон
+                                з енергозберігаючим склом, вхідних броньованих дверей, бетонні сходи на другий поверх,
+                                всі міські комунікації та лічильники на мережі. <br/> Залишайте заявку нижче, щоб отримати 
+                                детальнішу інформацію чи записатись на перегляд будинку.
+                            </p>
                         </div>
                     </div>
                 </div>

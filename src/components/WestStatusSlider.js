@@ -9,16 +9,15 @@ import './BuildStatusSlider.css';
 // import required modules
 import { FreeMode, Autoplay } from 'swiper/modules';
 
+// import images
 import west1 from '../assets/images/build-status/status-west1.jpg'
 import west2 from '../assets/images/build-status/status-west2.jpg'
 import west3 from '../assets/images/build-status/west3.jpg'
 import west4 from '../assets/images/build-status/west4.jpg'
 import west5 from '../assets/images/build-status/west5.jpg'
-import west6 from '../assets/images/build-status/west6.jpg'
 import west7 from '../assets/images/build-status/west7.jpg'
 import west8 from '../assets/images/build-status/west8.jpg'
 import west9 from '../assets/images/build-status/west9.jpg'
-// import west10 from '../assets/images/build-status/west11.jpg'
 
 
 
@@ -39,6 +38,7 @@ function SliderCard(props) {
 
 export default function WestStatusSlider() {
 
+  // cards data
   const cardData = [
     {
       img: west3,
@@ -58,12 +58,6 @@ export default function WestStatusSlider() {
       title: 'west town',
       info: '- Таунхауси 13-24 - повністю готові.'
     },
-    // {
-    //   img: west6,
-    //   month: 'Серпень',
-    //   title: 'west town',
-    //   info: '- здійснюються електромонтажні роботи у котеджі №3 (тип 1).'
-    // },
     {
       img: west7,
       month: 'Серпень',
@@ -105,6 +99,7 @@ export default function WestStatusSlider() {
         freeMode={true}
         pagination={false}
         autoHeight = {true}
+        autoplay = {true}
 
         breakpoints={{
             279: {

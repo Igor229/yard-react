@@ -103,6 +103,8 @@ svg {
     height: 24px;
 }
 
+// ============ adaptive ==================
+
 @media screen and (max-width: 1200px) {
     .wrapper {
         margin: 0 16px;
@@ -237,12 +239,16 @@ svg {
             &-text {
                 width: 500px;
                 height: 500px;
-                gap: 6px;
+                gap: 1px;
 
                 .info__text {
                     font-size: 16px;
                     line-height: 20px;
                 }
+            }
+
+            .text-container {
+                gap: 4px;
             }
         }
 
@@ -258,6 +264,15 @@ svg {
             gap: 8px !important;
             padding-top: 8px;
         }
+    }
+
+    .footer {
+        .content__item {
+            &-logos{
+                flex-direction: column;
+                align-items: center;
+            }
+        }  
     }
 
 }
@@ -297,11 +312,15 @@ svg {
             &-text {
                 width: 800px;
                 height: 620px;
+                gap: 10px;
 
                 .info__text {
                     font-size: 18px;
                     line-height: 24px;
                 }
+            }
+            .text-container {
+                gap: 15px;
             }
 
             .sizes-container {
@@ -389,6 +408,10 @@ svg {
                 &-logo {
                     width: 200px;
                     height: 120px;
+                }
+
+                &-logos {
+                    flex-direction: row;
                 }
 
                 &-title {

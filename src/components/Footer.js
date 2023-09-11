@@ -1,4 +1,6 @@
 import footerLogo from '../assets/images/footer-logo.png'
+import beskidLogo from '../assets/icons/foot-beskid-logo.png'
+import westLogo from '../assets/icons/foot-west-logo.png'
 import icons from '../assets/icons/sprite.svg'
 import tiktokIcon from '../assets/icons/tiktok.svg'
 import './Footer.scss'
@@ -10,12 +12,14 @@ function Footer () {
             <div className="footer__content">
                 <div className="footer__content-items">
                     <div className="content__item footer__logo">
-                        <a href="#main-container"><img src={footerLogo} alt="main-logo" className="content__item-logo"/></a>
+                        <a href="#main-container" className='main-logo'><img src={footerLogo} alt="main-logo" className="content__item-logo"/></a>
                     </div>
                     <div className="content__item">
                         <h4 className="content__item-title">Наші комплекси</h4>
-                        <a href="#west-town" className="content__item-text upper">WEST TOWN</a>
-                        <a href="#beskid-resort" className="content__item-text upper">BESKID HOME RESORT</a>
+                        <div className='content__item-logos'>
+                            <a href="#beskid-resort"><img src={beskidLogo} className='footer-logo'/></a>
+                            <a href="#west-town"><img src={westLogo} className='footer-logo'/></a>
+                        </div>
                     </div>
 
                     <div className="content__item">

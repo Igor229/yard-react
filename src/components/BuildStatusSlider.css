@@ -31,7 +31,7 @@
   }
 
   .status-info__container {
-    width: 100%;
+    max-width: 403px;
     display: flex;
     flex-direction: column;
     align-items: start;

@@ -19,8 +19,9 @@ import west5 from '../assets/images/west-town/west5.jpg'
 import west6 from '../assets/images/west-town/west6.jpg'
 import west7 from '../assets/images/west-town/west7.jpg'
 import west8 from '../assets/images/west-town/west8.jpg'
-import west9 from '../assets/images/west-town/west9.JPG'
+import west9 from '../assets/images/west-town/west9.jpg'
 import west10 from '../assets/images/west-town/west10.jpg'
+import west11 from '../assets/images/west-town/west11.JPG'
 
 export default function Slider() {
   return (
@@ -66,6 +67,9 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide>
             <img className="slider-img" src={west10} alt="west-town"/><div className="shadow"></div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img className="slider-img" src={west11} alt="west-town"/><div className="shadow"></div>
         </SwiperSlide>
       </Swiper>
     </>
