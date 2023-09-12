@@ -114,6 +114,10 @@ svg {
         display: none;
     }
 
+    .complex__info {
+        margin: 0 !important;
+    }
+
     .burger {
         display: block;
         
@@ -219,53 +223,6 @@ svg {
         }
     }
 
-    .complexes {
-
-        .complex__info {
-
-            &-slider {
-                width: 500px;
-                height: 500px;
-            }
-
-            .info__title {
-                font-size: 24px;
-            }
-
-            .info__sub-title {
-                font-size: 16px;
-            }
-
-            &-text {
-                width: 500px;
-                height: 500px;
-                gap: 1px;
-
-                .info__text {
-                    font-size: 16px;
-                    line-height: 20px;
-                }
-            }
-
-            .text-container {
-                gap: 4px;
-            }
-        }
-
-        .complex__base-card {
-            padding-top: 10px;
-
-            .info-text {
-                font-size: 14px !important;
-            }
-        }
-        
-        .besket_text {
-            gap: 8px !important;
-            padding-top: 8px;
-        }
-    }
-
     .footer {
         .content__item {
             &-logos{
@@ -277,7 +234,7 @@ svg {
 
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
 
     .wrapper {
         margin: 0 55px;
@@ -327,6 +284,19 @@ svg {
                 flex-direction: column !important;
                 gap: 10px !important;
             }
+        }
+
+        .complex__base-card {
+            position: relative;
+            transform: translateX(0);
+        }
+
+        .info-actions {
+            display: none !important;
+        }
+
+        .info-text__extra {
+            display: block !important;
         }
     }
     .complex__info {

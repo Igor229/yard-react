@@ -20,10 +20,10 @@ $text-color: #969F9A;
         &__info {
             display: flex;
             flex-direction: row;
-            justify-content: center;
+            justify-content: start;
             
             &-slider {
-                width: 620px;
+                width: 650px;
                 height: 620px;
             }
 
@@ -50,7 +50,7 @@ $text-color: #969F9A;
             }
 
             &-text {
-                width: 620px;
+                width: 650px;
                 height: 620px;
                 background-color: $main-color;
                 display: flex;
@@ -64,9 +64,9 @@ $text-color: #969F9A;
 
                 .info__title {
                     color: $title-color;
-                    font-size: 32px;
+                    font-size: 26px;
                     font-weight: 500;
-                    line-height: 40px;
+                    line-height: 32px;
                     text-transform: uppercase;
                 }
 
@@ -101,14 +101,24 @@ $text-color: #969F9A;
         }
 
         &__base-card {
+            position: absolute;
+            transform: translateX(100%);
+            z-index: 1;
             justify-content: start;
-            padding-top: 20px;
-            gap: 10px;
+            padding-top: 36px;
+            gap: 16px;
+            width: 650px;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
 
             .text-container {
                 display: flex;
                 flex-direction: column;
-                gap: 8px;
+                gap: 16px;
+                
 
                 .sizes-container {
                     display: flex;
@@ -119,20 +129,58 @@ $text-color: #969F9A;
             .info__container {
                 display: flex;
                 flex-direction: row;
-                gap: 12px;               
+                gap: 12px;
+            }
 
-                .info-text {
-                    font-size: 16px;
-                    color: $text-color;
-                    font-weight: 400;
-                    line-height: 24px;
-                    letter-spacing: -0.176px;
+            .info-text {
+                font-size: 16px;
+                color: $text-color;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: -0.176px;
+
+                &__extra {
+                    display: none;
                 }
             }
 
             .upper-text {
                 text-transform: uppercase;
+                font-size: 18px;
             }
+
+            .info-actions {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+
+                &__btn {
+                    border: none;
+                    background: none;
+                    font-family: $base-font;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    letter-spacing: 0.6px;
+                    color: #fff;
+                    cursor: pointer;
+                }
+
+                .show-less {
+                    display: none;
+                }
+            }
+        }
+
+        .show-extra {
+            position: absolute;
+            transform: translateX(30%);
+            width: 980px;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
         }
 
         .form {
@@ -165,6 +213,75 @@ $text-color: #969F9A;
                     }
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 1439px) {
+
+    .complex__info-slider {
+        width: 600px !important;
+    }
+
+    .complex__base-card {
+        width: 600px !important;
+    }
+
+    .show-extra {
+        width: 900px !important;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .complexes {
+
+        .complex__info {
+            margin: 0 70px;
+
+            &-slider {
+                width: 500px;
+                height: 500px;
+            }
+
+            .show-extra {
+                width: 760px;
+            }
+
+            .info__title {
+                font-size: 24px;
+            }
+
+            .info__sub-title {
+                font-size: 16px;
+            }
+
+            &-text {
+                width: 500px;
+                height: 500px;
+                gap: 1px;
+
+                .info__text {
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+
+            .text-container {
+                gap: 4px;
+            }
+        }
+
+        .complex__base-card {
+            padding-top: 10px;
+
+            .info-text {
+                font-size: 14px !important;
+            }
+        }
+        
+        .besket_text {
+            gap: 8px !important;
+            padding-top: 8px;
         }
     }
 }
