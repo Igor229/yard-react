@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react'
 import icons from '../assets/icons/west-icons.svg'
+import sprite from '../assets/icons/sprite.svg'
 import Slider from './WestSlider';
 import ContactForm from './ContactForm';
 import './Complexes.scss'
@@ -18,12 +19,15 @@ function WestTown () {
     }
 
     const [extraBtn_class, setExtraBtnClass] = useState("complex__info-text complex__base-card")
+    const [blurClass, setBlurClass] = useState("complex__info-slider")
     const showExtra = (e) => {
         if(!isClicked){
             setExtraBtnClass("complex__info-text complex__base-card show-extra")
+            setBlurClass("complex__info-slider set-blur")
             setIsClicked(true)
         } else {
             setExtraBtnClass("complex__info-text complex__base-card")
+            setBlurClass("complex__info-slider")
             setIsClicked(false)
         }
     }
@@ -33,7 +37,7 @@ function WestTown () {
         <div className='complex' id="west-town">
             <div className="complex__info box">
 
-                <div className='complex__info-slider'>
+                <div className={blurClass}>
                 <Slider />
                 </div>
 
@@ -94,8 +98,18 @@ function WestTown () {
                         {/*=================== card actions ========================*/}
                         
                         <div className='info-actions'>
-                            <button className={btnClassActive} onClick={handleClick}>Показати більше...</button>
-                            <button className={btnClass} onClick={handleClick}>Показати менше...</button>
+                            <button className={btnClassActive} onClick={handleClick}>
+                                Показати більше
+                                <svg className="btn-icon">
+                                    <use href={sprite + '#chevron-right'}/>
+                                </svg>
+                            </button>
+                            <button className={btnClass} onClick={handleClick}>
+                                Показати менше
+                                <svg className="btn-icon">
+                                    <use href={sprite + '#chevron-right'}/>
+                                </svg>
+                            </button>
                         </div>
                     </div>
                 </div>
