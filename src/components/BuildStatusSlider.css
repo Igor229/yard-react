@@ -25,10 +25,67 @@
   
   .buildStatusImg {
     display: block;
-    width: 100% !important;
-    object-fit: cover;
+    width: 533px !important;
+    height: 400px !important;
+    /* object-fit: cover; */
     border-radius: 10px;
   }
+
+  @media screen and (max-width: 1440px) {
+     .buildStatusImg {
+      width: 100% !important;
+      height: 300px !important;
+     }
+  }
+
+  @media screen and (max-width: 1280px) {
+    .buildStatusImg {
+     width: 100% !important;
+     height: 280px !important;
+    }
+ }
+
+ @media screen and (max-width: 1080px) {
+  .buildStatusImg {
+   width: 100% !important;
+   height: 250px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .buildStatusImg {
+   width: 100% !important;
+   height: 210px !important;
+  }
+}
+
+@media screen and (max-width: 824px) {
+  .buildStatusImg {
+   width: 100% !important;
+   height: 250px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .buildStatusImg {
+   width: 100% !important;
+   height: 220px !important;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .buildStatusImg {
+   width: 100% !important;
+   height: 300px !important;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .buildStatusImg {
+   width: 100% !important;
+   height: 270px !important;
+  }
+}
 
   .status-info__container {
     max-width: 403px;

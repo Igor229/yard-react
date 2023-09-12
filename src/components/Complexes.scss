@@ -232,15 +232,15 @@ $text-color: #969F9A;
     }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1360px) {
     .complexes {
 
         .complex__info {
             margin: 0 70px;
 
             &-slider {
-                width: 500px;
-                height: 500px;
+                width: 500px !important;
+                height: 500px !important;
             }
 
             .show-extra {
@@ -273,12 +273,17 @@ $text-color: #969F9A;
 
         .complex__base-card {
             padding-top: 10px;
+            width: 500px !important;
 
             .info-text {
                 font-size: 14px !important;
             }
         }
-        
+
+        .show-extra {
+            width: 730px !important;
+        }
+
         .besket_text {
             gap: 8px !important;
             padding-top: 8px;

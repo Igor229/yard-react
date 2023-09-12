@@ -9,10 +9,10 @@ import './BuildStatusSlider.css';
 // import required modules
 import { FreeMode, Autoplay } from 'swiper/modules';
 
-import west1 from '../assets/images/build-status/status-west1.jpg'
-import west2 from '../assets/images/build-status/status-west2.jpg'
 import beskid1 from '../assets/images/build-status/status-beskid1.jpg'
 import beskid2 from '../assets/images/build-status/status-beskid2.jpg'
+import beskid3 from '../assets/images/build-status/status-beskid3.jpg'
+import beskid4 from '../assets/images/build-status/status-beskid4.jpg'
 
 function SliderCard(props) {
   const {month, title, info, img, subinfo} = props
@@ -33,6 +33,18 @@ function SliderCard(props) {
 export default function BeskidStatusSlider() {
   const cardData = [
     {
+      img: beskid3,
+      month: 'Серпень',
+      title: 'BESKID HOME RESORT',
+      info: '- завершення фасадних робіт, монтаж перил та балконів у будинку №3.'
+    },
+    {
+      img: beskid4,
+      month: 'Серпень',
+      title: 'BESKID HOME RESORT',
+      info: '-  встановлення підпірних колон під монолітну плиту - будинок №4-7.'
+    },
+    {
       img: beskid1,
       month: 'Липень',
       title: 'BESKID HOME RESORT',
@@ -44,19 +56,6 @@ export default function BeskidStatusSlider() {
       title: 'BESKID HOME RESORT',
       info: '- здійснюються електромонтажні роботи у котеджі №3 (тип 1).'
     },
-    {
-      img: west1,
-      month: 'Липень',
-      title: 'west town',
-      info: '-у таунхаусах 13-24 (черга 8) - здійснюються фасадні роботи.'
-    },
-    {
-      img: west2,
-      month: 'Липень',
-      title: 'west town',
-      info: '- у таунхаусах 1-6 завершуються мурування зовнішніх та внутрішніх стін;',
-      subinfo: '- у таунхаусах 7-12 - здійснюється перекриття даху.'
-    }
   ]
 
 
