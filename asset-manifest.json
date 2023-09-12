@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.65636809.css",
-    "main.js": "/static/js/main.a0809bb3.js",
+    "main.css": "/static/css/main.055faa91.css",
+    "main.js": "/static/js/main.2ae487a1.js",
     "static/js/787.3a6277e1.chunk.js": "/static/js/787.3a6277e1.chunk.js",
     "static/media/main-video_better-quality.MP4": "/static/media/main-video_better-quality.dbbd329bb685b22b6bab.MP4",
     "static/media/1.jpg": "/static/media/1.c306ed1320e5924308ae.jpg",
@@ -32,14 +32,17 @@
     "static/media/14.jpg": "/static/media/14.784c38a509553ef94a19.jpg",
     "static/media/west2.jpg": "/static/media/west2.2822e25987370f354fd4.jpg",
     "static/media/Instagram-block.png": "/static/media/Instagram-block.bae59079a7cf7b5d753c.png",
+    "static/media/status-beskid4.jpg": "/static/media/status-beskid4.98e72d080f953d60db37.jpg",
     "static/media/status-beskid1.jpg": "/static/media/status-beskid1.5285b3311c2f99b13436.jpg",
     "static/media/besked-news.jpg": "/static/media/besked-news.4c6423decf87fd7bea63.jpg",
     "static/media/status-beskid2.jpg": "/static/media/status-beskid2.827a8652118bf0482870.jpg",
     "static/media/spa-news.jpg": "/static/media/spa-news.f2679b6f8dce9855ec3f.jpg",
     "static/media/status-west2.jpg": "/static/media/status-west2.8d8a1f0e2112656e3e88.jpg",
     "static/media/status-west1.jpg": "/static/media/status-west1.0f2b89c31cfafe468269.jpg",
+    "static/media/status-beskid3.jpg": "/static/media/status-beskid3.2e564de5a12cb1f76a79.jpg",
     "static/media/west-town_news.jpg": "/static/media/west-town_news.727aab8435f8b42021b6.jpg",
     "static/media/west11.JPG": "/static/media/west11.93bfac5c3c8250fec800.JPG",
+    "static/media/alternateTown.jpg": "/static/media/alternateTown.88e8a3ad402cc6999b88.jpg",
     "static/media/besket-icons.svg": "/static/media/besket-icons.ab0763c1e802600b963ccdefb4814226.svg",
     "static/media/west-icons.svg": "/static/media/west-icons.6e38f6b5326e6f87bbc7369876438a1f.svg",
     "static/media/sprite.svg": "/static/media/sprite.1f4b7f387b9fb70c46f36b7ae9c0c8df.svg",
@@ -47,12 +50,12 @@
     "static/media/tiktok.svg": "/static/media/tiktok.8da0dc92cc7e0d4932d89693f5935153.svg",
     "static/media/menu-open.svg": "/static/media/menu-open.e47cad21270d448e17cd07096172c4e8.svg",
     "static/media/menu-close.svg": "/static/media/menu-close.83af43c5ad2451fc6cbcb8abd0ede7c5.svg",
-    "main.65636809.css.map": "/static/css/main.65636809.css.map",
-    "main.a0809bb3.js.map": "/static/js/main.a0809bb3.js.map",
+    "main.055faa91.css.map": "/static/css/main.055faa91.css.map",
+    "main.2ae487a1.js.map": "/static/js/main.2ae487a1.js.map",
     "787.3a6277e1.chunk.js.map": "/static/js/787.3a6277e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65636809.css",
-    "static/js/main.a0809bb3.js"
+    "static/css/main.055faa91.css",
+    "static/js/main.2ae487a1.js"
   ]
 }
