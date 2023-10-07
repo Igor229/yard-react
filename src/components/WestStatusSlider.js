@@ -18,6 +18,10 @@ import west5 from '../assets/images/build-status/west5.jpg'
 import west7 from '../assets/images/build-status/west7.jpg'
 import west8 from '../assets/images/build-status/west8.jpg'
 import west9 from '../assets/images/build-status/west9.jpg'
+import west10 from '../assets/images/build-status/west10.jpg'
+import west11 from '../assets/images/build-status/west11.jpg'
+import west12 from '../assets/images/build-status/west12.jpg'
+import west13 from '../assets/images/build-status/west13.jpg'
 
 
 
@@ -40,6 +44,30 @@ export default function WestStatusSlider() {
 
   // cards data
   const cardData = [
+    {
+      img: west10,
+      month: 'Жовтень',
+      title: 'west town',
+      info: ''
+    },
+    {
+      img: west11,
+      month: 'Жовтень',
+      title: 'west town',
+      info: ''
+    },
+    {
+      img: west12,
+      month: 'Жовтень',
+      title: 'west town',
+      info: ''
+    },
+    {
+      img: west13,
+      month: 'Жовтень',
+      title: 'west town',
+      info: ''
+    },
     {
       img: west3,
       month: 'Серпень',
@@ -64,12 +92,12 @@ export default function WestStatusSlider() {
       title: 'west town',
       info: '- черга 9 (здача 2 квартал 2024 року).'
     },
-    {
-      img: west8,
-      month: 'Серпень',
-      title: 'west town',
-      info: '- черга 9 (здача 2 квартал 2024 року).'
-    },
+    // {
+    //   img: west8,
+    //   month: 'Серпень',
+    //   title: 'west town',
+    //   info: '- черга 9 (здача 2 квартал 2024 року).'
+    // },
     {
       img: west9,
       month: 'Серпень',

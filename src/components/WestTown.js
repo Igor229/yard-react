@@ -51,7 +51,7 @@ function WestTown () {
                             <p className="info__text"> - Внутрішні таунхауси - ділянка 1,65 сотих;</p>
                             <p className="info__text"> - Крайні таунхауси - ділянка 2,5 сотих;</p>
                         </div>
-                        <p className="info-text upper-text">РОЗТЕРМІНУВАННЯ ДО 24-х МІСЯЦІВ. <br/>Перший внесок від 18 000$</p>
+                        <p className="info-text upper-text">РОЗТЕРМІНУВАННЯ ДО 24-х МІСЯЦІВ. <br/>Перший внесок від 18 300$</p>
 
                         <div className="info__container box">
                             <svg className="text-icon">
