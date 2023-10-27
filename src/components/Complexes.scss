@@ -12,10 +12,10 @@ $text-color: #969F9A;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 70px;
     }
 
     .complex {
+        padding: 110px 0;
 
         &__info {
             display: flex;
@@ -214,7 +214,6 @@ $text-color: #969F9A;
 
         .form {
             margin-top: 45px;
-            margin-bottom: 110px;
             padding: 0 16px;
 
             &__container {

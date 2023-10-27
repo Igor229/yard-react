@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import icons from '../assets/icons/besket-icons.svg'
 import Slider from './BeskedSlider';
 import ContactForm from './ContactForm';
-import YouTubeVideo from './YouTubeVideo';
+// import YouTubeVideo from './YouTubeVideo';
 import './Complexes.scss'
 import 'swiper/css';
 
@@ -93,7 +93,7 @@ function Beskid () {
             </div>
 
             <ContactForm title = {'Отримати презентацію комплексу із розрахунком окупності'}/>
-            <YouTubeVideo/>
+            {/* <YouTubeVideo/> */}
         </div>
     )
 }
