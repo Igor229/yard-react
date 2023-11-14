@@ -1,29 +1,7 @@
 import React, { useRef, useState } from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-
 import './BuildStatusSlider.css';
-
-// import required modules
 import { FreeMode, Autoplay } from 'swiper/modules';
-
-// import images
-import west1 from '../assets/images/build-status/status-west1.jpg'
-import west2 from '../assets/images/build-status/status-west2.jpg'
-import west3 from '../assets/images/build-status/west3.jpg'
-import west4 from '../assets/images/build-status/west4.jpg'
-import west5 from '../assets/images/build-status/west5.jpg'
-import west7 from '../assets/images/build-status/west7.jpg'
-import west8 from '../assets/images/build-status/west8.jpg'
-import west9 from '../assets/images/build-status/west9.jpg'
-import west10 from '../assets/images/build-status/west10.jpg'
-import west11 from '../assets/images/build-status/west11.jpg'
-import west12 from '../assets/images/build-status/west12.jpg'
-import west13 from '../assets/images/build-status/west13.jpg'
-
-
 
 function SliderCard(props) {
   const {month, title, info, img, subinfo} = props
@@ -40,84 +18,7 @@ function SliderCard(props) {
     )
 }
 
-export default function WestStatusSlider() {
-
-  // cards data
-  const cardData = [
-    {
-      img: west10,
-      month: 'Жовтень',
-      title: 'west town',
-      info: ''
-    },
-    {
-      img: west11,
-      month: 'Жовтень',
-      title: 'west town',
-      info: ''
-    },
-    {
-      img: west12,
-      month: 'Жовтень',
-      title: 'west town',
-      info: ''
-    },
-    {
-      img: west13,
-      month: 'Жовтень',
-      title: 'west town',
-      info: ''
-    },
-    {
-      img: west3,
-      month: 'Серпень',
-      title: 'west town',
-      info: '- Таунхауси 1-12 - триває монтаж деревʼяних балок дахового накриття з подальшим перекриттям металочерепицею.'
-    },
-    {
-      img: west4,
-      month: 'Серпень',
-      title: 'west town',
-      info: '- Таунхауси 13-24 - повністю готові.'
-    },
-    {
-      img: west5,
-      month: 'Серпень',
-      title: 'west town',
-      info: '- Таунхауси 13-24 - повністю готові.'
-    },
-    {
-      img: west7,
-      month: 'Серпень',
-      title: 'west town',
-      info: '- черга 9 (здача 2 квартал 2024 року).'
-    },
-    // {
-    //   img: west8,
-    //   month: 'Серпень',
-    //   title: 'west town',
-    //   info: '- черга 9 (здача 2 квартал 2024 року).'
-    // },
-    {
-      img: west9,
-      month: 'Серпень',
-      title: 'west town',
-      info: '- черга 9 (здача 2 квартал 2024 року).'
-    },
-    {
-      img: west1,
-      month: 'Липень',
-      title: 'west town',
-      info: '-у таунхаусах 13-24 (черга 8) - здійснюються фасадні роботи.'
-    },
-    {
-      img: west2,
-      month: 'Липень',
-      title: 'west town',
-      info: `- у таунхаусах 1-6 завершуються мурування зовнішніх та внутрішніх стін;`,
-      subinfo: ' - у таунхаусах 7-12 - здійснюється перекриття даху.'
-    }
-  ]
+export default function WestStatusSlider( {photos} ) {
 
   return (
     <>
@@ -145,7 +46,7 @@ export default function WestStatusSlider() {
         modules={[FreeMode, Autoplay]}
         className="buildStatusSlider"
       >
-          {cardData.map((item, index) => {
+          {photos.map((item, index) => {
             return (
             <SwiperSlide>
               <SliderCard key={index} {...item} />

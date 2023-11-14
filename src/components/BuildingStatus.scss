@@ -47,15 +47,45 @@
     }
 }
 
+.queue {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 32px;
+
+    &-title {
+        font-size: 14px;
+        font-weight: 500;
+        color: #555;
+        line-height: 20px;
+    }
+
+    &-button {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #7F9E56;
+        color: #7F9E56;
+        border-radius: 50%;
+        cursor: pointer;
+    
+        &--active {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #527246;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+
 @media screen and (max-width: 992px) {
     .build-status {
         &__items {
             flex-direction: column;
             gap: 20px;
-        }
-
-        &__slider {
-            margin: 65px 0;
         }
     }
 }
@@ -73,11 +103,5 @@
         #wes-town__button {
             width: 100%;
         }
-
     }
-
-}
-
-@media screen and (max-width: 478px) {
-    
 }

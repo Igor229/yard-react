@@ -1,0 +1,23 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-image: url('../assets/beskidPage/images/beskid_page-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 820px) {
+    .banner {
+        background-image: url('../assets/beskidPage/images/beskid_page-banner_tablet.jpg');
+        background-position: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .banner {
+        background-image: url('../assets/beskidPage/images/beskid_page-banner_mobile.jpg');
+        height: 35vh;
+    }
+}

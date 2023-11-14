@@ -15,8 +15,8 @@ function About () {
                         </p>
 
                         <div className='text-container__actions box'>
-                        <a href='#beskid-resort'><button className='about-button main-button box'>Beskid Home Resort</button></a>
-                            <a href='#west-town'><button className='about-button main-button active-button box'>West Town</button></a>
+                            <a href='/beskid-home'><button className='about-button main-button box'>Beskid Home Resort</button></a>
+                            <a href='/west-town'><button className='about-button main-button active-button box'>West Town</button></a>
                         </div>
                     </div>
                 </div>
