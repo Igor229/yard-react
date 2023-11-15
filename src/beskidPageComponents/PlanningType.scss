@@ -25,6 +25,14 @@
             justify-content: space-around;
         }
 
+        &-slider {
+            width: 622px;
+            border: none;
+            border-radius: 0 0 20px 20px;
+            background-color: #fff;
+            border: 1px solid #555;
+        }
+
         &-img {
             width: 100%;
         }
@@ -44,6 +52,12 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .card__item-slider {
+        width: auto;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .card {
         margin-top: 40px;
@@ -53,5 +67,9 @@
 @media screen and (max-width: 480px) {
     .card {
         margin-top: 20px;
+
+        &__item-slider .swiper-slide {
+            height: 350px;
+        }
     }
 }

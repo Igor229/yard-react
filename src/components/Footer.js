@@ -12,20 +12,20 @@ function Footer () {
             <div className="footer__content">
                 <div className="footer__content-items">
                     <div className="content__item footer__logo">
-                        <a href="#main-container" className='main-logo'><img src={footerLogo} alt="main-logo" className="content__item-logo"/></a>
+                        <a href="/" className='main-logo'><img src={footerLogo} alt="main-logo" className="content__item-logo"/></a>
                     </div>
                     <div className="content__item">
                         <h4 className="content__item-title">Наші комплекси</h4>
                         <div className='content__item-logos'>
-                            <a href="#beskid-resort"><img src={beskidLogo} className='footer-logo'/></a>
-                            <a href="#west-town"><img src={westLogo} className='footer-logo'/></a>
+                            <a href="/beskid-home"><img src={beskidLogo} className='footer-logo'/></a>
+                            <a href="/"><img src={westLogo} className='footer-logo'/></a>
                         </div>
                     </div>
 
                     <div className="content__item">
                         <h4 className="content__item-title">Yard Development</h4>
-                        <a href='#news' className="content__item-text upper">Новини</a>
-                        <a href='#building-status' className="content__item-text upper">Стан будівництва</a>
+                        <a href='/#news' className="content__item-text upper">Новини</a>
+                        <a href='/#building-status' className="content__item-text upper">Стан будівництва</a>
                     </div>
 
                     <div className="content__item">

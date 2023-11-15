@@ -76,6 +76,7 @@
         display: flex;
         flex-direction: row;
         gap: 36px;
+        justify-content: center;
     }
 
     &-description {
@@ -112,6 +113,7 @@
     display: flex;
     flex-direction: row;
     gap: 36px;
+    justify-content: center;
 }
 
 .adventages {
@@ -120,6 +122,15 @@
     gap: 30px;
     padding-top: 60px;
 }
+
+
+@media screen and (max-width: 1024px) {
+    // planing types section
+    .plannings-type {
+        flex-direction: column;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     .title {
@@ -153,11 +164,6 @@
 
     .second-slider__container {
         flex-direction: column-reverse;
-    }
-
-    // planing types section
-    .plannings-type {
-        flex-direction: column;
     }
 }
 

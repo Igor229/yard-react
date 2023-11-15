@@ -1,8 +1,10 @@
 import icons from '../assets/icons/besket-icons.svg'
 import './PlanningType.scss'
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
 function PlanningType (props) {
-    const {type, area, terrace, image} = props
+    const {type, area, terrace, floorOne, floorTwo} = props
 
     return (
         <div className="card">
@@ -32,8 +34,11 @@ function PlanningType (props) {
             </div>
 
             {/* bottom box with image */}
-            <div className="card__item">
-                <img src={image} className='card__item-img' alt='type image'/>
+            <div className='plan-slider'>
+                <Swiper className='card__item-slider'>
+                    <SwiperSlide><img src={floorOne} className='card__item-img' alt='type image'/></SwiperSlide>
+                    <SwiperSlide><img src={floorTwo} className='card__item-img' alt='type image'/></SwiperSlide>
+                </Swiper>
             </div>
         </div>
     )

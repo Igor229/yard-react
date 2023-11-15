@@ -1,4 +1,3 @@
-import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -14,18 +13,21 @@ import westTownNewsImg from '../assets/images/news/west-town_news.jpg'
 import spaNewsImg from '../assets/images/news/spa-news.jpg'
 import beskedNewsImage from '../assets/images/news/besked-news.jpg'
 import alternateTown from '../assets/images/news/alternateTown.jpg'
+import gasHeating from '../assets/images/news/gas-heating.jpg'
+import specialOffer from '../assets/images/news/special-offer.jpg'
 
 
 
 function SliderCard(props) {
   
-const {date, image, title, text} = props
+const {date, image, title, text, subtitle} = props
     return (
     <div className="news__item box">
         <img className="news__item-image" src={image}/>
         <div className="news__item-info">
             <p className="news-date">{date}</p>
             <h3 className="news-title">{title}</h3>
+            <h2 className="news-text">{subtitle}</h2>
             <p className="news-text">{text}</p>
         </div>
     </div>
@@ -37,6 +39,20 @@ export default function News() {
 
   // cards data
   const cardData = [
+    {
+      image: specialOffer,
+      date:'15.11.23',
+      title: "АКЦІЙНІ ПРОПОЗИЦІЇ У МІСТЕЧКУ WEST TOWN",
+      subtitle: '',
+      text: "У містечку таунхаусів WEST TOWN діють вигідні АКЦІЙНІ ПРОПОЗИЦІЇ - ціна таунхауса на розтермінування дорівнює ціні 100% оплати, а також ви отримуєте ДИЗАЙН-ПРОЕКТ у подарунок! Акції діють до Нового року! Встигніть скористатись пропозицією!",
+    },
+    {
+      image: gasHeating,
+      date:'15.11.23',
+      title: "Газове опалення у BESKID HOME RESORT",
+      subtitle: 'У комплексі BESKID HOME RESORT буде газове опалення!',
+      text: "Газове опалення у Карпатах - це рідкість та водночас «розкіш», оскільки має багато переваг, як для власників нерухомості, так і для майбутніх мешканців: не залежить від перебоїв світла, економніше, є можливість дистанційного налаштування - smart-технології, двоконтурні котли дозволяють не тільки обігрівати будинок, але й підігрівають воду.",
+    },
     {
         image: alternateTown,
         date:'10.09.23',

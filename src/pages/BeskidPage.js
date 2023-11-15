@@ -12,8 +12,11 @@ import React, { useRef, useLayoutEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-import imgTypeOne from '../assets/beskidPage/images/planning-type1.jpg'
-import imgTypeTwo from '../assets/beskidPage/images/planning-type2.jpg'
+import typeOneFloorOne from '../assets/beskidPage/images/planning-types/resized/type1-floor1.png'
+import typeOneFloorTwo from '../assets/beskidPage/images/planning-types/resized/type1-floor2.png'
+import typeTwoFloorOne from '../assets/beskidPage/images/planning-types/resized/type2-floor1.png'
+import typeTwoFloorTwo from '../assets/beskidPage/images/planning-types/resized/type2-floor2.png'
+
 gsap.registerPlugin(ScrollTrigger)
 
 function BeskidPage () {
@@ -100,8 +103,8 @@ function BeskidPage () {
 
         {/* planning types section */}
         <div className='plannings-type wrapper box'>
-          <PlanningType type='Тип 1' area='117,94 м²' terrace='16,90 м²' image={imgTypeOne}/>
-          <PlanningType type='Тип 2' area='121,74 м²' terrace='27,90 м²' image={imgTypeTwo}/>
+          <PlanningType type='Тип 1' area='117,94 м²' terrace='16,90 м²' floorOne={typeOneFloorOne} floorTwo={typeOneFloorTwo}/>
+          <PlanningType type='Тип 2' area='121,74 м²' terrace='27,90 м²' floorOne={typeTwoFloorOne} floorTwo={typeTwoFloorTwo}/>
         </div>
 
         <div className='wrapper title-container box'>
