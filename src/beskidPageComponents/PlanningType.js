@@ -1,6 +1,6 @@
-import icons from '../assets/icons/besket-icons.svg'
 import './PlanningType.scss'
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from 'swiper/modules';
 import "swiper/css";
 
 function PlanningType (props) {
@@ -15,19 +15,13 @@ function PlanningType (props) {
                     
                     <div className="plan">
                         <div className='plan-container'>
-                            <svg className='plan-container__icon'>
-                                <use href={icons + '#terrace'}/>
-                            </svg>
-                            <p className='plan-container__text'>Площа:<br/> {area}</p>
+                            <p className='plan-container__text'>Площа: {area}</p>
                         </div>
                     </div>
 
                     <div className="plan">
                         <div className='plan-container'>
-                            <svg className='plan-container__icon'>
-                                <use href={icons + '#elevator'}/>
-                            </svg>
-                            <p className='plan-container__text'>Тераса:<br/> {terrace}</p>
+                            <p className='plan-container__text'>Тераса: {terrace}</p>
                         </div>
                     </div>
                 </div>
@@ -35,9 +29,18 @@ function PlanningType (props) {
 
             {/* bottom box with image */}
             <div className='plan-slider'>
-                <Swiper className='card__item-slider'>
+                <Swiper
+                 navigation={true}
+                 modules={[Navigation]}
+                 style={{
+                    "--swiper-navigation-color": "#fff",
+                    "--swiper-navigation-size": "8px",
+                  }} 
+                 className='card__item-slider'>
+
                     <SwiperSlide><img src={floorOne} className='card__item-img' alt='type image'/></SwiperSlide>
                     <SwiperSlide><img src={floorTwo} className='card__item-img' alt='type image'/></SwiperSlide>
+
                 </Swiper>
             </div>
         </div>

@@ -5,17 +5,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // import required modules
 import { FreeMode, Autoplay } from 'swiper/modules';
 
-import adventagePlaceImg from '../assets/beskidPage/icons/adventages-icons/advantage-place.png'
-import adventageSpaImg from '../assets/beskidPage/icons/adventages-icons/advantage-spa.png'
-import adventageGasImg from '../assets/beskidPage/icons/adventages-icons/advantage-gas.png'
-import adventageBuisnessImg from '../assets/beskidPage/icons/adventages-icons/advantage-buisness.png'
-
 function AdventageBox (props) {
-    const {icon, text} = props
+    const {adventageNum, text} = props
 
     return (
         <div className='adventage-box'>
-            <img src={icon} className='adventage-box__icon' alt='box-icon'/>
+            <h2 className='adventage-box__num'>{adventageNum}</h2>
             <p className='adventage-box__text'>{text}</p>
         </div>
     )
@@ -23,61 +18,31 @@ function AdventageBox (props) {
 
 const adventageData = [
     {
-      icon: adventagePlaceImg,
-      text: 'Розташування поблизу ГК Буковель - с.Поляниця, вигляд з котеджів на витяг 1R.'
+      adventageNum: '01',
+      text: 'Досвідчена керуюча компанія Fomich Hotels Group'
     },
     {
-      icon: adventageSpaImg,
-      text: 'Комплекс матиме власну інфраструктуру - SPA-зону із сезонним басейном з підігрівом, що збільшуватиме приплив туристів.'
+      adventageNum: '02',
+      text: 'Пасивний дохід без зайвих клопотів'
     },
     {
-      icon: adventageGasImg,
-      text: 'Будинки мають індивідуальне газове опалення, що є рідкістю в Карпатах.'
+      adventageNum: '03',
+      text: 'Розташування в 5 хв від ГК Bukovel'
     },
-    {
-      icon: adventageBuisnessImg,
-      text: 'Пасивний бізнес з прогнозованою окупністю до 7-8 років.'
+    {adventageNum: '04',
+      text: 'Введення в експлуатацію - літо 2024 року'
     },
   ]
 
 function Adventages () {
-    return (
-        <>
-          <Swiper
-            slidesPerView={4}
-            spaceBetween={16}
-            freeMode={true}
-            pagination={false}
-            autoplay = {true}
-    
-            breakpoints={{
-                279: {
-                    slidesPerView: 1,
-                },
-                620: {
-                    slidesPerView: 2,
-                },
-                821: {
-                    slidesPerView: 3,
-                },
-                1024: {
-                  slidesPerView: 4,
-                }
-    
-            }}
-    
-            modules={[FreeMode, Autoplay]}
-            className="adventage-slider"
-          >
-              {adventageData.map((item, index) => {
-                return (
-                <SwiperSlide>
-                  <AdventageBox key={index} {...item} />
-                </SwiperSlide>)
-              })}
-          </Swiper>
-        </>
-      );
+      return (
+        adventageData.map((item, index) => {
+          return (
+            <AdventageBox key={index} {...item} />
+          )
+        })
+      )
+
 }
 
 export default Adventages

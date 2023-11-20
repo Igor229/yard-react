@@ -2,6 +2,7 @@ import './Contacts.scss'
 import phoneIcon from '../assets/beskidPage/icons/contacts-icons/phone.png'
 import instagramIcon from '../assets/beskidPage/icons/contacts-icons/instagram.png'
 import mailIcon from '../assets/beskidPage/icons/contacts-icons/mail.png'
+import mapIcon from '../assets/beskidPage/icons/contacts-icons/map.png'
 import BeskedMap from './BeskedMap'
 
 function Contacts () {
@@ -29,6 +30,14 @@ function Contacts () {
                     <div className='contacts__item-info'>
                         <p className='contacts-title'>Email:</p>
                         <p className='contacts-subtitle'>yarddevelopment34@gmail.com </p>
+                    </div>
+                </div>
+
+                <div className='contacts__item'>
+                    <img src={mapIcon} className='contacts__item-icon'/>
+                    <div className='contacts__item-info'>
+                        <p className='contacts-title'>Локація:</p>
+                        <p className='contacts-subtitle'>с. Поляниця, вулиця урочище Вишня (поруч готелю Підгір'я) </p>
                     </div>
                 </div>
 

@@ -1,9 +1,10 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Home from './pages/Home';
 import BeskidPage from './pages/BeskidPage';
 import WestPage from './pages/WestPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './style.scss';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           </Routes>
         </Router>
       <Footer/>
+      
     </>
   );
 }

@@ -1,11 +1,13 @@
 .card {
     margin-top: 60px;
+    width: 50%;
 
     &__item {
         background-color: #181E1A;
         width: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         border-radius: 20px 20px 0 0;
 
@@ -21,20 +23,16 @@
         &-info {
             padding: 16px 0 20px 0;
             display: flex;
+            flex-direction: column;
             width: 100%;
-            justify-content: space-around;
+            align-items: center;
         }
 
         &-slider {
-            width: 622px;
             border: none;
             border-radius: 0 0 20px 20px;
             background-color: #fff;
             border: 1px solid #555;
-        }
-
-        &-img {
-            width: 100%;
         }
     }
 }
@@ -42,12 +40,12 @@
 .plan {
     &-container {
         display: flex;
-        align-items: start;
+        align-items: center;
         gap: 8px;
 
-        &__icon {
-            width: 24px;
-            height: 24px;
+        &__text {
+            color: #969F9A;
+            line-height: 24px;
         }
     }
 }
