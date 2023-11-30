@@ -12,7 +12,6 @@ function Header() {
     const [modalActive, setModalActive] = useState(false)
 
     const form = useRef();
-
     const sendEmail = (e) => {
         e.preventDefault();
   
@@ -57,18 +56,58 @@ function Header() {
     }
     window.addEventListener('scroll', changeColor)
 
+
+    // Scrolling Tips
+    const handleClickScroll = () => {
+        window.scrollTo(0, 0)
+    }
+
+    // Scrolling from Burger
+    const handleClickNewsBurg = () => {
+        const element = document.getElementById('news')
+
+        if (element) {
+            showBurger()
+            element.scrollIntoView({behavior: 'smooth'})
+        }
+    }
+
+    const handleClickBuildStatusBurg = () => {
+        const element = document.getElementById('build-status')
+
+        if (element) {
+            showBurger()
+            element.scrollIntoView({behavior: 'smooth'})
+        }
+    }
+    // Native Scrolling
+    const handleClickNews = () => {
+        const element = document.getElementById('news')
+        if (element) {
+            element.scrollIntoView({behavior: 'smooth'})
+        }
+    }
+    const handleClickBuildStatus = () => {
+        const element = document.getElementById('build-status')
+
+        if (element) {
+            element.scrollIntoView({behavior: 'smooth'})
+        }
+    }
+
     return (
         <header className={color ? 'header header-bg' : 'header'}>
 
             <Modal active={modalActive} setActive={setModalActive}/>
 
+            {/* Burger Menu */}
             <div className='burger'>
                 <div className="burger__items">
                     <div className="humburger">
                         <img src={burger_icon} alt="menu-open" className="burger__items-icon menuIcon" onClick={showBurger}/>
                         <img src={burger_icon} alt="menu-close" className="burger__items-icon closeIcon" onClick={showBurger}/>
                     </div> 
-                    <a href='/'><img src={mainLogoWhite} alt="main-logo" className="header__items-logo"/></a>
+                    <a href='#'><img src={mainLogoWhite} alt="main-logo" className="header__items-logo"/></a>
                 </div>
 
                 <div className={burger_class}>
@@ -83,11 +122,11 @@ function Header() {
                         <div className="burger__menu-contacts">
                             <div className="contacts__container">
                                 <h4 className="contacts__container-title">Yard Development</h4>
+                                <a href="#" className="contacts__container-text burger-link" onClick={showBurger}>Головна</a>
                                 <a href="#beskid-home" className="contacts__container-text burger-link" onClick={showBurger}>BESKID HOME RESORT</a>
-                                <a href="#beskid-home" className="contacts__container-text burger-link" onClick={showBurger}>Огляд котеджу</a>
                                 <a href="#west-town" className="contacts__container-text burger-link" onClick={showBurger}>WEST TOWN</a>
-                                <a href="#building-status" className="contacts__container-text burger-link" onClick={showBurger}>Стан будівництва</a>
-                                <a href="#news" className="contacts__container-text burger-link" onClick={showBurger}>Новини</a>
+                                <a className="contacts__container-text burger-link" onClick={handleClickBuildStatusBurg}>Стан будівництва</a>
+                                <a className="contacts__container-text burger-link" onClick={handleClickNewsBurg}>Новини</a>
                             </div>
                             <div className="contacts__container">
                                 <h4 className="contacts__container-title">Контактна інформація</h4>
@@ -123,10 +162,11 @@ function Header() {
 
                     <a href="#"><img src={mainLogoWhite} alt="main-logo" className="header__items-logo"/></a>
                     <ul className="navigations">
-                        <li><a href="#west-town" className="navigations__action">West town</a></li>
-                        <li><a href="#beskid-home" className="navigations__action">Beskid home resort</a></li>
-                        <li><a href="#news" className="navigations__action">Новини</a></li>
-                        <li><a href="#building-status" className="navigations__action">Стан будівництва</a></li>
+                        <li><a href="#" className="navigations__action" onClick={handleClickScroll}>Головна</a></li>
+                        <li><a href="#west-town" className="navigations__action" onClick={handleClickScroll}>West town</a></li>
+                        <li><a href="#beskid-home" className="navigations__action" onClick={handleClickScroll}>Beskid home resort</a></li>
+                        <li><a className="navigations__action" onClick={handleClickNews}>Новини</a></li>
+                        <li><a className="navigations__action" onClick={handleClickBuildStatus}>Стан будівництва</a></li>
                     </ul>
                 </div>
 

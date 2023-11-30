@@ -8,11 +8,15 @@
     padding: 12px 20px;
     gap: 8px;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 
     &-icon {
         stroke: #555555;
         width: 20px;
         height: 20px;
+        &:hover {
+            stroke: #fff;
+        }
     }
 
     &-text {
@@ -20,6 +24,15 @@
         font-size: 14px;
         font-weight: 500;
         line-height: 20px;
+    }
+
+    &:hover {
+        background-color: #555555;
+
+        .action-text, .action-icon {
+            color: #fff;
+            stroke: #fff;
+        }
     }
 }
 
@@ -144,9 +157,42 @@
     }
 }
 
+@media screen and (max-width: 1920px) {
+    .beskid-title {
+        padding-left: 120px;
+        padding-top: 60px;
+    }
+    .title-container {
+        padding: 100px 0 30px 0;
+    }
+}
+@media screen and (max-width: 1650px) {
+    .beskid-title {
+        padding-left: 60px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .beskid-title {
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .group-images {
+        height: 512px;
+    }
+}
+
+
+
 @media screen and (max-width: 1024px) {
+    .info-description {
+        width: 80%;
+    }
     .card {
-        width: 60%;
+        width: 35vw;
+    }
+    .group-images {
+        height: auto;
     }
 
 }

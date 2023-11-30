@@ -1,11 +1,28 @@
 import footerLogo from '../assets/images/footer-logo.png'
-import beskidLogo from '../assets/icons/foot-beskid-logo.png'
-import westLogo from '../assets/icons/foot-west-logo.png'
 import icons from '../assets/icons/sprite.svg'
 import tiktokIcon from '../assets/icons/tiktok.svg'
 import './Footer.scss'
 
 function Footer () {
+    const handleClickScroll = () => {
+        window.scrollTo(0, 0)
+    }
+    const handleClickNews = () => {
+        const element = document.getElementById('news')
+
+        if (element) {
+            element.scrollIntoView({behavior: 'smooth'})
+        }
+    }
+
+    const handleClickBuildStatus = () => {
+        const element = document.getElementById('build-status')
+
+        if (element) {
+            element.scrollIntoView({behavior: 'smooth'})
+        }
+    }
+
     return (
         <footer className="footer">
         <div className="wrapper">
@@ -16,16 +33,14 @@ function Footer () {
                     </div>
                     <div className="content__item">
                         <h4 className="content__item-title">Наші комплекси</h4>
-                        <div className='content__item-logos'>
-                            <a href="#beskid-home"><img src={beskidLogo} className='footer-logo'/></a>
-                            <a href="#west-town"><img src={westLogo} className='footer-logo'/></a>
-                        </div>
+                        <a href='#beskid-home' className="content__item-text upper" onClick={handleClickScroll}>BESKID HOME RESORT</a>
+                        <a href='#west-town' className="content__item-text upper" onClick={handleClickScroll}>WEST TOWN</a>
                     </div>
 
                     <div className="content__item">
                         <h4 className="content__item-title">Yard Development</h4>
-                        <a href='#news' className="content__item-text upper">Новини</a>
-                        <a href='#building-status' className="content__item-text upper">Стан будівництва</a>
+                        <a className="content__item-text upper" onClick={handleClickNews}>Новини</a>
+                        <a className="content__item-text upper" onClick={handleClickBuildStatus}>Стан будівництва</a>
                     </div>
 
                     <div className="content__item">
@@ -36,7 +51,6 @@ function Footer () {
                 </div>
 
                 <div className="footer__actions">
-                    <p className="footer__actions-item">Дизайн сайту - <a href='https://linktr.ee/vovabondar' target='_blank'>Vova Bondar</a></p>
                     <p className="footer__actions-item">© 2023 | Всі права захищено</p>
                     <div className="footer__actions-socials">
                         <a href="https://www.instagram.com/yard.development/" target="_blank">

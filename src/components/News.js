@@ -99,6 +99,9 @@ export default function News() {
             821: {
                 slidesPerView: 3,
             },
+            1440: {
+              slidesPerView: 4,
+          },
 
         }}
 
