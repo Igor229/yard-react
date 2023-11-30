@@ -7,6 +7,7 @@ function Footer () {
     const handleClickScroll = () => {
         window.scrollTo(0, 0)
     }
+//====================================
     const handleClickNews = () => {
         const element = document.getElementById('news')
 
@@ -14,7 +15,7 @@ function Footer () {
             element.scrollIntoView({behavior: 'smooth'})
         }
     }
-
+//====================================
     const handleClickBuildStatus = () => {
         const element = document.getElementById('build-status')
 

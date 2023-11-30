@@ -1,14 +1,7 @@
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-
 import './BuildStatusSlider.css';
 import './News.scss'
-// import required modules
 import { FreeMode, Autoplay } from 'swiper/modules';
-
-// import images
 import westTownNewsImg from '../assets/images/news/west-town_news.jpg'
 import spaNewsImg from '../assets/images/news/spa-news.jpg'
 import beskedNewsImage from '../assets/images/news/besked-news.jpg'

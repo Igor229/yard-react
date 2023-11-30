@@ -237,17 +237,17 @@ function BuildingStatus() {
     const [togglerTwo, setTogglerTwo] = useState(false)
     const [togglerThree, setTogglerThree] = useState(false)
     const [togglerBeskid, setTogglerBeskid] = useState(false)
-
+//====================================
     const [isActive, setIsActive] = useState(true)
     const handleClick = () => {
         setIsActive(!isActive)
     }
-
+//====================================
     const [activeSlider, setActiveSlider] = useState(1)
     const showSlider = (sliderNumber) => {
         setActiveSlider(sliderNumber)
     }
-
+//====================================
     const buttonClassActive = isActive ? "build-status__actions-button button-active" : "build-status__actions-button"
     const buttonClass = isActive ? "build-status__actions-button" : "build-status__actions-button  button-active"
 
