@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import '../components/BuildStatusSlider.css';
 import { FreeMode, Autoplay } from 'swiper/modules';
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 
 import image from '../assets/westPage/images/gallery-slider/0.jpg'
 import image1 from '../assets/westPage/images/gallery-slider/1.jpg'
@@ -52,9 +53,13 @@ const westSliderData = [
 function SliderPhoto(props) {
     const {image, alt} = props
     return (
-        <div className="news__item box">
+        <motion.div className="news__item box"
+            initial={{opacity: 0}}
+            whileInView={{opacity: 1}}
+            transition={{duration: 0.6}}
+        >
             <img className="news__item-image west-gallery__img" src={image} alt={alt}/>
-        </div>
+        </motion.div>
     )
 }
 

@@ -8,6 +8,7 @@ import playgroundIcon from '../assets/westPage/images/icons/playground.png'
 import lockIcon from '../assets/westPage/images/icons/lock.png'
 import cityIcon from '../assets/westPage/images/icons/city.png'
 import calendarIcon from '../assets/westPage/images/icons/date.png'
+import { motion } from 'framer-motion'
 
 const adventListData = [
     {
@@ -40,20 +41,32 @@ function AdventageBox (props) {
     const {text1, text2, text3, icon1, icon2, icon3} = props
     return (
             <div className='advent-box'>
-                <div className='advent-box__item'>
+                <motion.div className='advent-box__item'
+                    initial={{x: -350}}
+                    whileInView={{x: 0}}
+                    transition={{duration: 0.45}}
+                >
                     <img src={icon1} alt='advent-icon' className='advent-box__item-icon' />
                     <p className='advent-box__item-text'>{text1}</p>
-                </div>
+                </motion.div>
 
-                <div className='advent-box__item'>
+                <motion.div className='advent-box__item'
+                    initial={{x: -350}}
+                    whileInView={{x: 0}}
+                    transition={{duration: 0.45}}
+                >
                     <img src={icon2} alt='advent-icon' className='advent-box__item-icon' />
                     <p className='advent-box__item-text'>{text2}</p>
-                </div>
+                </motion.div>
 
-                <div className='advent-box__item'>
+                <motion.div className='advent-box__item'
+                    initial={{x: -350}}
+                    whileInView={{x: 0}}
+                    transition={{duration: 0.45}}
+                >
                     <img src={icon3} alt='advent-icon' className='advent-box__item-icon' />
                     <p className='advent-box__item-text'>{text3}</p>
-                </div>
+                </motion.div>
             </div>
     )
 }

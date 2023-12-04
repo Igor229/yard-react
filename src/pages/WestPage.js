@@ -9,9 +9,8 @@ import WestGallery from '../westPageComponents/WestGallery';
 
 import './WestPage.scss'
 import icons from '../assets/icons/sprite.svg'
-import React, { useRef, useLayoutEffect, useState } from 'react';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import React, { useRef, useState } from 'react';
+import { motion } from 'framer-motion';
 
 import phoneIcon from '../assets/beskidPage/icons/contacts-icons/phone.png'
 import instagramIcon from '../assets/beskidPage/icons/contacts-icons/instagram.png'
@@ -24,81 +23,94 @@ import '../beskidPageComponents/Contacts.scss'
 import internalTypeImg from '../assets/westPage/images/house-types/internal.png'
 import externalTypeImg from '../assets/westPage/images/house-types/external.png'
 
-gsap.registerPlugin(ScrollTrigger)
-
 function WestPage () {
     const [modalActive, setModalActive] = useState(false) 
-    const main = useRef()
-  
-    useLayoutEffect(() => {
-      const ctx = gsap.context((self) => {
-        const boxes = self.selector('.box')
-        const banners = self.selector('.banner-animation')
-
-        boxes.forEach((box) => {
-          gsap.fromTo(box, {y: 44, opacity: 0}, {y: 0, opacity: 1, duration: .5, scrollTrigger: {
-            trigger: box,
-          }})
-        });
-
-        banners.forEach((banner) => {
-          gsap.fromTo(banner, {opacity: 0}, {opacity: 1, duration: .5})
-        })
-      }, main)
-  
-      return () => ctx.revert()
-    }, [])
-  
   
     return (
-      <main ref={main}>
+      <main>
         <Modal active={modalActive} setActive={setModalActive}/>
-        <div className='banner-animation'>
+        <motion.div className='banner-animation'
+          initial={{opacity: 0}}
+          whileInView={{opacity: 1}}
+          transition={{duration: 0.7}}
+        >
           <WestBanner/>
-        </div>
+        </motion.div>
         
-        <div className='west-action'>
-          <div className='action wrapper'>
+        <motion.div className='west-action'
+          initial={{x: -350}}
+          whileInView={{x: 0}}
+          transition={{duration: 0.45}}
+        >
+          <motion.div className='action wrapper' whileHover={{scale: 1.1, duration: 0.01}}>
             <svg className="action-icon">
               <use href={icons + '#chevron-left'}/>
             </svg>
             <a href='#' className='action-text'>На головну</a>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
 
 
         {/* Main Slider Block */}
-          <div className='wrapper west-info info-container'>
+          <motion.div className='wrapper west-info info-container'
+            initial={{opacity: 0, y: 100, scale: 0.9}}
+            whileInView={{opacity: 1, y: 0, scale: 1}}
+            transition={{duration: 0.37}}
+          >
             <MainSlider/>
-          </div>
+          </motion.div>
 
         {/* Adventages Images */}
-        <div className='wrapper title-container box'>
+        <motion.div className='wrapper title-container box'
+          initial={{opacity: 0}}
+          whileInView={{opacity: 1}}
+          transition={{duration: 0.8}}
+        >
           <h1 className='main-title'>У містечку WEST TOWN ви купуєте не тільки таунхаус</h1>
-        </div>
-        <div className='wrapper box'>
+        </motion.div>
+        <motion.div className='wrapper box'
+          initial={{opacity: 0}}
+          whileInView={{opacity: 1}}
+          transition={{duration: 0.8}}
+        >
           <WestAdventages/>
-        </div>
+        </motion.div>
 
         {/* House Types */}
-        <div className='wrapper title-container box'>
+        <motion.div className='wrapper title-container box'
+          initial={{y: 150, opacity: 0}}
+          whileInView={{y: 0, opacity: 1}}
+          transition={{duration: 0.6}}
+        >
           <h1 className='main-title'>У нашому містечку ви можете обрати таунхаус</h1>
-        </div>
-        <div className='wrapper houses'>
+        </motion.div>
+        <motion.div className='wrapper houses'
+          initial={{y: 150, opacity: 0}}
+          whileInView={{y: 0, opacity: 1}}
+          transition={{duration: 0.6}}
+        >
           <HouseType image={internalTypeImg} type='Внутрішній' rooms='4' square='120 м²' area='1,65-1,8 сотих'/>
           <HouseType image={externalTypeImg} type='Крайній' rooms='4' square='120 м²' area='2,5-2,8 сотих'/>
-        </div>
+        </motion.div>
 
         {/* Planning Types Section */}
-        <div className='wrapper '>
+        <motion.div className='wrapper '
+          initial={{x: -350}}
+          whileInView={{x: 0}}
+          transition={{duration: 0.45}}
+        >
           <WestPlanningType/>
-        </div>
+        </motion.div>
 
-        <div className='bedroom box'>
+        <motion.div className='bedroom box'
+          initial={{opacity: 0}}
+          whileInView={{opacity: 1}}
+          transition={{duration: 0.7}}
+        >
           <div className='bedroom-container'>
             <h2 className='bedroom-container__title'>ДИЗАЙН-ПРОЕКТ У ПОДАРУНОК <br/>ПРИ КУПІВЛІ ТАУНХАУСА</h2>
           </div>
-        </div>
+        </motion.div>
 
 
         {/* Adventages List section */}
@@ -109,13 +121,21 @@ function WestPage () {
           <AdventageList/>
         </div>
         
-        <div className='wrapper title-container box'>
+        <motion.div className='wrapper title-container box'
+          initial={{y: 100, opacity: 0}}
+          whileInView={{y: 0, opacity: 1}}
+          transition={{duration: 0.5}}
+        >
           <h1 className='main-title'>ВИГІДНІ УМОВИ РОЗТЕРМІНУВАННЯ ДО 2-Х РОКІВ</h1>
-        </div>
-        <div className='wrapper termination-form'>
+        </motion.div>
+        <motion.div className='wrapper termination-form'
+          initial={{y: 120, opacity: 0}}
+          whileInView={{y: 0, opacity: 1}}
+          transition={{duration: 0.5}}
+        >
           <p className='termination-form__subtitle'>Заповність форму та отримайте детальний <br/> розрахунок розтермінування.</p>
           <WestForm/>
-        </div>
+        </motion.div>
 
         <WestGallery/>
         

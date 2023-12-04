@@ -3,6 +3,7 @@ import './BuildingStatus.scss'
 import WestStatusSlider from './WestStatusSlider'
 import BeskidStatusSlider from './BeskidStatusSlider'
 import FsLightbox from 'fslightbox-react'
+import { motion } from 'framer-motion'
 
 // import images
 
@@ -18,6 +19,8 @@ import west2 from '../assets/images/build-status/west-status/queue8/status-west2
 import west3 from '../assets/images/build-status/west-status/queue8/west3.jpg'
 import west4 from '../assets/images/build-status/west-status/queue8/west4.jpg'
 import west5 from '../assets/images/build-status/west-status/queue8/west5.jpg'
+import december1 from '../assets/images/build-status/west-status/queue8/west12.jpg'
+import december2 from '../assets/images/build-status/west-status/queue8/west13.jpg'
 
 // Queue 9
 import que9Img1 from '../assets/images/build-status/west-status/queue9/que9-1.jpg'
@@ -30,6 +33,9 @@ import que9Img7 from '../assets/images/build-status/west-status/queue9/que9-7.jp
 import que9Img8 from '../assets/images/build-status/west-status/queue9/que9-8.jpg'
 import que9Img9 from '../assets/images/build-status/west-status/queue9/que9-9.jpg'
 import que9Img10 from '../assets/images/build-status/west-status/queue9/que9-10.jpg'
+import que9Img11 from '../assets/images/build-status/west-status/queue9/que9-11.jpg'
+import que9Img12 from '../assets/images/build-status/west-status/queue9/que9-12.jpg'
+import que9Img13 from '../assets/images/build-status/west-status/queue9/que9-13.jpg'
 import west7 from '../assets/images/build-status/west-status/queue9/west7.jpg'
 import west8 from '../assets/images/build-status/west-status/queue9/west8.jpg'
 import west9 from '../assets/images/build-status/west-status/queue9/west9.jpg'
@@ -48,6 +54,18 @@ import beskid4 from '../assets/images/build-status/status-beskid4.jpg'
 
   // cards data
 const album8 = [
+  {
+    img: december2,
+    month: 'Грудень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: december1,
+    month: 'Грудень',
+    title: 'west town',
+    info: ''
+  },
   {
     img: november1,
     month: 'Листопад',
@@ -118,6 +136,24 @@ const album8 = [
 ]
 
 const album9 = [
+  {
+    img: que9Img11,
+    month: 'Грудень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que9Img12,
+    month: 'Грудень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que9Img13,
+    month: 'Грудень',
+    title: 'west town',
+    info: ''
+  },
   {
     img: que9Img1,
     month: 'Листопад',
@@ -262,8 +298,8 @@ function BuildingStatus() {
                     <div className="build-status__item">
                         <h2 className="build-status__title main-title">Стани будівництва</h2>
                         <div className="build-status__actions">
-                            <button type="button" className={buttonClassActive} onClick={handleClick} id='wes-town__button'>WEST TOWN</button>
-                            <button type="button" className={buttonClass} onClick={handleClick}>BESKID HOME RESORT</button>
+                            <motion.button whileHover={{scale: 1.05}} transition={{duration: 0.1}} type="button" className={buttonClassActive} onClick={handleClick} id='wes-town__button'>WEST TOWN</motion.button>
+                            <motion.button whileHover={{scale: 1.05}} transition={{duration: 0.1}} type="button" className={buttonClass} onClick={handleClick}>BESKID HOME RESORT</motion.button>
                         </div>
                     </div>
                 </div>
@@ -271,9 +307,9 @@ function BuildingStatus() {
                 <div className={beskidTypeActive}>
                     <div className='queue'>
                       <p className='queue-title'>Черга:</p>
-                      <button type='button' className={activeSlider === 1 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(1)}>8</button>
-                      <button type='button' className={activeSlider === 2 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(2)}>9</button>
-                      <button type='button' className={activeSlider === 3 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(3)}>10</button>
+                      <motion.button whileHover={{scale: 1.15}} transition={{duration: 0.1}} type='button' className={activeSlider === 1 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(1)}>8</motion.button>
+                      <motion.button whileHover={{scale: 1.15}} transition={{duration: 0.1}} type='button' className={activeSlider === 2 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(2)}>9</motion.button>
+                      <motion.button whileHover={{scale: 1.15}} transition={{duration: 0.1}} type='button' className={activeSlider === 3 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(3)}>10</motion.button>
                     </div>
                     <div className={activeSlider === 1 ? '' : 'slider-hidden'} onClick={() => {setToggler(!toggler)}}>
                         <WestStatusSlider photos={album8}/>
@@ -294,7 +330,7 @@ function BuildingStatus() {
         <FsLightbox 
           toggler={toggler}
           sources={[
-            november1,november2,november3,november4,
+            december2,december1,november1,november2,november3,november4,
             west10,west11,west1,west2,west3,west4,west5,
           ]}
         />
@@ -302,7 +338,7 @@ function BuildingStatus() {
         <FsLightbox 
           toggler={togglerTwo}
           sources={[
-            que9Img1,que9Img2,que9Img3,que9Img4,que9Img5,que9Img6,que9Img7,que9Img8,que9Img9,que9Img10,
+            que9Img11,que9Img12,que9Img13,que9Img1,que9Img2,que9Img3,que9Img4,que9Img5,que9Img6,que9Img7,que9Img8,que9Img9,que9Img10,
             west7,west8,west9,west10,west11,west12,west13,
           ]}
         />

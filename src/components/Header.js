@@ -6,6 +6,7 @@ import menuClose from '../assets/icons/menu-close.svg'
 import icons from '../assets/icons/sprite.svg'
 import Modal from './Modal'
 import tiktokIcon from '../assets/icons/tiktok.svg'
+import { motion } from 'framer-motion';
 import './Header.scss'
 
 function Header() {
@@ -172,7 +173,12 @@ function Header() {
 
                 <div className="header__items-contacts">
                     <p className="contacts__number">+380 (98) 22 55 800</p>
-                    <button className="contacts__button main-button" id='contacts__button' onClick={() => setModalActive(true)}>Замовити дзвінок</button>
+                    <motion.button className="contacts__button main-button" id='contacts__button' onClick={() => setModalActive(true)}
+                        whileHover={{scale: 1.05}}
+                        transition={{duration: 0.02}}
+                    >
+                        Замовити дзвінок
+                    </motion.button>
                 </div>
             </div>
 
