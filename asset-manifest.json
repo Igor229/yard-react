@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d32cd1f7.css",
-    "main.js": "/static/js/main.d706096f.js",
+    "main.css": "/static/css/main.c0a7f197.css",
+    "main.js": "/static/js/main.fbb81247.js",
     "static/js/787.3a6277e1.chunk.js": "/static/js/787.3a6277e1.chunk.js",
     "static/media/main-video.MP4": "/static/media/main-video.c8b26ae297c04a54095c.MP4",
     "static/media/west-banner.png": "/static/media/west-banner.4648018e2d78cce0ec1c.png",
@@ -67,9 +67,11 @@
     "static/media/que9-8.jpg": "/static/media/que9-8.f835b81ad6309f10eb82.jpg",
     "static/media/gas-heating.jpg": "/static/media/gas-heating.ee22cdaa381f87b76c33.jpg",
     "static/media/besked-news.jpg": "/static/media/besked-news.4c6423decf87fd7bea63.jpg",
-    "static/media/west13.jpg": "/static/media/west13.d0a756741306cbd433db.jpg",
+    "static/media/que9-12.jpg": "/static/media/que9-12.974ce3042961b43522b3.jpg",
+    "static/media/que9-11.jpg": "/static/media/que9-11.44a1dbb37eb9f03b3bf5.jpg",
+    "static/media/west13.jpg": "/static/media/west13.018cf4c5f17bd37520a2.jpg",
     "static/media/que9-7.jpg": "/static/media/que9-7.30543232505498f5a7b8.jpg",
-    "static/media/west12.jpg": "/static/media/west12.e88bcd572ef46dbbac01.jpg",
+    "static/media/west12.jpg": "/static/media/west12.28a6a755e428dedae227.jpg",
     "static/media/status-beskid2.jpg": "/static/media/status-beskid2.827a8652118bf0482870.jpg",
     "static/media/que9-1.jpg": "/static/media/que9-1.1adc586bdd2560e9a734.jpg",
     "static/media/spa-news.jpg": "/static/media/spa-news.f2679b6f8dce9855ec3f.jpg",
@@ -79,6 +81,7 @@
     "static/media/type2-floor2.png": "/static/media/type2-floor2.a2c34c3b3ad67f5a5910.png",
     "static/media/type1-floor2.png": "/static/media/type1-floor2.9e588ee68474b8f80696.png",
     "static/media/status-beskid3.jpg": "/static/media/status-beskid3.2e564de5a12cb1f76a79.jpg",
+    "static/media/que9-13.jpg": "/static/media/que9-13.14f98ffcd3bbebfe7096.jpg",
     "static/media/west11.jpg": "/static/media/west11.58f7c04ad720421decd5.jpg",
     "static/media/que9-6.jpg": "/static/media/que9-6.9bad40582f8d54469b85.jpg",
     "static/media/type2-floor1.png": "/static/media/type2-floor1.a6d408b3ebaf16d11fbb.png",
@@ -93,12 +96,12 @@
     "static/media/tiktok.svg": "/static/media/tiktok.8da0dc92cc7e0d4932d89693f5935153.svg",
     "static/media/menu-open.svg": "/static/media/menu-open.e47cad21270d448e17cd07096172c4e8.svg",
     "static/media/menu-close.svg": "/static/media/menu-close.83af43c5ad2451fc6cbcb8abd0ede7c5.svg",
-    "main.d32cd1f7.css.map": "/static/css/main.d32cd1f7.css.map",
-    "main.d706096f.js.map": "/static/js/main.d706096f.js.map",
+    "main.c0a7f197.css.map": "/static/css/main.c0a7f197.css.map",
+    "main.fbb81247.js.map": "/static/js/main.fbb81247.js.map",
     "787.3a6277e1.chunk.js.map": "/static/js/787.3a6277e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d32cd1f7.css",
-    "static/js/main.d706096f.js"
+    "static/css/main.c0a7f197.css",
+    "static/js/main.fbb81247.js"
   ]
 }
