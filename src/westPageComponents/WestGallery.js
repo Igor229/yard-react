@@ -14,6 +14,11 @@ import image4 from '../assets/westPage/images/gallery-slider/4.jpg'
 import image5 from '../assets/westPage/images/gallery-slider/5.jpg'
 import image6 from '../assets/westPage/images/gallery-slider/6.jpg'
 import image7 from '../assets/westPage/images/gallery-slider/7.jpg'
+import image8 from '../assets/westPage/images/gallery-slider/8.jpg'
+import image9 from '../assets/westPage/images/gallery-slider/9.jpg'
+import image10 from '../assets/westPage/images/gallery-slider/10.jpg'
+import image11 from '../assets/westPage/images/gallery-slider/11.jpg'
+import image12 from '../assets/westPage/images/gallery-slider/12.jpg'
 
 const westSliderData = [
     {
@@ -46,6 +51,26 @@ const westSliderData = [
     },
     {
         image: image7,
+        src: 'gallery-image'
+    },
+    {
+        image: image8,
+        src: 'gallery-image'
+    },
+    {
+        image: image9,
+        src: 'gallery-image'
+    },
+    {
+        image: image10,
+        src: 'gallery-image'
+    },
+    {
+        image: image11,
+        src: 'gallery-image'
+    },
+    {
+        image: image12,
         src: 'gallery-image'
     },
 ]
@@ -113,6 +138,11 @@ export default function WestGallery() {
                     image5,
                     image6,
                     image7,
+                    image8,
+                    image9,
+                    image10,
+                    image11,
+                    image12,
                 ]}
             />
         </>

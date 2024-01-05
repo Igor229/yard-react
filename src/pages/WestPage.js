@@ -21,7 +21,7 @@ import Modal from '../components/Modal';
 import '../beskidPageComponents/Contacts.scss'
 
 import internalTypeImg from '../assets/westPage/images/house-types/internal.png'
-import externalTypeImg from '../assets/westPage/images/house-types/external.png'
+import externalTypeImg from '../assets/westPage/images/house-types/external.jpg'
 
 function WestPage () {
     const [modalActive, setModalActive] = useState(false) 
@@ -100,16 +100,6 @@ function WestPage () {
           transition={{duration: 0.45}}
         >
           <WestPlanningType/>
-        </motion.div>
-
-        <motion.div className='bedroom box'
-          initial={{opacity: 0}}
-          whileInView={{opacity: 1}}
-          transition={{duration: 0.7}}
-        >
-          <div className='bedroom-container'>
-            <h2 className='bedroom-container__title'>ДИЗАЙН-ПРОЕКТ У ПОДАРУНОК <br/>ПРИ КУПІВЛІ ТАУНХАУСА</h2>
-          </div>
         </motion.div>
 
 

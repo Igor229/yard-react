@@ -16,6 +16,9 @@ import west2 from '../assets/westPage/images/main-slider/1.jpg'
 import west3 from '../assets/westPage/images/main-slider/2.jpg'
 import west4 from '../assets/westPage/images/main-slider/3.jpg'
 import west5 from '../assets/westPage/images/main-slider/4.jpg'
+import west6 from '../assets/westPage/images/main-slider/5.jpg'
+import west7 from '../assets/westPage/images/main-slider/6.jpg'
+import west8 from '../assets/westPage/images/main-slider/7.jpg'
 
 const images = [
   {
@@ -36,6 +39,18 @@ const images = [
   },
   {
     src: '4',
+    alt: 'west-town'
+  },
+  {
+    src: '5',
+    alt: 'west-town'
+  },
+  {
+    src: '6',
+    alt: 'west-town'
+  },
+  {
+    src: '7',
     alt: 'west-town'
   },
 ]
@@ -85,6 +100,9 @@ function MainSlider () {
               west3,
               west4,
               west5,
+              west6,
+              west7,
+              west8,
             ]}
           />
         </>

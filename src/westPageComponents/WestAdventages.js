@@ -13,11 +13,11 @@ const adventagesData = [
         image: imgOne,
     },
     {
-        text: 'Приватна земельна ділянка',
+        text: 'Земельна ділянка',
         image: imgTwo,
     },
     {
-        text: 'Повноцінний будинок 120 м²',
+        text: 'Повноцінний будинок',
         image: imgThree,
     },
 ]
