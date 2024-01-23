@@ -1,11 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.ace6b69b.css",
-    "main.js": "/static/js/main.341caa1b.js",
+    "main.js": "/static/js/main.661c151d.js",
     "static/js/787.3a6277e1.chunk.js": "/static/js/787.3a6277e1.chunk.js",
     "static/media/main-video.MP4": "/static/media/main-video.c8b26ae297c04a54095c.MP4",
     "static/media/november1.jpg": "/static/media/november1.fd330837cdfdd3d90033.jpg",
+    "static/media/beskid-november2.jpg": "/static/media/beskid-november2.5231bc0515a6462b2bc5.jpg",
     "static/media/november2.jpg": "/static/media/november2.787ce70de904d7d75949.jpg",
+    "static/media/beskid-november6.jpg": "/static/media/beskid-november6.a63ec34d8332d682eb34.jpg",
+    "static/media/beskid-november1.jpg": "/static/media/beskid-november1.d4c7aa5c868864eccdb0.jpg",
+    "static/media/beskid-november4.jpg": "/static/media/beskid-november4.e790bac985514b1925eb.jpg",
+    "static/media/beskid-november3.jpg": "/static/media/beskid-november3.93574f919523b548d733.jpg",
+    "static/media/beskid-november5.jpg": "/static/media/beskid-november5.7164b8c02acd99d38147.jpg",
     "static/media/november3.jpg": "/static/media/november3.6ff0bc9dbd4d8d2c1125.jpg",
     "static/media/november4.jpg": "/static/media/november4.44eda435e57b8d376d34.jpg",
     "static/media/2.jpg": "/static/media/2.e1e121ca0b2404711f20.jpg",
@@ -101,11 +107,11 @@
     "static/media/menu-open.svg": "/static/media/menu-open.e47cad21270d448e17cd07096172c4e8.svg",
     "static/media/menu-close.svg": "/static/media/menu-close.83af43c5ad2451fc6cbcb8abd0ede7c5.svg",
     "main.ace6b69b.css.map": "/static/css/main.ace6b69b.css.map",
-    "main.341caa1b.js.map": "/static/js/main.341caa1b.js.map",
+    "main.661c151d.js.map": "/static/js/main.661c151d.js.map",
     "787.3a6277e1.chunk.js.map": "/static/js/787.3a6277e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ace6b69b.css",
-    "static/js/main.341caa1b.js"
+    "static/js/main.661c151d.js"
   ]
 }
