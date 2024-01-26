@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3cc99e0d.css",
-    "main.js": "/static/js/main.3363c96b.js",
+    "main.css": "/static/css/main.e97710a9.css",
+    "main.js": "/static/js/main.738e56ae.js",
     "static/js/787.3a6277e1.chunk.js": "/static/js/787.3a6277e1.chunk.js",
     "static/media/main-video.MP4": "/static/media/main-video.c8b26ae297c04a54095c.MP4",
     "static/media/november1.jpg": "/static/media/november1.fd330837cdfdd3d90033.jpg",
@@ -102,19 +102,18 @@
     "static/media/west-town_news.jpg": "/static/media/west-town_news.727aab8435f8b42021b6.jpg",
     "static/media/que9-5.jpg": "/static/media/que9-5.5f0f74796acf96fb5331.jpg",
     "static/media/type1-floor1.png": "/static/media/type1-floor1.37b40821ead44e85a4cf.png",
-    "static/media/proposal-low.jpg": "/static/media/proposal-low.6c76320d25ca4b932a25.jpg",
     "static/media/alternateTown.jpg": "/static/media/alternateTown.88e8a3ad402cc6999b88.jpg",
     "static/media/sprite.svg": "/static/media/sprite.ed002f29049753607d6b64b630138cc9.svg",
     "index.html": "/index.html",
     "static/media/tiktok.svg": "/static/media/tiktok.8da0dc92cc7e0d4932d89693f5935153.svg",
     "static/media/menu-open.svg": "/static/media/menu-open.e47cad21270d448e17cd07096172c4e8.svg",
     "static/media/menu-close.svg": "/static/media/menu-close.83af43c5ad2451fc6cbcb8abd0ede7c5.svg",
-    "main.3cc99e0d.css.map": "/static/css/main.3cc99e0d.css.map",
-    "main.3363c96b.js.map": "/static/js/main.3363c96b.js.map",
+    "main.e97710a9.css.map": "/static/css/main.e97710a9.css.map",
+    "main.738e56ae.js.map": "/static/js/main.738e56ae.js.map",
     "787.3a6277e1.chunk.js.map": "/static/js/787.3a6277e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cc99e0d.css",
-    "static/js/main.3363c96b.js"
+    "static/css/main.e97710a9.css",
+    "static/js/main.738e56ae.js"
   ]
 }
