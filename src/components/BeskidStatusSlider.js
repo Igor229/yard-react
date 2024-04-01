@@ -20,6 +20,15 @@ import beskidNovember3 from '../assets/images/build-status/beskid-status/beskid-
 import beskidNovember4 from '../assets/images/build-status/beskid-status/beskid-november4-min.jpg'
 import beskidNovember5 from '../assets/images/build-status/beskid-status/beskid-november5-min.jpg'
 import beskidNovember6 from '../assets/images/build-status/beskid-status/beskid-november6-min.jpg'
+import beskidApril1 from '../assets/images/build-status/beskid-status/beskid-april1.jpg'
+import beskidApril2 from '../assets/images/build-status/beskid-status/beskid-april2.jpg'
+import beskidApril3 from '../assets/images/build-status/beskid-status/beskid-april3.jpg'
+import beskidApril4 from '../assets/images/build-status/beskid-status/beskid-april4.jpg'
+import beskidApril5 from '../assets/images/build-status/beskid-status/beskid-april5.jpg'
+import beskidApril6 from '../assets/images/build-status/beskid-status/beskid-april6.jpg'
+import beskidApril7 from '../assets/images/build-status/beskid-status/beskid-april7.jpg'
+import beskidApril8 from '../assets/images/build-status/beskid-status/beskid-april8.jpg'
+import beskidApril9 from '../assets/images/build-status/beskid-status/beskid-april9.jpg'
 
 function SliderCard(props) {
   const {month, title, info, img, subinfo} = props
@@ -39,6 +48,60 @@ function SliderCard(props) {
 
 export default function BeskidStatusSlider() {
   const cardData = [
+    {
+      img: beskidApril1,
+      month: 'Квітень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidApril2,
+      month: 'Квітень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidApril3,
+      month: 'Квітень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidApril4,
+      month: 'Квітень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidApril5,
+      month: 'Квітень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidApril6,
+      month: 'Квітень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidApril7,
+      month: 'Квітень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidApril8,
+      month: 'Квітень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidApril9,
+      month: 'Квітень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
     {
       img: beskidNovember1,
       month: 'Січень',

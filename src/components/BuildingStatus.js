@@ -88,6 +88,15 @@ import beskidNovember3 from '../assets/images/build-status/beskid-status/beskid-
 import beskidNovember4 from '../assets/images/build-status/beskid-status/beskid-november4-min.jpg'
 import beskidNovember5 from '../assets/images/build-status/beskid-status/beskid-november5-min.jpg'
 import beskidNovember6 from '../assets/images/build-status/beskid-status/beskid-november6-min.jpg'
+import beskidApril1 from '../assets/images/build-status/beskid-status/beskid-april1.jpg'
+import beskidApril2 from '../assets/images/build-status/beskid-status/beskid-april2.jpg'
+import beskidApril3 from '../assets/images/build-status/beskid-status/beskid-april3.jpg'
+import beskidApril4 from '../assets/images/build-status/beskid-status/beskid-april4.jpg'
+import beskidApril5 from '../assets/images/build-status/beskid-status/beskid-april5.jpg'
+import beskidApril6 from '../assets/images/build-status/beskid-status/beskid-april6.jpg'
+import beskidApril7 from '../assets/images/build-status/beskid-status/beskid-april7.jpg'
+import beskidApril8 from '../assets/images/build-status/beskid-status/beskid-april8.jpg'
+import beskidApril9 from '../assets/images/build-status/beskid-status/beskid-april9.jpg'
 
   // cards data
 const album8 = [
@@ -576,6 +585,15 @@ function BuildingStatus() {
         <FsLightbox 
           toggler={togglerBeskid}
           sources={[
+            beskidApril1,
+            beskidApril2,
+            beskidApril3,
+            beskidApril4,
+            beskidApril5,
+            beskidApril6,
+            beskidApril7,
+            beskidApril8,
+            beskidApril9,
             beskidNovember1,
             beskidNovember2,
             beskidNovember3,
