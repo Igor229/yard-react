@@ -149,6 +149,12 @@
     .termination {
         width: 70%;
     }
+
+    .advent {
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 820px) {
@@ -164,10 +170,6 @@
 
     .termination {
         width: 100%;
-    }
-    .advent {
-        flex-direction: column;
-        gap: 24px;
     }
 }
 
