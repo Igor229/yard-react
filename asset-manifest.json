@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a24ebbc7.css",
-    "main.js": "/static/js/main.06bd0507.js",
+    "main.js": "/static/js/main.5b36c166.js",
     "static/js/787.3a6277e1.chunk.js": "/static/js/787.3a6277e1.chunk.js",
     "static/media/main-video.MP4": "/static/media/main-video.c8b26ae297c04a54095c.MP4",
     "static/media/november1.jpg": "/static/media/november1.fd330837cdfdd3d90033.jpg",
@@ -75,20 +75,27 @@
     "static/media/beskid-april6.jpg": "/static/media/beskid-april6.f1f72c5da69955c7accb.jpg",
     "static/media/beskid-april5.jpg": "/static/media/beskid-april5.02ee91b72d91b906ab76.jpg",
     "static/media/14.jpg": "/static/media/14.784c38a509553ef94a19.jpg",
+    "static/media/easter.jpg": "/static/media/easter.e206a8a7b3391f6797c9.jpg",
     "static/media/west3.jpg": "/static/media/west3.29af60811f213e59277c.jpg",
     "static/media/proposal.jpg": "/static/media/proposal.1dcbc61c4e67c8eae540.jpg",
     "static/media/west-town-plan.png": "/static/media/west-town-plan.2c21f5ab399130224c3a.png",
     "static/media/que10-3.jpg": "/static/media/que10-3.3562ffd9d91a4bdda1a8.jpg",
     "static/media/que10-2.jpg": "/static/media/que10-2.d8dce8b568dd9e73fe45.jpg",
+    "static/media/april1.jpg": "/static/media/april1.8ca9d252f99217a01765.jpg",
     "static/media/march4.jpg": "/static/media/march4.b01cda78d01804b03e0f.jpg",
     "static/media/que10-1.jpg": "/static/media/que10-1.3eb6f86b9e0be256a68f.jpg",
     "static/media/que9-2.jpg": "/static/media/que9-2.63fc4076b209bf33b8c5.jpg",
     "static/media/march3.jpg": "/static/media/march3.3b05aba85e2c13a5a127.jpg",
+    "static/media/april5.jpg": "/static/media/april5.f393a785c61afe4b095f.jpg",
     "static/media/que9-10.jpg": "/static/media/que9-10.e3c3d35cdf573fed508f.jpg",
+    "static/media/april2.jpg": "/static/media/april2.7126d5980fb5e1a2f998.jpg",
     "static/media/march2.jpg": "/static/media/march2.9e5c624fe6fe05b0f80b.jpg",
+    "static/media/april7.jpg": "/static/media/april7.bdebbe282d53d8308628.jpg",
+    "static/media/april3.jpg": "/static/media/april3.d4f2e7ef351e7f4d79d0.jpg",
     "static/media/que9-9.jpg": "/static/media/que9-9.b01916314ad4112fbf8b.jpg",
     "static/media/beskid_page-banner.jpg": "/static/media/beskid_page-banner.fc6947835e90da978265.jpg",
     "static/media/status-beskid4.jpg": "/static/media/status-beskid4.98e72d080f953d60db37.jpg",
+    "static/media/april4.jpg": "/static/media/april4.d88ea3e8572ae9ffe59a.jpg",
     "static/media/march1.jpg": "/static/media/march1.01de215c840f5a8eb670.jpg",
     "static/media/status-beskid1.jpg": "/static/media/status-beskid1.5285b3311c2f99b13436.jpg",
     "static/media/internal.png": "/static/media/internal.a8253fe5982eb33c907d.png",
@@ -109,6 +116,7 @@
     "static/media/status-west1.jpg": "/static/media/status-west1.0f2b89c31cfafe468269.jpg",
     "static/media/west-town-sale11 – копія.jpg": "/static/media/west-town-sale11 – копія.285aabe2a9f53749d10b.jpg",
     "static/media/que9-4.jpg": "/static/media/que9-4.2671d23a9710cbf8b321.jpg",
+    "static/media/april6.jpg": "/static/media/april6.473b6767bff301b79b2b.jpg",
     "static/media/type2-floor2.png": "/static/media/type2-floor2.a2c34c3b3ad67f5a5910.png",
     "static/media/type1-floor2.png": "/static/media/type1-floor2.9e588ee68474b8f80696.png",
     "static/media/status-beskid3.jpg": "/static/media/status-beskid3.2e564de5a12cb1f76a79.jpg",
@@ -128,11 +136,11 @@
     "static/media/menu-open.svg": "/static/media/menu-open.e47cad21270d448e17cd07096172c4e8.svg",
     "static/media/menu-close.svg": "/static/media/menu-close.83af43c5ad2451fc6cbcb8abd0ede7c5.svg",
     "main.a24ebbc7.css.map": "/static/css/main.a24ebbc7.css.map",
-    "main.06bd0507.js.map": "/static/js/main.06bd0507.js.map",
+    "main.5b36c166.js.map": "/static/js/main.5b36c166.js.map",
     "787.3a6277e1.chunk.js.map": "/static/js/787.3a6277e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a24ebbc7.css",
-    "static/js/main.06bd0507.js"
+    "static/js/main.5b36c166.js"
   ]
 }
