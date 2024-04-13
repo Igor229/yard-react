@@ -60,6 +60,13 @@ import que9March2 from '../assets/images/build-status/west-status/queue9/march2.
 import que9March3 from '../assets/images/build-status/west-status/queue9/march3.jpg'
 import que9March4 from '../assets/images/build-status/west-status/queue9/march4.jpg'
 import que9March5 from '../assets/images/build-status/west-status/queue9/march5.jpg'
+import que9April1 from '../assets/images/build-status/west-status/queue9/april1.jpg'
+import que9April2 from '../assets/images/build-status/west-status/queue9/april2.jpg'
+import que9April3 from '../assets/images/build-status/west-status/queue9/april3.jpg'
+import que9April4 from '../assets/images/build-status/west-status/queue9/april4.jpg'
+import que9April5 from '../assets/images/build-status/west-status/queue9/april5.jpg'
+import que9April6 from '../assets/images/build-status/west-status/queue9/april6.jpg'
+import que9April7 from '../assets/images/build-status/west-status/queue9/april7.jpg'
 
 // Queue 10
 import que10Img1 from '../assets/images/build-status/west-status/queue10/que10-1.jpg'
@@ -75,7 +82,15 @@ import que10March1 from '../assets/images/build-status/west-status/queue10/march
 import que10March2 from '../assets/images/build-status/west-status/queue10/march2.jpg'
 import que10March3 from '../assets/images/build-status/west-status/queue10/march3.jpg'
 import que10March4 from '../assets/images/build-status/west-status/queue10/march4.jpg'
+import que10April1 from '../assets/images/build-status/west-status/queue10/april1.jpg'
+import que10April2 from '../assets/images/build-status/west-status/queue10/april2.jpg'
+import que10April3 from '../assets/images/build-status/west-status/queue10/april3.jpg'
+import que10April4 from '../assets/images/build-status/west-status/queue10/april4.jpg'
+import que10April5 from '../assets/images/build-status/west-status/queue10/april5.jpg'
 
+// queue11
+import que11April1 from '../assets/images/build-status/west-status/queue11/april1.jpg'
+import que11April2 from '../assets/images/build-status/west-status/queue11/april2.jpg'
 
 // Beskid
 import beskid1 from '../assets/images/build-status/status-beskid1.jpg'
@@ -236,6 +251,48 @@ const album8 = [
 ]
 
 const album9 = [
+  {
+    img: que9April1,
+    month: 'Квітень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que9April2,
+    month: 'Квітень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que9April3,
+    month: 'Квітень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que9April4,
+    month: 'Квітень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que9April5,
+    month: 'Квітень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que9April6,
+    month: 'Квітень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que9April7,
+    month: 'Квітень',
+    title: 'west town',
+    info: ''
+  },
   {
     img: que9March1,
     month: 'Березень',
@@ -408,6 +465,36 @@ const album9 = [
 
 const album10 = [
   {
+    img: que10April1,
+    month: 'Квітень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que10April2,
+    month: 'Квітень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que10April3,
+    month: 'Квітень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que10April4,
+    month: 'Квітень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que10April5,
+    month: 'Квітень',
+    title: 'west town',
+    info: ''
+  },
+  {
     img: que10March1,
     month: 'Березень',
     title: 'west town',
@@ -487,11 +574,27 @@ const album10 = [
   },
 ]
 
+const album11 = [
+  {
+    img: que11April1,
+    month: 'Квітень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11April1,
+    month: 'Квітень',
+    title: 'west town',
+    info: ''
+  },
+]
+
 
 function BuildingStatus() {
     const [toggler, setToggler] = useState(false)
     const [togglerTwo, setTogglerTwo] = useState(false)
     const [togglerThree, setTogglerThree] = useState(false)
+    const [togglerFour, setTogglerFour] = useState(false)
     const [togglerBeskid, setTogglerBeskid] = useState(false)
 //====================================
     const [isActive, setIsActive] = useState(true)
@@ -530,6 +633,7 @@ function BuildingStatus() {
                       <motion.button whileHover={{scale: 1.15}} transition={{duration: 0.1}} type='button' className={activeSlider === 1 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(1)}>8</motion.button>
                       <motion.button whileHover={{scale: 1.15}} transition={{duration: 0.1}} type='button' className={activeSlider === 2 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(2)}>9</motion.button>
                       <motion.button whileHover={{scale: 1.15}} transition={{duration: 0.1}} type='button' className={activeSlider === 3 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(3)}>10</motion.button>
+                      <motion.button whileHover={{scale: 1.15}} transition={{duration: 0.1}} type='button' className={activeSlider === 4 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(4)}>11</motion.button>
                     </div>
                     <div className={activeSlider === 1 ? '' : 'slider-hidden'} onClick={() => {setToggler(!toggler)}}>
                         <WestStatusSlider photos={album8}/>
@@ -539,6 +643,9 @@ function BuildingStatus() {
                     </div>
                     <div className={activeSlider === 3 ? '' : 'slider-hidden'} onClick={() => {setTogglerThree(!togglerThree)}}>
                         <WestStatusSlider photos={album10}/>
+                    </div>
+                    <div className={activeSlider === 4 ? '' : 'slider-hidden'} onClick={() => {setTogglerFour(!togglerFour)}}>
+                        <WestStatusSlider photos={album11}/>
                     </div>
                 </div>
 
@@ -558,7 +665,7 @@ function BuildingStatus() {
         <FsLightbox 
           toggler={togglerTwo}
           sources={[
-            que9March1,que9March2,que9March3,que9March4,que9March5,que9Feb1,que9Feb2,que9Nov1,que9Nov2,que9Nov3,que9Img11,que9Img12,que9Img13,que9Img1,que9Img2,que9Img3,que9Img4,que9Img5,que9Img6,que9Img7,que9Img8,que9Img9,que9Img10,
+            que9April1,que9April2,que9April3,que9April4,que9April5,que9April6,que9April7,que9March1,que9March2,que9March3,que9March4,que9March5,que9Feb1,que9Feb2,que9Nov1,que9Nov2,que9Nov3,que9Img11,que9Img12,que9Img13,que9Img1,que9Img2,que9Img3,que9Img4,que9Img5,que9Img6,que9Img7,que9Img8,que9Img9,que9Img10,
             west7,west8,west9,west10,west11,west12,west13,
           ]}
         />
@@ -566,6 +673,11 @@ function BuildingStatus() {
         <FsLightbox 
           toggler={togglerThree}
           sources={[
+            que10April1,
+            que10April2,
+            que10April3,
+            que10April4,
+            que10April5,
             que10March1,
             que10March2,
             que10March3,
@@ -604,6 +716,14 @@ function BuildingStatus() {
             beskid4,
             beskid2,
             beskid1,
+          ]}
+        />
+
+        <FsLightbox 
+          toggler={togglerFour}
+          sources={[
+            que11April1,
+            que11April2,
           ]}
         />
         </>

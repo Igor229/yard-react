@@ -10,6 +10,7 @@ import gasHeating from '../assets/images/news/gas-heating.jpg'
 import specialOffer from '../assets/images/news/special-offer.jpg'
 import westNovemberOffer from '../assets/images/news/west-town-sale11 – копія.jpg'
 import startFebruarySaleImg from '../assets/images/news/startQue8Sale.jpg'
+import easterImg from '../assets/images/news/easter.jpg'
 
 
 
@@ -34,6 +35,13 @@ export default function News() {
 
   // cards data
   const cardData = [
+    {
+      image: easterImg,
+      date:'12.04.24',
+      title: "Акція до Великодніх свят!",
+      subtitle: '',
+      text: "Придбайте таунхаус у містечку WEST TOWN ДО 03.05.2024 та отримайте газовий гриль У ПОДАРУНОК на власне подвір'я.",
+    },
     {
       image: startFebruarySaleImg,
       date:'20.02.24',
