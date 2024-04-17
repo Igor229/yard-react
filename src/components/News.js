@@ -2,15 +2,15 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import './BuildStatusSlider.css';
 import './News.scss'
 import { FreeMode, Autoplay } from 'swiper/modules';
-import westTownNewsImg from '../assets/images/news/west-town_news.jpg'
-import spaNewsImg from '../assets/images/news/spa-news.jpg'
-import beskedNewsImage from '../assets/images/news/besked-news.jpg'
-import alternateTown from '../assets/images/news/alternateTown.jpg'
-import gasHeating from '../assets/images/news/gas-heating.jpg'
-import specialOffer from '../assets/images/news/special-offer.jpg'
-import westNovemberOffer from '../assets/images/news/west-town-sale11 – копія.jpg'
-import startFebruarySaleImg from '../assets/images/news/startQue8Sale.jpg'
-import easterImg from '../assets/images/news/easter.jpg'
+import westTownNewsImg from '../assets/images/news/west-town_news.webp'
+import spaNewsImg from '../assets/images/news/spa-news.webp'
+import beskedNewsImage from '../assets/images/news/besked-news.webp'
+import alternateTown from '../assets/images/news/alternateTown.webp'
+import gasHeating from '../assets/images/news/gas-heating.webp'
+import specialOffer from '../assets/images/news/special-offer.webp'
+import westNovemberOffer from '../assets/images/news/west-town-sale11.webp'
+import startFebruarySaleImg from '../assets/images/news/startQue8Sale.webp'
+import easterImg from '../assets/images/news/easter.webp'
 
 
 

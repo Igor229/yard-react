@@ -1,5 +1,5 @@
 import './About.scss'
-import MainVideoBGQuality from '../assets/videos/main-video.MP4'
+import MainVideoBGQuality from '../assets/videos/main-video.mp4'
 import { motion } from 'framer-motion'
 
 function About () {

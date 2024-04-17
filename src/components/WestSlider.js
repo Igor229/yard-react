@@ -8,16 +8,16 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './ComplexSlider.css';
 
-import west1 from '../assets/images/west-town/west1.jpg'
-import west2 from '../assets/images/west-town/west2.jpg'
-import west3 from '../assets/images/west-town/west3.jpg'
-import west4 from '../assets/images/west-town/west4.jpg'
-import west5 from '../assets/images/west-town/west5.jpg'
-import west6 from '../assets/images/west-town/west6.jpg'
-import west7 from '../assets/images/west-town/west7.jpg'
-import west8 from '../assets/images/west-town/west8.jpg'
-import west9 from '../assets/images/west-town/west9.jpg'
-import west10 from '../assets/images/west-town/west10.jpg'
+import west1 from '../assets/images/west-town/west1.webp'
+import west2 from '../assets/images/west-town/west2.webp'
+import west3 from '../assets/images/west-town/west3.webp'
+import west4 from '../assets/images/west-town/west4.webp'
+import west5 from '../assets/images/west-town/west5.webp'
+import west6 from '../assets/images/west-town/west6.webp'
+import west7 from '../assets/images/west-town/west7.webp'
+import west8 from '../assets/images/west-town/west8.webp'
+import west9 from '../assets/images/west-town/west9.webp'
+import west10 from '../assets/images/west-town/west10.webp'
 
 const imgArr = [
   {
@@ -87,7 +87,7 @@ export default function Slider() {
             {imgArr.map((item, index) => {
               return (
                 <SwiperSlide key={index} onClick={() => {setToggler(!toggler)}}>
-                  <img className="slider-img" src={require('../assets/images/west-town/' + item.src + '.jpg')} alt={item.alt}/><div className="shadow"></div>
+                  <img className="slider-img" src={require('../assets/images/west-town/' + item.src + '.webp')} alt={item.alt}/><div className="shadow"></div>
                 </SwiperSlide>
               )
             })}
