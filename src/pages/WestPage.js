@@ -22,12 +22,16 @@ import Modal from '../components/Modal';
 import partnersInstagram from '../assets/westPage/images/partners/instagram-icon.png'
 import '../beskidPageComponents/Contacts.scss'
 
-import internalTypeImg from '../assets/westPage/images/house-types/internal.png'
-import externalTypeImg from '../assets/westPage/images/house-types/external.jpg'
+import internalTypeImg from '../assets/westPage/images/house-types/internal.webp'
+import externalTypeImg from '../assets/westPage/images/house-types/external.webp'
+
+// ==========planning type component from beskid==================
+import WestPlanningTypes from '../westPageComponents/WestPlanningTypes';
+import PlanTypeImgOne from '../assets/westPage/images/TypeOne.webp'
+import PlanTypeImgTwo from '../assets/westPage/images/TypeTwo.webp'
 
 // proposal imports =====================================
 import Header from '../components/Header';
-import chevronRight from '../assets/icons/chevron-right.png'
 import '../westPageComponents/Proposal.scss'
 // =======================================================
 function WestPage () {
@@ -191,14 +195,15 @@ function WestPage () {
           </motion.div>
 
           {/* Planning Types Section */}
-          <motion.div
-            className="wrapper "
-            initial={{ x: -350 }}
-            whileInView={{ x: 0 }}
-            transition={{ duration: 0.45 }}
-          >
-            <WestPlanningType />
-          </motion.div>
+          {/* planning types section */}
+        <motion.div className='plannings-type wrapper'
+          initial={{y: 150, opacity: 0}}
+          whileInView={{y: 0, opacity: 1}}
+          transition={{duration: 0.6}}
+        >
+          <WestPlanningTypes type='Тип 1' area='120 м²' floorOne={PlanTypeImgOne}/>
+          <WestPlanningTypes type='Тип 2' area='130 м²' floorOne={PlanTypeImgTwo}/>
+        </motion.div>
 
           {/* =================Partners Section======================== */}
           <motion.div

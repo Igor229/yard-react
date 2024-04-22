@@ -2,7 +2,7 @@ import './WestBanner.scss'
 import '../beskidPageComponents/BeskidBanner.scss'
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import mainImg from '../assets/westPage/images/west-banner.png'
+import mainImg from '../assets/westPage/images/west-banner.webp'
 import ModalPlus from '../components/ModalPlus'
 
 function WestBanner () {

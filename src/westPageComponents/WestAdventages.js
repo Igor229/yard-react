@@ -3,9 +3,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Autoplay } from 'swiper/modules';
 import { Navigation, Pagination } from 'swiper/modules';
 
-import imgOne from '../assets/westPage/images/adventages/1.jpg'
-import imgTwo from '../assets/westPage/images/adventages/2.jpg'
-import imgThree from '../assets/westPage/images/adventages/3.jpg'
+import imgOne from '../assets/westPage/images/adventages/1.webp'
+import imgTwo from '../assets/westPage/images/adventages/2.webp'
+import imgThree from '../assets/westPage/images/adventages/3.webp'
 
 const adventagesData = [
     {

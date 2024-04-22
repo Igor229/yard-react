@@ -6,21 +6,46 @@ import { FreeMode, Autoplay } from 'swiper/modules';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 
-import image from '../assets/westPage/images/gallery-slider/0.jpg'
-import image1 from '../assets/westPage/images/gallery-slider/1.jpg'
-import image2 from '../assets/westPage/images/gallery-slider/2.jpg'
-import image3 from '../assets/westPage/images/gallery-slider/3.jpg'
-import image4 from '../assets/westPage/images/gallery-slider/4.jpg'
-import image5 from '../assets/westPage/images/gallery-slider/5.jpg'
-import image6 from '../assets/westPage/images/gallery-slider/6.jpg'
-import image7 from '../assets/westPage/images/gallery-slider/7.jpg'
-import image8 from '../assets/westPage/images/gallery-slider/8.jpg'
-import image9 from '../assets/westPage/images/gallery-slider/9.jpg'
-import image10 from '../assets/westPage/images/gallery-slider/10.jpg'
-import image11 from '../assets/westPage/images/gallery-slider/11.jpg'
-import image12 from '../assets/westPage/images/gallery-slider/12.jpg'
+import image from '../assets/westPage/images/gallery-slider/0.webp'
+import image1 from '../assets/westPage/images/gallery-slider/1.webp'
+import image2 from '../assets/westPage/images/gallery-slider/2.webp'
+import image3 from '../assets/westPage/images/gallery-slider/3.webp'
+import image4 from '../assets/westPage/images/gallery-slider/4.webp'
+import image5 from '../assets/westPage/images/gallery-slider/5.webp'
+import image6 from '../assets/westPage/images/gallery-slider/6.webp'
+import image7 from '../assets/westPage/images/gallery-slider/7.webp'
+import image8 from '../assets/westPage/images/gallery-slider/8.webp'
+import image9 from '../assets/westPage/images/gallery-slider/9.webp'
+import image10 from '../assets/westPage/images/gallery-slider/10.webp'
+import image11 from '../assets/westPage/images/gallery-slider/11.webp'
+import image12 from '../assets/westPage/images/gallery-slider/12.webp'
+import image13 from '../assets/westPage/images/gallery-slider/13.webp'
+import image14 from '../assets/westPage/images/gallery-slider/14.webp'
+import image15 from '../assets/westPage/images/gallery-slider/15.webp'
+import image16 from '../assets/westPage/images/gallery-slider/16.webp'
+import image17 from '../assets/westPage/images/gallery-slider/17.webp'
 
 const westSliderData = [
+    {
+        image: image13,
+        src: 'gallery-image'
+    },
+    {
+        image: image14,
+        src: 'gallery-image'
+    },
+    // {
+    //     image: image15,
+    //     src: 'gallery-image'
+    // },
+    {
+        image: image16,
+        src: 'gallery-image'
+    },
+    {
+        image: image17,
+        src: 'gallery-image'
+    },
     {
         image: image,
         src: 'gallery-image'
@@ -96,7 +121,7 @@ export default function WestGallery() {
                 <h1 className='main-title'>Фотогалерея</h1>
                 <Swiper
                 slidesPerView={3}
-                spaceBetween={0}
+                spaceBetween={10}
                 freeMode={true}
                 pagination={false}
                 autoHeight = {true}
@@ -130,6 +155,11 @@ export default function WestGallery() {
             <FsLightbox
                 toggler={toggler}
                 sources={[
+                    image13,
+                    image14,
+                    // image15,
+                    image16,
+                    image17,
                     image,
                     image1,
                     image2,

@@ -582,7 +582,7 @@ const album11 = [
     info: ''
   },
   {
-    img: que11April1,
+    img: que11April2,
     month: 'Квітень',
     title: 'west town',
     info: ''
