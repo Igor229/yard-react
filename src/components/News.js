@@ -11,6 +11,7 @@ import specialOffer from '../assets/images/news/special-offer.webp'
 import westNovemberOffer from '../assets/images/news/west-town-sale11.webp'
 import startFebruarySaleImg from '../assets/images/news/startQue8Sale.webp'
 import easterImg from '../assets/images/news/easter.webp'
+import comfortTown from '../assets/images/news/comfortTown.webp'
 
 
 
@@ -35,6 +36,13 @@ export default function News() {
 
   // cards data
   const cardData = [
+    {
+      image: comfortTown,
+      date:'06.05.24',
+      title: "НОВЕ КОТЕДЖНЕ МІСТЕЧКО ТАУНХАУСІВ від будівельної компанії YARD - COMFORT TOWN!",
+      subtitle: 'Спішимо повідомити про старт продажу таунхаусів у новому котеджному містечку COMFORT TOWN!',
+      text: "COMFORT TOWN - це уособлення тиші, спокою, комфорту та сімейного затишку. Містечко таунхаусів з вдалою локацією, всього 10 хвилин до Центру Івано-Франківська, а також пропонуємо НОВИНКУ - таунхауси з повністю приватним подвір'ям - передній та задній двір закритий від сусідів. Нові сучасні планування з гаражем та збільшена площа будинку - 135 м². Вже зовсім скоро ви зможете отримати більше деталей на нашій офіційній сторінці містечка COMFORT TOWN.",
+    },
     {
       image: easterImg,
       date:'12.04.24',

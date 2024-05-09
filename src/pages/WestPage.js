@@ -1,7 +1,6 @@
 import WestBanner from '../westPageComponents/WestBanner';
 import MainSlider from '../westPageComponents/MainSlider';
 import WestAdventages from '../westPageComponents/WestAdventages';
-import WestPlanningType from '../westPageComponents/WestPlanningType';
 import AdventageList from '../westPageComponents/AdventageList';
 import HouseType from '../westPageComponents/HouseType';
 import WestForm from '../westPageComponents/WestForm';
@@ -202,7 +201,7 @@ function WestPage () {
           transition={{duration: 0.6}}
         >
           <WestPlanningTypes type='Тип 1' area='120 м²' floorOne={PlanTypeImgOne}/>
-          <WestPlanningTypes type='Тип 2' area='130 м²' floorOne={PlanTypeImgTwo}/>
+          <WestPlanningTypes type='Тип 2' area='135 м²' floorOne={PlanTypeImgTwo}/>
         </motion.div>
 
           {/* =================Partners Section======================== */}

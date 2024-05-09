@@ -2,7 +2,6 @@ import { useState } from 'react';
 import FsLightbox from 'fslightbox-react';
 // import './PlanningType.scss'
 import "swiper/css";
-import WestPlanningType from './WestPlanningType';
 
 function WestPlanningTypes (props) {
     const {type, area, terrace, floorOne} = props
