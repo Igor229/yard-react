@@ -2,35 +2,11 @@ import React, { useState } from 'react'
 import './BuildingStatus.scss'
 import WestStatusSlider from './WestStatusSlider'
 import BeskidStatusSlider from './BeskidStatusSlider'
+import ComfortStatusSlider from './ComfortStatusSlider'
 import FsLightbox from 'fslightbox-react'
 import { motion } from 'framer-motion'
 
 // import images
-
-// Queue 8
-import november1 from '../assets/images/build-status/west-status/queue8/november1.webp'
-import november2 from '../assets/images/build-status/west-status/queue8/november2.webp'
-import november3 from '../assets/images/build-status/west-status/queue8/november3.webp'
-import november4 from '../assets/images/build-status/west-status/queue8/november4.webp'
-import november5 from '../assets/images/build-status/west-status/queue8/november5.webp'
-import november6 from '../assets/images/build-status/west-status/queue8/november6.webp'
-import west10 from '../assets/images/build-status/west-status/queue8/west10.webp'
-import west11 from '../assets/images/build-status/west-status/queue8/west11.webp'
-import west1 from '../assets/images/build-status/west-status/queue8/status-west1.webp'
-import west2 from '../assets/images/build-status/west-status/queue8/status-west2.webp'
-import west3 from '../assets/images/build-status/west-status/queue8/west3.webp'
-import west4 from '../assets/images/build-status/west-status/queue8/west4.webp'
-import west5 from '../assets/images/build-status/west-status/queue8/west5.webp'
-import december1 from '../assets/images/build-status/west-status/queue8/west12.webp'
-import december2 from '../assets/images/build-status/west-status/queue8/west13.webp'
-import february1 from '../assets/images/build-status/west-status/queue8/february1.webp'
-import february2 from '../assets/images/build-status/west-status/queue8/february2.webp'
-import february3 from '../assets/images/build-status/west-status/queue8/february3.webp'
-import february4 from '../assets/images/build-status/west-status/queue8/february4.webp'
-import march1 from '../assets/images/build-status/west-status/queue8/march1.webp'
-import march2 from '../assets/images/build-status/west-status/queue8/march2.webp'
-import march3 from '../assets/images/build-status/west-status/queue8/march3.webp'
-
 // Queue 9
 import que9Img1 from '../assets/images/build-status/west-status/queue9/que9-1.webp'
 import que9Img2 from '../assets/images/build-status/west-status/queue9/que9-2.webp'
@@ -126,144 +102,20 @@ import beskidApril6 from '../assets/images/build-status/beskid-status/beskid-apr
 import beskidApril7 from '../assets/images/build-status/beskid-status/beskid-april7.webp'
 import beskidApril8 from '../assets/images/build-status/beskid-status/beskid-april8.webp'
 import beskidApril9 from '../assets/images/build-status/beskid-status/beskid-april9.webp'
+import beskidMay1 from '../assets/images/build-status/beskid-status/may1.webp'
+import beskidMay2 from '../assets/images/build-status/beskid-status/may2.webp'
+import beskidMay3 from '../assets/images/build-status/beskid-status/may3.webp'
+import beskidMay4 from '../assets/images/build-status/beskid-status/may4.webp'
+import beskidMay5 from '../assets/images/build-status/beskid-status/may5.webp'
+import beskidMay6 from '../assets/images/build-status/beskid-status/may6.webp'
+import beskidMay7 from '../assets/images/build-status/beskid-status/may7.webp'
+
+import comfortMay1 from '../assets/images/build-status/comfort-status/may1.webp'
+import comfortMay2 from '../assets/images/build-status/comfort-status/may2.webp'
+import comfortMay3 from '../assets/images/build-status/comfort-status/may3.webp'
+import comfortMay4 from '../assets/images/build-status/comfort-status/may4.webp'
 
   // cards data
-const album8 = [
-  {
-    img: march1,
-    month: 'Березень',
-    title: 'west town',
-    info: 'здійснюється благоустрій прибудинкової території'
-  },
-  {
-    img: march2,
-    month: 'Березень',
-    title: 'west town',
-    info: 'здійснюється благоустрій прибудинкової території'
-  },
-  {
-    img: march3,
-    month: 'Березень',
-    title: 'west town',
-    info: 'здійснюється благоустрій прибудинкової території'
-  },
-  {
-    img: february1,
-    month: 'Лютий',
-    title: 'west town',
-    info: 'Виконується благоустрій прибудинкової території. Здійснюється укладання бруківки.'
-  },
-  {
-    img: february2,
-    month: 'Лютий',
-    title: 'west town',
-    info: 'Виконується благоустрій прибудинкової території. Здійснюється укладання бруківки.'
-  },
-  {
-    img: february3,
-    month: 'Лютий',
-    title: 'west town',
-    info: 'Виконується благоустрій прибудинкової території. Здійснюється укладання бруківки.'
-  },
-  {
-    img: february4,
-    month: 'Лютий',
-    title: 'west town',
-    info: 'Завершено встановлення вхідних дверей покращеного типу.'
-  },
-  {
-    img: november5,
-    month: 'Січень',
-    title: 'west town',
-    info: ''
-  },
-  {
-    img: november6,
-    month: 'Січень',
-    title: 'west town',
-    info: ''
-  },
-  {
-    img: december2,
-    month: 'Грудень',
-    title: 'west town',
-    info: ''
-  },
-  {
-    img: december1,
-    month: 'Грудень',
-    title: 'west town',
-    info: ''
-  },
-  {
-    img: november1,
-    month: 'Листопад',
-    title: 'west town',
-    info: ''
-  },
-  {
-    img: november2,
-    month: 'Листопад',
-    title: 'west town',
-    info: ''
-  },
-  {
-    img: november3,
-    month: 'Листопад',
-    title: 'west town',
-    info: ''
-  },
-  {
-    img: november4,
-    month: 'Листопад',
-    title: 'west town',
-    info: ''
-  },
-  {
-    img: west11,
-    month: 'Жовтень',
-    title: 'west town',
-    info: ''
-  },
-  {
-    img: west10,
-    month: 'Жовтень',
-    title: 'west town',
-    info: ''
-  },
-  {
-    img: west5,
-    month: 'Жовтень',
-    title: 'west town',
-    info: '- Таунхауси 13-24 - повністю готові.'
-  },
-  {
-    img: west4,
-    month: 'Жовтень',
-    title: 'west town',
-    info: '- Таунхауси 13-24 - повністю готові.'
-  },
-  {
-    img: west3,
-    month: 'Жовтень',
-    title: 'west town',
-    info: '- Таунхауси 1-12 - триває монтаж деревʼяних балок дахового накриття з подальшим перекриттям металочерепицею.'
-  },
-  {
-    img: west2,
-    month: 'Жовтень',
-    title: 'west town',
-    info: `- у таунхаусах 1-6 завершуються мурування зовнішніх та внутрішніх стін;`,
-    subinfo: ' - у таунхаусах 7-12 - здійснюється перекриття даху.'
-  },
-  {
-    img: west1,
-    month: 'Жовтень',
-    title: 'west town',
-    info: '-у таунхаусах 13-24 (черга 8) - здійснюються фасадні роботи.'
-  },
-]
-
 const album9 = [
   {
     img: que9May1,
@@ -705,12 +557,10 @@ function BuildingStatus() {
         setActiveSlider(sliderNumber)
     }
 //====================================
-    const buttonClassActive = isActive ? "build-status__actions-button button-active" : "build-status__actions-button"
-    const buttonClass = isActive ? "build-status__actions-button" : "build-status__actions-button  button-active"
-
-    const westTypeActive = isActive ? 'build-status__slider slider-hidden' : 'build-status__slider'
-    const beskidTypeActive = isActive ? 'build-status__slider' : 'build-status__slider slider-hidden'
-
+    const [activeButton, setActiveButton] = useState(1);
+    const handleButtonClick = (buttonNumber) => {
+      setActiveButton(buttonNumber)
+    }
     return (
       <>
       <section className="build-status box" id='build-status'>
@@ -719,52 +569,46 @@ function BuildingStatus() {
                     <div className="build-status__item">
                         <h2 className="build-status__title main-title">Стани будівництва</h2>
                         <div className="build-status__actions">
-                            <motion.button whileHover={{scale: 1.05}} transition={{duration: 0.1}} type="button" className={buttonClassActive} onClick={handleClick} id='wes-town__button'>WEST TOWN</motion.button>
-                            <motion.button whileHover={{scale: 1.05}} transition={{duration: 0.1}} type="button" className={buttonClass} onClick={handleClick}>BESKID HOME RESORT</motion.button>
+                            <motion.button whileHover={{scale: 1.05}} transition={{duration: 0.1}} type="button" className={activeButton === 1 ? "build-status__actions-button button-active" : "build-status__actions-button"} onClick={() => handleButtonClick(1)} id='comf-town__button'>COMFORT TOWN</motion.button>
+                            <motion.button whileHover={{scale: 1.05}} transition={{duration: 0.1}} type="button" className={activeButton === 2 ? "build-status__actions-button button-active" : "build-status__actions-button"} onClick={() => handleButtonClick(2)} id='wes-town__button'>WEST TOWN</motion.button>
+                            <motion.button whileHover={{scale: 1.05}} transition={{duration: 0.1}} type="button" className={activeButton === 3 ? "build-status__actions-button button-active" : "build-status__actions-button"} onClick={() => handleButtonClick(3)}>BESKID HOME RESORT</motion.button>
                         </div>
                     </div>
                 </div>
 
-                <div className={beskidTypeActive}>
+                <div className={activeButton === 1 ? 'build-status__slider' : 'slider-hidden'} onClick={() => {setToggler(!toggler)}}>
+                    <ComfortStatusSlider/>
+                </div>
+
+                <div className={activeButton === 2 ? 'build-status__slider' : 'slider-hidden'}>
                     <div className='queue'>
                       <p className='queue-title'>Черга:</p>
-                      <motion.button whileHover={{scale: 1.15}} transition={{duration: 0.1}} type='button' className={activeSlider === 1 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(1)}>8</motion.button>
-                      <motion.button whileHover={{scale: 1.15}} transition={{duration: 0.1}} type='button' className={activeSlider === 2 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(2)}>9</motion.button>
-                      <motion.button whileHover={{scale: 1.15}} transition={{duration: 0.1}} type='button' className={activeSlider === 3 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(3)}>10</motion.button>
-                      <motion.button whileHover={{scale: 1.15}} transition={{duration: 0.1}} type='button' className={activeSlider === 4 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(4)}>11</motion.button>
+                      <motion.button whileHover={{scale: 1.15}} transition={{duration: 0.1}} type='button' className={activeSlider === 1 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(1)}>9</motion.button>
+                      <motion.button whileHover={{scale: 1.15}} transition={{duration: 0.1}} type='button' className={activeSlider === 2 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(2)}>10</motion.button>
+                      <motion.button whileHover={{scale: 1.15}} transition={{duration: 0.1}} type='button' className={activeSlider === 3 ? 'queue-button--active' : 'queue-button'} onClick={() => showSlider(3)}>11</motion.button>
                     </div>
-                    <div className={activeSlider === 1 ? '' : 'slider-hidden'} onClick={() => {setToggler(!toggler)}}>
-                        <WestStatusSlider photos={album8}/>
-                    </div>
-                    <div className={activeSlider === 2 ? '' : 'slider-hidden'} onClick={() => {setTogglerTwo(!togglerTwo)}}>
+                    <div className={activeSlider === 1 ? '' : 'slider-hidden'} onClick={() => {setTogglerTwo(!togglerTwo)}}>
                         <WestStatusSlider photos={album9}/>
                     </div>
-                    <div className={activeSlider === 3 ? '' : 'slider-hidden'} onClick={() => {setTogglerThree(!togglerThree)}}>
+                    <div className={activeSlider === 2 ? '' : 'slider-hidden'} onClick={() => {setTogglerThree(!togglerThree)}}>
                         <WestStatusSlider photos={album10}/>
                     </div>
-                    <div className={activeSlider === 4 ? '' : 'slider-hidden'} onClick={() => {setTogglerFour(!togglerFour)}}>
+                    <div className={activeSlider === 3 ? '' : 'slider-hidden'} onClick={() => {setTogglerFour(!togglerFour)}}>
                         <WestStatusSlider photos={album11}/>
                     </div>
                 </div>
 
-                <div className={westTypeActive} onClick={() => {setTogglerBeskid(!togglerBeskid)}}>
+                <div className={activeButton === 3 ? 'build-status__slider' : 'slider-hidden'} onClick={() => {setTogglerBeskid(!togglerBeskid)}}>
                     <BeskidStatusSlider/>
                 </div>
             </div>
         </section>
-        <FsLightbox 
-          toggler={toggler}
-          sources={[
-            march1,march2,march3,february1,february2,february3,february4,november5,november6,december2,december1,november1,november2,november3,november4,
-            west10,west11,west1,west2,west3,west4,west5,
-          ]}
-        />
 
         <FsLightbox 
           toggler={togglerTwo}
           sources={[
             que9May1,que9May2,que9May3,que9May4,que9May5,que9April1,que9April2,que9April3,que9April4,que9April5,que9April6,que9April7,que9March1,que9March2,que9March3,que9March4,que9March5,que9Feb1,que9Feb2,que9Nov1,que9Nov2,que9Nov3,que9Img11,que9Img12,que9Img13,que9Img1,que9Img2,que9Img3,que9Img4,que9Img5,que9Img6,que9Img7,que9Img8,que9Img9,que9Img10,
-            west7,west8,west9,west10,west11,west12,west13,
+            west7,west8,west9,west12,west13,
           ]}
         />
 
@@ -800,6 +644,13 @@ function BuildingStatus() {
         <FsLightbox 
           toggler={togglerBeskid}
           sources={[
+            beskidMay1,
+            beskidMay2,
+            beskidMay3,
+            beskidMay4,
+            beskidMay5,
+            beskidMay6,
+            beskidMay7,
             beskidApril1,
             beskidApril2,
             beskidApril3,
@@ -831,6 +682,15 @@ function BuildingStatus() {
             que11May4,
             que11April1,
             que11April2,
+          ]}
+        />
+        <FsLightbox 
+          toggler={toggler}
+          sources={[
+            comfortMay1,
+            comfortMay2,
+            comfortMay3,
+            comfortMay4,
           ]}
         />
         </>

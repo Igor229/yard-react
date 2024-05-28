@@ -43,32 +43,32 @@ function AdventageBox (props) {
     const {text1, text2, text3, icon1, icon2, icon3} = props
     return (
             <div className='advent-box'>
-                <motion.div className='advent-box__item'
+                <div className='advent-box__item'
                     initial={{x: -350}}
                     whileInView={{x: 0}}
                     transition={{duration: 0.45}}
                 >
                     <img src={icon1} alt='advent-icon' className='advent-box__item-icon' />
                     <p className='advent-box__item-text'>{text1}</p>
-                </motion.div>
+                </div>
 
-                <motion.div className='advent-box__item'
+                <div className='advent-box__item'
                     initial={{x: -350}}
                     whileInView={{x: 0}}
                     transition={{duration: 0.45}}
                 >
                     <img src={icon2} alt='advent-icon' className='advent-box__item-icon' />
                     <p className='advent-box__item-text'>{text2}</p>
-                </motion.div>
+                </div>
 
-                <motion.div className='advent-box__item'
+                <div className='advent-box__item'
                     initial={{x: -350}}
                     whileInView={{x: 0}}
                     transition={{duration: 0.45}}
                 >
                     <img src={icon3} alt='advent-icon' className={icon3 ? 'advent-box__item-icon' : 'hidden'} />
                     <p className={text3 ? 'advent-box__item-text': 'hidden'}>{text3}</p>
-                </motion.div>
+                </div>
             </div>
     )
 }

@@ -23,6 +23,14 @@ function Footer () {
             element.scrollIntoView({behavior: 'smooth'})
         }
     }
+//====================================
+const handleClickFeedbacks = () => {
+    const element = document.getElementById('feedbacks')
+
+    if (element) {
+        element.scrollIntoView({behavior: 'smooth'})
+    }
+}
 
     return (
         <footer className="footer">
@@ -34,12 +42,14 @@ function Footer () {
                     </div>
                     <div className="content__item">
                         <h4 className="content__item-title">Наші комплекси</h4>
+                        <a href='#comfort-town' className="content__item-text upper" onClick={handleClickScroll}>COMFORT TOWN<span className="content__item-text-span">Новинка</span></a>
                         <a href='#beskid-home' className="content__item-text upper" onClick={handleClickScroll}>BESKID HOME RESORT</a>
                         <a href='#west-town' className="content__item-text upper" onClick={handleClickScroll}>WEST TOWN</a>
                     </div>
 
                     <div className="content__item">
                         <h4 className="content__item-title">Yard Development</h4>
+                        <a className="content__item-text upper" onClick={handleClickFeedbacks}>Відгуки</a>
                         <a className="content__item-text upper" onClick={handleClickNews}>Новини</a>
                         <a className="content__item-text upper" onClick={handleClickBuildStatus}>Стан будівництва</a>
                     </div>

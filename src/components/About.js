@@ -1,17 +1,21 @@
+import React, { useState } from 'react'
 import './About.scss'
-import MainVideoBGQuality from '../assets/videos/main-video.mp4'
+import Modal from './Modal'
 import { motion } from 'framer-motion'
 
 function About () {
+    const [modalActive, setModalActive] = useState(false)
+
     return (
         <motion.section className="about" id="main-container"
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
             transition={{duration: 0.7}}
         >
-            <div className='video-container'>
-                <video src={MainVideoBGQuality} typeof='video/mp4' className='main-video' autoPlay playsInline loop muted/>
-                <div className='text-container'>
+            <Modal active={modalActive} setActive={setModalActive}/>
+
+            <div className='about-container'>
+                <div className='about-container__info'>
                     <div className='wrapper'>
                         <motion.h1 className='text-container__title'
                             initial={{y: -70, opacity: 0}}
@@ -25,8 +29,7 @@ function About () {
                             whileInView={{y: 0, opacity: 1}}
                             transition={{duration: 0.5}}
                         >
-                            Будуємо котеджне містечко таунхаусів у <br/> Крихівцях - WEST TOWN 
-                            та комплекс BESKID <br/> HOME RESORT у Буковелі.
+                            Дбаємо про ваш комфорт та добробут
                         </motion.p>
 
                         <motion.div className='text-container__actions'
@@ -34,27 +37,20 @@ function About () {
                             whileInView={{y: 0, opacity: 1}}
                             transition={{duration: 0.5}}
                         >
-                            <a href='#beskid-home'>
-                                <motion.button className='about-button main-button'
-                                    whileHover={{scale: 1.1}}
-                                    transition={{duration: 0.01}}
-                                >
-                                    Beskid Home Resort
-                                </motion.button>
-                            </a>
-                            <a href='#west-town'>
-                                <motion.button className='about-button main-button active-button'
-                                    whileHover={{scale: 1.1}}
-                                    transition={{duration: 0.01}}
-                                >
-                                    West Town
-                                </motion.button>
-                            </a>
+                            <motion.button className="contacts__button main-button about-button" id='contacts__button' onClick={() => setModalActive(true)}
+                                whileHover={{scale: 1.05}}
+                                transition={{duration: 0.02}}
+                            >
+                                Замовити дзвінок
+                            </motion.button>
+                            
                         </motion.div>
                     </div>
+                    
                 </div>
             </div>
-    </motion.section>
+        <div className='about-shadow'></div>
+        </motion.section>
     )
 }
 

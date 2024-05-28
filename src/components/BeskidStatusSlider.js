@@ -29,9 +29,16 @@ import beskidApril6 from '../assets/images/build-status/beskid-status/beskid-apr
 import beskidApril7 from '../assets/images/build-status/beskid-status/beskid-april7.webp'
 import beskidApril8 from '../assets/images/build-status/beskid-status/beskid-april8.webp'
 import beskidApril9 from '../assets/images/build-status/beskid-status/beskid-april9.webp'
+import beskidMay1 from '../assets/images/build-status/beskid-status/may1.webp'
+import beskidMay2 from '../assets/images/build-status/beskid-status/may2.webp'
+import beskidMay3 from '../assets/images/build-status/beskid-status/may3.webp'
+import beskidMay4 from '../assets/images/build-status/beskid-status/may4.webp'
+import beskidMay5 from '../assets/images/build-status/beskid-status/may5.webp'
+import beskidMay6 from '../assets/images/build-status/beskid-status/may6.webp'
+import beskidMay7 from '../assets/images/build-status/beskid-status/may7.webp'
 
 function SliderCard(props) {
-  const {month, title, info, img, subinfo} = props
+  const {month, title, info,info1,info2,info3,info4,info5,info6,info7,info8, img, subinfo} = props
     return (
       <div>
         <img className='buildStatusImg' src={img} alt="west-town"/>
@@ -39,6 +46,14 @@ function SliderCard(props) {
           <p className='status-info__date'>{month}</p>
           <h3 className='status-info__title'>{title}</h3>
           <p className='status-info__text'>{info}</p>
+          <p className='status-info__text'>{info1}</p>
+          <p className='status-info__text'>{info2}</p>
+          <p className='status-info__text'>{info3}</p>
+          <p className='status-info__text'>{info4}</p>
+          <p className='status-info__text'>{info5}</p>
+          <p className='status-info__text'>{info6}</p>
+          <p className='status-info__text'>{info7}</p>
+          <p className='status-info__text'>{info8}</p>
           <p className='status-info__text'>{subinfo}</p>
         </div>
       </div>
@@ -48,6 +63,56 @@ function SliderCard(props) {
 
 export default function BeskidStatusSlider() {
   const cardData = [
+    {
+      img: beskidMay1,
+      month: 'Травень',
+      title: 'BESKID HOME RESORT',
+      info: '- здійнюється підведення газових труб до котеджів',
+      info1: '- зроблено сантехніку, опалення, електророзводку, відеонагляд, інтернет, пожежну та охоронну сигналізацію у всіх котеджах',
+      info2: '- додатково утеплюються дахи та здійснюється шумоізоляція',
+      info3: '- здійснено гідроізоляцію цокольних приміщень',
+      info4: '- здійснюється водовідведення та дренажні роботи',
+      info5: '- монтаж водомірного вузла з системою фільтрації',
+      info6: '- фасад котеджів утеплено пінопластом 10 см',
+      info7: "- монтаж дерев'яного каркасу фасаду",
+      info8: '- здійснюються роботи з прокладання дороги до комплексу',
+    },
+    {
+      img: beskidMay2,
+      month: 'Травень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidMay3,
+      month: 'Травень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidMay4,
+      month: 'Травень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidMay5,
+      month: 'Травень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidMay6,
+      month: 'Травень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidMay7,
+      month: 'Травень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
     {
       img: beskidApril1,
       month: 'Квітень',

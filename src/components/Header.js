@@ -6,6 +6,7 @@ import menuClose from '../assets/icons/menu-close.svg'
 import icons from '../assets/icons/sprite.svg'
 import Modal from './Modal'
 import tiktokIcon from '../assets/icons/tiktok.svg'
+import phoneIcon from '../assets/icons/phone.png'
 import { motion } from 'framer-motion';
 import './Header.scss'
 
@@ -64,39 +65,6 @@ function Header(props) {
         window.scrollTo(0, 0)
     }
 
-    // Scrolling from Burger
-    const handleClickNewsBurg = () => {
-        const element = document.getElementById('news')
-
-        if (element) {
-            showBurger()
-            element.scrollIntoView({behavior: 'smooth'})
-        }
-    }
-
-    const handleClickBuildStatusBurg = () => {
-        const element = document.getElementById('build-status')
-
-        if (element) {
-            showBurger()
-            element.scrollIntoView({behavior: 'smooth'})
-        }
-    }
-    // Native Scrolling
-    const handleClickNews = () => {
-        const element = document.getElementById('news')
-        if (element) {
-            element.scrollIntoView({behavior: 'smooth'})
-        }
-    }
-    const handleClickBuildStatus = () => {
-        const element = document.getElementById('build-status')
-
-        if (element) {
-            element.scrollIntoView({behavior: 'smooth'})
-        }
-    }
-
     return (
         <>
             <header className={color ? 'header header-bg' : 'header'} style={{top: color ? '0px' : top}}>
@@ -125,11 +93,9 @@ function Header(props) {
                             <div className="burger__menu-contacts">
                                 <div className="contacts__container">
                                     <h4 className="contacts__container-title">Yard Development</h4>
-                                    <a href="#" className="contacts__container-text burger-link" onClick={showBurger}>Головна</a>
+                                    <a href="#comfort-town" className="contacts__container-text burger-link" onClick={showBurger}>Comfort Town<span className="contacts__container-text-span">Новинка</span></a>
                                     <a href="#beskid-home" className="contacts__container-text burger-link" onClick={showBurger}>BESKID HOME RESORT</a>
                                     <a href="#west-town" className="contacts__container-text burger-link" onClick={showBurger}>WEST TOWN</a>
-                                    <a className="contacts__container-text burger-link" onClick={handleClickBuildStatusBurg}>Стан будівництва</a>
-                                    <a className="contacts__container-text burger-link" onClick={handleClickNewsBurg}>Новини</a>
                                 </div>
                                 <div className="contacts__container">
                                     <h4 className="contacts__container-title">Контактна інформація</h4>
@@ -165,16 +131,14 @@ function Header(props) {
 
                         <a href="#"><img src={mainLogoWhite} alt="main-logo" className="header__items-logo"/></a>
                         <ul className="navigations">
-                            <li><a href="#" className="navigations__action" onClick={handleClickScroll}>Головна</a></li>
+                            <li className='comfortTown_action'><a href="#comfort-town" className="navigations__action" onClick={handleClickScroll}>Comfort Town</a><span className="navigations__action-span">Новинка</span></li>
                             <li><a href="#west-town" className="navigations__action" onClick={handleClickScroll}>West town</a></li>
                             <li><a href="#beskid-home" className="navigations__action" onClick={handleClickScroll}>Beskid home resort</a></li>
-                            <li><a className="navigations__action" onClick={handleClickNews}>Новини</a></li>
-                            <li><a className="navigations__action" onClick={handleClickBuildStatus}>Стан будівництва</a></li>
                         </ul>
                     </div>
 
                     <div className="header__items-contacts">
-                        <p className="contacts__number">+380 (98) 22 55 800</p>
+                        <p className="contacts__number"><img src={phoneIcon} className='contacts__phone-icon'/>+380 (98) 22 55 800</p>
                         <motion.button className="contacts__button main-button" id='contacts__button' onClick={() => setModalActive(true)}
                             whileHover={{scale: 1.05}}
                             transition={{duration: 0.02}}
