@@ -6,7 +6,7 @@ $title-color: #7F9E56;
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-image: url('../assets/images/main_background.webp');
+    background-image: url('../assets/images/main-banner.webp');
     background-position: center;
     &-container {
         display: flex;
@@ -22,7 +22,7 @@ $title-color: #7F9E56;
         position: absolute;
         width: 100%;
         height: 100%;
-        background: rgba(#181e1a, 0.7);
+        background: rgba(#181e1a, 0.6);
         top: 0;
         left: 0;
     }

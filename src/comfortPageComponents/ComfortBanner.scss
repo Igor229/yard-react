@@ -99,3 +99,8 @@ $title-color: #7F9E56;
         
     }
 }
+@media screen and (max-height: 600px) {
+    .about-button-comfort {
+        margin-bottom: 25px !important;
+    }
+}

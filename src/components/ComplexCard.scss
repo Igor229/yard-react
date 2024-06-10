@@ -1,5 +1,5 @@
 .complex {
-  padding: 60px 0;
+  padding: 36px 0;
   width: 622px;
   height: 622px;
   background-size: cover;
@@ -11,7 +11,7 @@
       flex-direction: column;
       justify-content: flex-end;
       height: 100%;
-      padding: 0 36px 0 36px;
+      padding: 0 36px;
       z-index: 1;
       
       &__text {
@@ -64,9 +64,10 @@
   .complex {
     height: 418px;
     width: 100%;
+    padding: 20px 0;
 
     &-body {
-      padding: 0 20px 0 20px;
+      padding: 0 20px;
       &__header {
         font-size: 23px;
         line-height: 28px;
@@ -75,17 +76,11 @@
         font-size: 20px;
         line-height: 24px;
         margin-right: 20px;
-        // width: 75%;
       }
       &__type {
         font-size: 14px;
         line-height: 20px;
       }
     }
-  }
-}
-@media screen and (max-width: 400px) {
-  .complex-body__location {
-    // width: 80%;
   }
 }

@@ -147,7 +147,14 @@
     }
   }
 }
-
+@media screen and (min-width: 1440px) {
+  .comfort-action {
+    margin: 60px 0 15px 0 !important;
+  }
+  .west-action {
+    padding-left: 80px;
+  }
+}
 @media screen and (max-width: 1200px) {
   .insaltment-box {
     padding: 110px 36px;
