@@ -14,6 +14,8 @@ import icons from '../assets/icons/sprite.svg'
 import zapIcon from '../assets/comfortPage/icons/zap.png'
 import yellowZapIcon from '../assets/comfortPage/icons/yellow-zap.png'
 import phoneIcon from '../assets/beskidPage/icons/contacts-icons/phone.png'
+import chevronRight from '../assets/icons/chevron-right.png'
+import rectangleIcon from '../assets/icons/rectangle.svg'
 
 import ComfortYardImage from '../assets/comfortPage/images/comfort-town-yard.webp'
 import PrivateGroundImage from '../assets/comfortPage/images/ground-place.webp'
@@ -21,9 +23,20 @@ import ContactInfoImage from '../assets/comfortPage/images/contact-info.webp'
 
 function ComfortPage () {
   const [modalActive, setModalActive] = useState(false)
+
+  const handleClickProposal = () => {
+    const element = document.getElementById('propose')
+    if (element) {
+      element.scrollIntoView({behavior: 'smooth'})
+    }
+  }
   return (
     <>
       <Modal active={modalActive} setActive={setModalActive}/>
+      <div className='special-proposal'>
+          <p className='special-proposal__text'>Змінено умови розтермінування для COMFORT TOWN. </p>
+          <a className='special-proposal__action' onClick={handleClickProposal} style={{fontWeight: '600', cursor: 'pointer', color: '#000'}}>Умови акції<img src={chevronRight} style={{cursor: 'pointer'}}/></a>
+      </div>
       <Header/>
       <ComfortBanner/>
 
@@ -55,6 +68,22 @@ function ComfortPage () {
           <p className='block-info__text'>Це зразок сучасного житла в поєднанні з високим рівнем комфорту та приватності, це уособлення справжніх сімейних цінностей та затишку - адже комфортно там, де вдома!</p>
         </div>
         <FullPageImage image={ComfortYardImage}/>
+
+        <div  id='propose'></div>
+
+         {/* ======= propose block ======= */}
+        <div className='propose wrapper'>
+          <div className='propose-block'>
+            <h2 className='propose-title'>Умови розтермінування</h2>
+            <p className='propose-block__text'>Розтермінування доступне до серпня 2025 року. Ми фіксуємо ціну та не нараховуємо відсотки.</p>
+            <button onClick={() => setModalActive(true)} className='main-button propose-button'>Дізнатись вартість</button>
+          </div>
+          <div className='propose-block'>
+            <div className='propose-info'><img src={rectangleIcon}/><h2 style={{fontSize: '40px', fontWeight: '700'}}>40%</h2><p>перший платіж</p></div>
+            <div className='propose-info'><img src={rectangleIcon}/><h2 style={{fontSize: '40px', fontWeight: '700'}}>60%</h2><p>суми після отримання документів права власності</p></div>
+            <button onClick={() => setModalActive(true)} className='main-button propose-button-adaptive'>Дізнатись вартість</button>
+          </div>
+        </div>
 
         {/* ======== more about project block ======== */}
         <div className="wrapper title-container about-comfort-title" style={{padding: '112px 0 64px 0'}}>

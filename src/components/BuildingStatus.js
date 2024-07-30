@@ -51,6 +51,11 @@ import que9May5 from '../assets/images/build-status/west-status/queue9/may5.webp
 import que9June1 from '../assets/images/build-status/west-status/queue9/jun1.webp'
 import que9June2 from '../assets/images/build-status/west-status/queue9/jun2.webp'
 import que9June3 from '../assets/images/build-status/west-status/queue9/jun3.webp'
+import que9July1 from '../assets/images/build-status/west-status/queue9/jul1.webp'
+import que9July2 from '../assets/images/build-status/west-status/queue9/jul2.webp'
+import que9July3 from '../assets/images/build-status/west-status/queue9/jul3.webp'
+import que9July4 from '../assets/images/build-status/west-status/queue9/jul4.webp'
+import que9July5 from '../assets/images/build-status/west-status/queue9/jul5.webp'
 
 // Queue 10
 import que10Img1 from '../assets/images/build-status/west-status/queue10/que10-1.webp'
@@ -80,6 +85,10 @@ import que10June1 from '../assets/images/build-status/west-status/queue10/jun1.w
 import que10June2 from '../assets/images/build-status/west-status/queue10/jun2.webp'
 import que10June3 from '../assets/images/build-status/west-status/queue10/jun3.webp'
 import que10June4 from '../assets/images/build-status/west-status/queue10/jun4.webp'
+import que10July1 from '../assets/images/build-status/west-status/queue10/jul1.webp'
+import que10July2 from '../assets/images/build-status/west-status/queue10/jul2.webp'
+import que10July3 from '../assets/images/build-status/west-status/queue10/jul3.webp'
+import que10July4 from '../assets/images/build-status/west-status/queue10/jul4.webp'
 
 // queue11
 import que11April1 from '../assets/images/build-status/west-status/queue11/april1.webp'
@@ -91,6 +100,15 @@ import que11May4 from '../assets/images/build-status/west-status/queue11/may4.we
 import que11June1 from '../assets/images/build-status/west-status/queue11/jun1.webp'
 import que11June2 from '../assets/images/build-status/west-status/queue11/jun2.webp'
 import que11June3 from '../assets/images/build-status/west-status/queue11/jun3.webp'
+import que11July1 from '../assets/images/build-status/west-status/queue11/jul1.webp'
+import que11July2 from '../assets/images/build-status/west-status/queue11/jul2.webp'
+import que11July3 from '../assets/images/build-status/west-status/queue11/jul3.webp'
+import que11July4 from '../assets/images/build-status/west-status/queue11/jul4.webp'
+import que11July5 from '../assets/images/build-status/west-status/queue11/jul5.webp'
+import que11July6 from '../assets/images/build-status/west-status/queue11/jul6.webp'
+import que11July7 from '../assets/images/build-status/west-status/queue11/jul7.webp'
+import que11July8 from '../assets/images/build-status/west-status/queue11/jul8.webp'
+import que11July9 from '../assets/images/build-status/west-status/queue11/jul9.webp'
 
 // Beskid
 import beskid1 from '../assets/images/build-status/beskid-status/status-beskid1.webp'
@@ -127,10 +145,44 @@ import comfortMay4 from '../assets/images/build-status/comfort-status/may4.webp'
 import comfortJune1 from '../assets/images/build-status/comfort-status/jun1.webp'
 import comfortJune2 from '../assets/images/build-status/comfort-status/jun2.webp'
 import comfortJune3 from '../assets/images/build-status/comfort-status/jun3.webp'
+import comfortJuly1 from '../assets/images/build-status/comfort-status/jul1.webp'
+import comfortJuly2 from '../assets/images/build-status/comfort-status/jul2.webp'
+import comfortJuly3 from '../assets/images/build-status/comfort-status/jul3.webp'
+import comfortJuly4 from '../assets/images/build-status/comfort-status/jul4.webp'
 
 
   // cards data
 const album9 = [
+  {
+    img: que9July1,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que9July2,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que9July3,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que9July4,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que9July5,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
   {
     img: que9June1,
     month: 'Червень',
@@ -393,6 +445,30 @@ const album9 = [
 
 const album10 = [
   {
+    img: que10July1,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que10July2,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que10July3,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que10July4,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
     img: que10June1,
     month: 'Червень',
     title: 'west town',
@@ -558,6 +634,60 @@ const album10 = [
 
 const album11 = [
   {
+    img: que11July1,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11July2,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11July3,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11July4,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11July5,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11July6,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11July7,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11July8,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11July9,
+    month: 'Липень',
+    title: 'west town',
+    info: ''
+  },
+  {
     img: que11June1,
     month: 'Червень',
     title: 'west town',
@@ -681,7 +811,7 @@ function BuildingStatus() {
         <FsLightbox 
           toggler={togglerTwo}
           sources={[
-            que9June1,que9June2,que9June3,que9May1,que9May2,que9May3,que9May4,que9May5,que9April1,que9April2,que9April3,que9April4,que9April5,que9April6,que9April7,que9March1,que9March2,que9March3,que9March4,que9March5,que9Feb1,que9Feb2,que9Nov1,que9Nov2,que9Nov3,que9Img11,que9Img12,que9Img13,que9Img1,que9Img2,que9Img3,que9Img4,que9Img5,que9Img6,que9Img7,que9Img8,que9Img9,que9Img10,
+            que9July1,que9July2,que9July3,que9July4,que9July5,que9June1,que9June2,que9June3,que9May1,que9May2,que9May3,que9May4,que9May5,que9April1,que9April2,que9April3,que9April4,que9April5,que9April6,que9April7,que9March1,que9March2,que9March3,que9March4,que9March5,que9Feb1,que9Feb2,que9Nov1,que9Nov2,que9Nov3,que9Img11,que9Img12,que9Img13,que9Img1,que9Img2,que9Img3,que9Img4,que9Img5,que9Img6,que9Img7,que9Img8,que9Img9,que9Img10,
             west7,west8,west9,west12,west13,
           ]}
         />
@@ -689,6 +819,10 @@ function BuildingStatus() {
         <FsLightbox 
           toggler={togglerThree}
           sources={[
+            que10July1,
+            que10July2,
+            que10July3,
+            que10July4,
             que10June1,
             que10June2,
             que10June3,
@@ -754,6 +888,15 @@ function BuildingStatus() {
         <FsLightbox 
           toggler={togglerFour}
           sources={[
+            que11July1,
+            que11July2,
+            que11July3,
+            que11July4,
+            que11July5,
+            que11July6,
+            que11July7,
+            que11July8,
+            que11July9,
             que11June1,
             que11June2,
             que11June3,
@@ -768,6 +911,10 @@ function BuildingStatus() {
         <FsLightbox 
           toggler={toggler}
           sources={[
+            comfortJuly1,
+            comfortJuly2,
+            comfortJuly3,
+            comfortJuly4,
             comfortJune1,
             comfortJune2,
             comfortJune3,

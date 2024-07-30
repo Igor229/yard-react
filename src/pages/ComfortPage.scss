@@ -20,6 +20,31 @@
   }
 }
 
+.special-proposal {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFEC8B;
+  width: 100%;
+  padding: 8px 0;
+  z-index: 5;
+
+  &__text {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      color: #181E1A;
+  }
+  &__action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 12px;
+  }
+}
+
+
 .private-ground {
   display: flex;
   flex-direction: column;
@@ -56,6 +81,42 @@
     text-align: center;
   }
 
+}
+
+.propose {
+  display: flex;
+  justify-content: space-around;
+  background-color: #181E1A;
+  border-radius: 20px;
+  padding: 40px;
+  margin-top: 112px !important;
+
+  &-block {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    &__text {
+      max-width: 390px;
+    }
+  }
+  &-title{
+    font-size: 34px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 600;
+  }
+  &-button {
+    width: 193px !important;
+    &-adaptive {
+      display: none;
+    }
+  }
+  &-info {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
 }
 
 .contact-block {
@@ -160,6 +221,24 @@
     padding: 110px 36px;
   }
 }
+@media screen and (max-width: 1024px) {
+  .propose {
+    flex-direction: column;
+    gap: 24px;
+
+    &-button {
+      display: none;
+      &-adaptive {
+        display: block;
+        width: 193px !important;
+      }
+    }
+
+    .propose-block__text {
+      max-width: max-content;
+    }
+  }
+}
 @media screen and (max-width: 920px) {
   .insaltment {
     flex-direction: column;
@@ -252,6 +331,22 @@
     gap: 20px;
     &__text {
       width: 100%;
+    }
+  }
+
+  .special-proposal {
+    font-size: 14px;
+    flex-direction: column;
+  }
+
+  .propose {
+    
+    &-title {
+      font-size: 27px;
+    }
+    &-block {
+      font-size: 14px !important;
+      gap: 12px;
     }
   }
 }
