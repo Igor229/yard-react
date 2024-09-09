@@ -137,6 +137,11 @@ import beskidMay4 from '../assets/images/build-status/beskid-status/may4.webp'
 import beskidMay5 from '../assets/images/build-status/beskid-status/may5.webp'
 import beskidMay6 from '../assets/images/build-status/beskid-status/may6.webp'
 import beskidMay7 from '../assets/images/build-status/beskid-status/may7.webp'
+import beskidSeptember1 from '../assets/images/build-status/beskid-status/september1.webp'
+import beskidSeptember2 from '../assets/images/build-status/beskid-status/september2.webp'
+import beskidSeptember3 from '../assets/images/build-status/beskid-status/september3.webp'
+import beskidSeptember4 from '../assets/images/build-status/beskid-status/september4.webp'
+import beskidSeptember5 from '../assets/images/build-status/beskid-status/september5.webp'
 
 import comfortMay1 from '../assets/images/build-status/comfort-status/may1.webp'
 import comfortMay2 from '../assets/images/build-status/comfort-status/may2.webp'
@@ -856,6 +861,11 @@ function BuildingStatus() {
         <FsLightbox 
           toggler={togglerBeskid}
           sources={[
+            beskidSeptember1,
+            beskidSeptember2,
+            beskidSeptember3,
+            beskidSeptember4,
+            beskidSeptember5,
             beskidMay1,
             beskidMay2,
             beskidMay3,

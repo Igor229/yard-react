@@ -6,6 +6,8 @@ import HouseType from '../westPageComponents/HouseType';
 import WestForm from '../westPageComponents/WestForm';
 import WestGallery from '../westPageComponents/WestGallery';
 import Partners from '../westPageComponents/Partners';
+import BackgroundYard from '../westPageComponents/BackgroundYard';
+import WPlanType from '../westPageComponents/WPlanType';
 
 import './WestPage.scss'
 import icons from '../assets/icons/sprite.svg'
@@ -32,6 +34,7 @@ import PlanTypeImgTwo from '../assets/westPage/images/TypeTwo.webp'
 // proposal imports =====================================
 import Header from '../components/Header';
 import '../westPageComponents/Proposal.scss'
+
 // =======================================================
 function WestPage () {
     const [modalActive, setModalActive] = useState(false)
@@ -195,13 +198,14 @@ function WestPage () {
 
           {/* Planning Types Section */}
           {/* planning types section */}
-        <motion.div className='plannings-type wrapper'
+        <motion.div className='wrapper'
           initial={{y: 150, opacity: 0}}
           whileInView={{y: 0, opacity: 1}}
           transition={{duration: 0.6}}
         >
-          <WestPlanningTypes type='Тип 1' area='120 м²' floorOne={PlanTypeImgOne}/>
-          <WestPlanningTypes type='Тип 2' area='135 м²' floorOne={PlanTypeImgTwo}/>
+          <WPlanType/>
+          {/* <WestPlanningTypes type='Тип 1' area='120 м²' floorOne={PlanTypeImgOne}/>
+          <WestPlanningTypes type='Тип 2' area='135 м²' floorOne={PlanTypeImgTwo}/> */}
         </motion.div>
 
           {/* =================Partners Section======================== */}
@@ -250,6 +254,17 @@ function WestPage () {
           <div className="wrapper box">
             <AdventageList />
           </div>
+
+          {/* Background Slider Block */}
+          <motion.div
+            className="wrapper west-info info-container"
+            initial={{ opacity: 0, y: 100, scale: 0.9 }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{ duration: 0.37 }}
+            style={{padding: 0}}
+          >
+            <BackgroundYard />
+          </motion.div>
 
           <motion.div
             className="wrapper title-container box"

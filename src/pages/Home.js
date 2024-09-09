@@ -6,9 +6,9 @@ import BuildingStatus from '../components/BuildingStatus';
 import Map from '../components/Map';
 import { motion } from 'framer-motion';
 import Header from '../components/Header';
-import beskidCardPhoto from '../assets/images/beskid-home/home-beskid.webp'
-import comfortCardPhoto from '../assets/images/beskid-home/home-comfort.webp'
-import westCardPhoto from '../assets/images/beskid-home/home-west.webp'
+import beskidCardPhoto from '../assets/images/home-beskid.webp'
+import comfortCardPhoto from '../assets/images/home-comfort.webp'
+import westCardPhoto from '../assets/images/home-west.webp'
 
 //====================================
 function Home () {
