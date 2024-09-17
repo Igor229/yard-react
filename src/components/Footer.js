@@ -62,7 +62,7 @@ const handleClickFeedbacks = () => {
                 </div>
 
                 <div className="footer__actions">
-                    <p className="footer__actions-item">© 2023 | Всі права захищено</p>
+                    <p className="footer__actions-item">© 2024 | Всі права захищено</p>
                     <div className="footer__actions-socials">
                         <a href="https://www.instagram.com/yard.development/" target="_blank">
                             <svg className="social-icon">
