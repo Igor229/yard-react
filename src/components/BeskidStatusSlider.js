@@ -270,7 +270,7 @@ export default function BeskidStatusSlider() {
       <Swiper
         slidesPerView={3}
         spaceBetween={30}
-        freeMode={true}
+        freeMode={false}
         pagination={false}
         autoHeight={true}
 

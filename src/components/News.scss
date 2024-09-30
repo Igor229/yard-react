@@ -1,5 +1,6 @@
 .news {
     margin-bottom: 110px;
+    margin-top: 110px;
     &__container {
         display: flex;
         flex-direction: row;
@@ -55,7 +56,8 @@
 
 @media screen and (max-width: 992px) {
     .news {
-
+        margin-bottom: 40px;
+        margin-top: 40px;
         &__container {
             flex-wrap: wrap;
         }

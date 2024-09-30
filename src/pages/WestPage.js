@@ -8,6 +8,8 @@ import WestGallery from '../westPageComponents/WestGallery';
 import Partners from '../westPageComponents/Partners';
 import BackgroundYard from '../westPageComponents/BackgroundYard';
 import WPlanType from '../westPageComponents/WPlanType';
+import WestStatus from '../westPageComponents/WestStatus';
+import PreviousStatus from '../westPageComponents/PreviousStatus';
 
 import './WestPage.scss'
 import icons from '../assets/icons/sprite.svg'
@@ -289,6 +291,10 @@ function WestPage () {
             </p>
             <WestForm />
           </motion.div>
+
+
+          <PreviousStatus/>
+          <WestStatus/>
 
           <WestGallery />
 

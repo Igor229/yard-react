@@ -64,7 +64,7 @@ export default function News() {
       <Swiper
         slidesPerView={3}
         spaceBetween={30}
-        freeMode={true}
+        freeMode={false}
         pagination={false}
         autoHeight = {true}
         autoplay = {true}

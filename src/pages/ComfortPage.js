@@ -8,6 +8,8 @@ import ComfortAdvantages from '../comfortPageComponents/ComfortAdvantages'
 import Modal from '../components/Modal'
 import MoreAbout from '../comfortPageComponents/MoreAbout'
 import ComfortPlanning from '../comfortPageComponents/ComfortPlanning'
+import ComfortStatus from '../comfortPageComponents/ComfortStatus'
+import FullPageSlider from '../comfortPageComponents/FullPageSlider'
 
 import { motion } from 'framer-motion';
 import icons from '../assets/icons/sprite.svg'
@@ -17,7 +19,6 @@ import phoneIcon from '../assets/beskidPage/icons/contacts-icons/phone.png'
 import chevronRight from '../assets/icons/chevron-right.png'
 import rectangleIcon from '../assets/icons/rectangle.svg'
 
-import ComfortYardImage from '../assets/comfortPage/images/comfort-town-yard.webp'
 import PrivateGroundImage from '../assets/comfortPage/images/ground-place.webp'
 import ContactInfoImage from '../assets/comfortPage/images/contact-info.webp'
 
@@ -67,7 +68,10 @@ function ComfortPage () {
           <h2 className='block-info__title'>Котеджне містечко таунхаусів <br/> COMFORT TOWN</h2>
           <p className='block-info__text'>Це зразок сучасного житла в поєднанні з високим рівнем комфорту та приватності, це уособлення справжніх сімейних цінностей та затишку - адже комфортно там, де вдома!</p>
         </div>
-        <FullPageImage image={ComfortYardImage}/>
+        
+        <div className='wrapper'>
+          <FullPageSlider/>
+        </div>
 
         <div  id='propose'></div>
 
@@ -75,13 +79,31 @@ function ComfortPage () {
         <div className='propose wrapper'>
           <div className='propose-block'>
             <h2 className='propose-title'>Умови розтермінування</h2>
-            <p className='propose-block__text'>Розтермінування доступне до серпня 2025 року. Ми фіксуємо ціну та не нараховуємо відсотки.</p>
-            <button onClick={() => setModalActive(true)} className='main-button propose-button'>Дізнатись вартість</button>
+            <p className='propose-block__text'>Наша компанія максимально лояльна до кожного клієнта, тож ми пропонуємо 2 варіанти вигідного розтермінування платежу на купівлю таунхауса у містечку COMFORT TOWN</p>
           </div>
-          <div className='propose-block'>
-            <div className='propose-info'><img src={rectangleIcon}/><h2 style={{fontSize: '40px', fontWeight: '700'}}>40%</h2><p>перший платіж</p></div>
-            <div className='propose-info'><img src={rectangleIcon}/><h2 style={{fontSize: '40px', fontWeight: '700'}}>60%</h2><p>суми після отримання документів права власності</p></div>
-            <button onClick={() => setModalActive(true)} className='main-button propose-button-adaptive'>Дізнатись вартість</button>
+
+          <div className='propose-boxes'>
+          <div className='propose-box'>
+              <h3 className='propose-box__title'>1-ий варіант</h3>
+              <div className='propose-box__info'>
+                <p className='propose-box__info-text'>Умови</p>
+                <p className='propose-box__info-subtext'><span className='propose-span'>30%</span> перший платіж від <span className='propose-price'>19 500$</span></p>
+                <p className='propose-box__info-subtext'><span className='propose-span'>2 р.</span> термін розтермінування</p>
+                <p className='propose-box__info-subtext'><span className='propose-span'>серпень 2025 р.</span> здача будинку в експлуатацію  </p>
+              </div>
+              <button onClick={() => setModalActive(true)} className='main-button propose-box__button'>Отримати повний розрахунок</button>
+            </div>
+
+            <div className='propose-box'>
+              <h3 className='propose-box__title'>2-ий варіант</h3>
+              <div className='propose-box__info'>
+                <p className='propose-box__info-text'>Умови</p>
+                <p className='propose-box__info-subtext'><span className='propose-span'>40%</span> перший платіж від <span className='propose-price'>26 000$</span></p>
+                <p className='propose-box__info-subtext'><span className='propose-span'>60%</span> сума платежу після отримання документів на право власності</p>
+                <p className='propose-box__info-subtext'><span className='propose-span'>серпень 2025 р.</span> здача будинку в експлуатацію </p>
+              </div>
+              <button onClick={() => setModalActive(true)} className='main-button propose-box__button'>Отримати повний розрахунок</button>
+            </div>
           </div>
         </div>
 
@@ -99,7 +121,11 @@ function ComfortPage () {
           <h2 className='private-ground__title'>Таунхауси з повністю приватною ділянкою</h2>
           <p className='private-ground__text'>Закритий передній та задній двори. Ділянки від 1,65 до 2,5 сотих.</p>
         </div>
-        <FullPageImage image={PrivateGroundImage}/>
+
+        {/* ======== full page image ============ */}
+        <div className='wrapper'>
+          <FullPageImage image={PrivateGroundImage}/>
+        </div>
 
         {/* ======== advantages block ======== */}
         <div className="wrapper title-container">
@@ -119,19 +145,7 @@ function ComfortPage () {
           <ComfortPlanning />
         </div>
 
-
-        {/* ======== insaltment block ======== */}
-
-        <div className='insaltment wrapper'>
-          <div className='insaltment-box'>
-            <div className='insaltment-box__info'>
-              <p className='insaltment-box__info-zap'><img src={yellowZapIcon} alt='zap-icon'/>Вигідні умови</p>
-              <h2 className='insaltment-box__info-title'>РОЗТЕРМІНУВАННЯ НА 24 МІСЯЦІ</h2>
-              <p className='insaltment-box__info-text'>Перший внесок від <span style={{fontSize: '26px', fontWeight: '500', lineHeight: '32px'}}>19 500$</span> - омріяний будинок з власною ділянкою придбати вигідно разом із будівельною компанією YARD DEVELOPMENT.</p>
-              <button className='main-button insaltment-box__info-button' onClick={() => setModalActive(true)}>Отримати розрахунок розтермінування</button>
-            </div>
-          </div>
-        </div>
+          <ComfortStatus/>
 
         {/* ======== contact block ======== */}
         <div className="wrapper title-container contact-comfort-title box" style={{padding: '112px 0 64px 0'}}>
@@ -147,7 +161,7 @@ function ComfortPage () {
             </div>
           </div>
         </div>
-        <div className='comfort-last-block' style={{marginBottom: '112px'}}>
+        <div className='comfort-last-block wrapper' style={{marginBottom: '112px'}}>
           <FullPageImage image={ContactInfoImage}/>
         </div>
       </main>
