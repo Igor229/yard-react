@@ -66,12 +66,22 @@ import que11Sept1 from '../assets/images/build-status/west-status/queue11/sept1.
 import que11Sept2 from '../assets/images/build-status/west-status/queue11/sept2.webp'
 import que11Sept3 from '../assets/images/build-status/west-status/queue11/sept3.webp'
 import que11Sept4 from '../assets/images/build-status/west-status/queue11/sept4.webp'
+import que11Oct1 from '../assets/images/build-status/west-status/queue11/oct1.webp'
+import que11Oct2 from '../assets/images/build-status/west-status/queue11/oct2.webp'
+import que11Oct3 from '../assets/images/build-status/west-status/queue11/oct3.webp'
+import que11Oct4 from '../assets/images/build-status/west-status/queue11/oct4.webp'
+import que11Oct5 from '../assets/images/build-status/west-status/queue11/oct5.webp'
+import que11Oct6 from '../assets/images/build-status/west-status/queue11/oct6.webp'
 
 // queue12
 import que12July1 from '../assets/images/build-status/west-status/queue12/sept1.webp'
 import que12July2 from '../assets/images/build-status/west-status/queue12/sept2.webp'
 import que12July3 from '../assets/images/build-status/west-status/queue12/sept3.webp'
 import que12July4 from '../assets/images/build-status/west-status/queue12/sept4.webp'
+import que12Oct1 from '../assets/images/build-status/west-status/queue12/oct1.webp'
+import que12Oct2 from '../assets/images/build-status/west-status/queue12/oct2.webp'
+import que12Oct3 from '../assets/images/build-status/west-status/queue12/oct3.webp'
+import que12Oct4 from '../assets/images/build-status/west-status/queue12/oct4.webp'
 
   // cards data
 
@@ -290,6 +300,42 @@ const album10 = [
 
 const album11 = [
   {
+    img: que11Oct1,
+    month: 'Жовтень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11Oct2,
+    month: 'Жовтень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11Oct3,
+    month: 'Жовтень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11Oct4,
+    month: 'Жовтень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11Oct5,
+    month: 'Жовтень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11Oct6,
+    month: 'Жовтень',
+    title: 'west town',
+    info: ''
+  },
+  {
     img: que11Sept1,
     month: 'Вересень',
     title: 'west town',
@@ -425,6 +471,30 @@ const album11 = [
 
 const album12 = [
   {
+    img: que12Oct1,
+    month: 'Жовтень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que12Oct2,
+    month: 'Жовтень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que12Oct3,
+    month: 'Жовтень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que12Oct4,
+    month: 'Жовтень',
+    title: 'west town',
+    info: ''
+  },
+  {
     img: que12July1,
     month: 'Вересень',
     title: 'west town',
@@ -534,6 +604,12 @@ function WestStatus() {
         <FsLightbox 
           toggler={togglerThree}
           sources={[
+            que11Oct1,
+            que11Oct2,
+            que11Oct3,
+            que11Oct4,
+            que11Oct5,
+            que11Oct6,
             que11Sept1,
             que11Sept2,
             que11Sept3,
@@ -562,6 +638,10 @@ function WestStatus() {
         <FsLightbox 
           toggler={togglerFour}
           sources={[
+            que12Oct1,
+            que12Oct2,
+            que12Oct3,
+            que12Oct4,
             que12July1,
             que12July2,
             que12July3,
