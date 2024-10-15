@@ -41,6 +41,14 @@ import beskidSeptember2 from '../assets/images/build-status/beskid-status/septem
 import beskidSeptember3 from '../assets/images/build-status/beskid-status/september3.webp'
 import beskidSeptember4 from '../assets/images/build-status/beskid-status/september4.webp'
 import beskidSeptember5 from '../assets/images/build-status/beskid-status/september5.webp'
+import beskidOct1 from '../assets/images/build-status/beskid-status/oct1.webp'
+import beskidOct2 from '../assets/images/build-status/beskid-status/oct2.webp'
+import beskidOct3 from '../assets/images/build-status/beskid-status/oct3.webp'
+import beskidOct4 from '../assets/images/build-status/beskid-status/oct4.webp'
+import beskidOct5 from '../assets/images/build-status/beskid-status/oct5.webp'
+import beskidOct6 from '../assets/images/build-status/beskid-status/oct6.webp'
+import beskidOct7 from '../assets/images/build-status/beskid-status/oct7.webp'
+import beskidOct8 from '../assets/images/build-status/beskid-status/oct8.webp'
 
 function SliderCard(props) {
   const {month, title, info,info1,info2,info3,info4,info5,info6,info7,info8, img, subinfo} = props
@@ -68,6 +76,54 @@ function SliderCard(props) {
 
 export default function BeskidStatusSlider() {
   const cardData = [
+    {
+      img: beskidOct1,
+      month: 'Жовтень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidOct2,
+      month: 'Жовтень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidOct3,
+      month: 'Жовтень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidOct4,
+      month: 'Жовтень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidOct5,
+      month: 'Жовтень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidOct6,
+      month: 'Жовтень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidOct7,
+      month: 'Жовтень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
+    {
+      img: beskidOct8,
+      month: 'Жовтень',
+      title: 'BESKID HOME RESORT',
+      info: ''
+    },
     {
       img: beskidSeptember1,
       month: 'Вересень',
