@@ -47,6 +47,9 @@ import que10Oct2 from '../assets/images/build-status/west-status/queue10/oct2.we
 import que10Oct3 from '../assets/images/build-status/west-status/queue10/oct3.webp'
 import que10Oct4 from '../assets/images/build-status/west-status/queue10/oct4.webp'
 import que10Oct5 from '../assets/images/build-status/west-status/queue10/oct5.webp'
+import que10Nov5 from '../assets/images/build-status/west-status/queue10/november5.webp'
+import que10Nov6 from '../assets/images/build-status/west-status/queue10/november6.webp'
+import que10Nov7 from '../assets/images/build-status/west-status/queue10/november7.webp'
 
 // queue11
 import que11April1 from '../assets/images/build-status/west-status/queue11/april1.webp'
@@ -85,6 +88,9 @@ import que11Nov5 from '../assets/images/build-status/west-status/queue11/nov5.we
 import que11Nov6 from '../assets/images/build-status/west-status/queue11/nov6.webp'
 import que11Nov7 from '../assets/images/build-status/west-status/queue11/nov7.webp'
 import que11Nov8 from '../assets/images/build-status/west-status/queue11/nov8.webp'
+import que11Nov9 from '../assets/images/build-status/west-status/queue11/nov9.webp'
+import que11Nov10 from '../assets/images/build-status/west-status/queue11/nov10.webp'
+import que11Nov11 from '../assets/images/build-status/west-status/queue11/nov11.webp'
 
 // queue12
 import que12July1 from '../assets/images/build-status/west-status/queue12/sept1.webp'
@@ -103,10 +109,32 @@ import que12Nov5 from '../assets/images/build-status/west-status/queue12/nov5.we
 import que12Nov6 from '../assets/images/build-status/west-status/queue12/nov6.webp'
 import que12Nov7 from '../assets/images/build-status/west-status/queue12/nov7.webp'
 import que12Nov8 from '../assets/images/build-status/west-status/queue12/nov8.webp'
+import que12Nov9 from '../assets/images/build-status/west-status/queue12/nov9.webp'
+import que12Nov10 from '../assets/images/build-status/west-status/queue12/nov10.webp'
+import que12Nov11 from '../assets/images/build-status/west-status/queue12/nov11.webp'
+import que12Nov12 from '../assets/images/build-status/west-status/queue12/nov12.webp'
 
   // cards data
 
 const album10 = [
+  {
+    img: que10Nov5,
+    month: 'Листопад',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que10Nov6,
+    month: 'Листопад',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que10Nov7,
+    month: 'Листопад',
+    title: 'west town',
+    info: ''
+  },
   {
     img: que10Oct1,
     month: 'Листопад',
@@ -351,6 +379,24 @@ const album10 = [
 
 const album11 = [
   {
+    img: que11Nov9,
+    month: 'Листопад',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11Nov10,
+    month: 'Листопад',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11Nov11,
+    month: 'Листопад',
+    title: 'west town',
+    info: ''
+  },
+  {
     img: que11Nov1,
     month: 'Листопад',
     title: 'west town',
@@ -570,6 +616,30 @@ const album11 = [
 
 const album12 = [
   {
+    img: que12Nov9,
+    month: 'Листопад',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que12Nov10,
+    month: 'Листопад',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que12Nov11,
+    month: 'Листопад',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que12Nov12,
+    month: 'Листопад',
+    title: 'west town',
+    info: ''
+  },
+  {
     img: que12Nov1,
     month: 'Листопад',
     title: 'west town',
@@ -710,6 +780,9 @@ function WestStatus() {
         <FsLightbox 
           toggler={togglerTwo}
           sources={[
+            que10Nov5,
+            que10Nov6,
+            que10Nov7,
             que10Oct1,
             que10Oct2,
             que10Oct3,
@@ -756,6 +829,9 @@ function WestStatus() {
         <FsLightbox 
           toggler={togglerThree}
           sources={[
+            que11Nov9,
+            que11Nov10,
+            que11Nov11,
             que11Nov1,
             que11Nov2,
             que11Nov3,
@@ -798,6 +874,10 @@ function WestStatus() {
         <FsLightbox 
           toggler={togglerFour}
           sources={[
+            que12Nov9,
+            que12Nov10,
+            que12Nov11,
+            que12Nov12,
             que12Nov1,
             que12Nov2,
             que12Nov3,
