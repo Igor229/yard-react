@@ -78,15 +78,15 @@ export default function SecondSlider() {
       </Swiper>
 
       <FsLightbox 
-              toggler={toggler}
-              sources={[
-                beskidSec1,
-                beskidSec2,
-                beskidSec3,
-                beskidSec4,
-                beskidSec5,
-              ]}
-            />
+        toggler={toggler}
+        sources={[
+          beskidSec1,
+          beskidSec2,
+          beskidSec3,
+          beskidSec4,
+          beskidSec5,
+        ]}
+      />
     </>
   );
 }

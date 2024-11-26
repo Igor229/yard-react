@@ -79,85 +79,85 @@ export default function BeskidStatusSlider() {
     {
       img: beskidOct1,
       month: 'Жовтень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidOct2,
       month: 'Жовтень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidOct3,
       month: 'Жовтень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidOct4,
       month: 'Жовтень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidOct5,
       month: 'Жовтень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidOct6,
       month: 'Жовтень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidOct7,
       month: 'Жовтень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidOct8,
       month: 'Жовтень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidSeptember1,
       month: 'Вересень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidSeptember2,
       month: 'Вересень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidSeptember3,
       month: 'Вересень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidSeptember4,
       month: 'Вересень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidSeptember5,
       month: 'Вересень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidMay1,
       month: 'Травень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: '- здійнюється підведення газових труб до котеджів',
       info1: '- зроблено сантехніку, опалення, електророзводку, відеонагляд, інтернет, пожежну та охоронну сигналізацію у всіх котеджах',
       info2: '- додатково утеплюються дахи та здійснюється шумоізоляція',
@@ -171,151 +171,151 @@ export default function BeskidStatusSlider() {
     {
       img: beskidMay2,
       month: 'Травень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidMay3,
       month: 'Травень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidMay4,
       month: 'Травень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidMay5,
       month: 'Травень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidMay6,
       month: 'Травень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidMay7,
       month: 'Травень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidApril1,
       month: 'Квітень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidApril2,
       month: 'Квітень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidApril3,
       month: 'Квітень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidApril4,
       month: 'Квітень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidApril5,
       month: 'Квітень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidApril6,
       month: 'Квітень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidApril7,
       month: 'Квітень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidApril8,
       month: 'Квітень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidApril9,
       month: 'Квітень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: ''
     },
     {
       img: beskidNovember1,
       month: 'Січень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: '- КОТЕДЖ №2 - (січень) - виконуються внутрішні ремонтні роботи.'
     },
     {
       img: beskidNovember2,
       month: 'Січень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: '- КОТЕДЖ №3 - (січень) - виконуються внутрішні ремонтні роботи.'
     },
     {
       img: beskidNovember3,
       month: 'Січень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: '- стан будівництва за січень котеджі №4-9.'
     },
     {
       img: beskidNovember4,
       month: 'Січень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: '- стан будівництва за січень котеджі №4-9.'
     },
     {
       img: beskidNovember5,
       month: 'Січень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: '- стан будівництва за січень котеджі №4-9.'
     },
     {
       img: beskidNovember6,
       month: 'Січень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: '- стан будівництва за січень котеджі №4-9.'
     },
     {
       img: beskid3,
       month: 'Серпень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: '- завершення фасадних робіт, монтаж перил та балконів у будинку №3.'
     },
     {
       img: beskid4,
       month: 'Серпень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: '-  встановлення підпірних колон під монолітну плиту - будинок №4-7.'
     },
     {
       img: beskid1,
       month: 'Липень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: '- здійснюються внутрішні ремонтні роботи у котеджі №2 (тип 1).'
     },
     {
       img: beskid2,
       month: 'Липень',
-      title: 'BESKID HOME RESORT',
+      title: 'FOMICH RESIDENCE GUESTHOUSES',
       info: '- здійснюються електромонтажні роботи у котеджі №3 (тип 1).'
     },
   ]
