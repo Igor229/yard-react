@@ -35,7 +35,7 @@ function Home () {
           </div>
           <h2 className='main-title bes-title'>Будуємо котеджі в самому серці Карпат для інвестиції <br/> або власного проживання</h2>
             <div className='complexes-down'>
-              <a href='#beskid-home' onClick={handleClickScroll}><ComplexCard header='FOMICH RESIDENCE GUESTHOUSES' location='с.Поляниця, вул.урочище Вишні' type='ГК Bukovel' image={guestHouseCardPhoto}/></a>
+              <a href='#fomich-guesthouses' onClick={handleClickScroll}><ComplexCard header='FOMICH RESIDENCE GUESTHOUSES' location='с.Поляниця, вул.урочище Вишні' type='ГК Bukovel' image={guestHouseCardPhoto}/></a>
             </div>
         </div>
       </motion.section>
