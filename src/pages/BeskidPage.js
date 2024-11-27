@@ -95,7 +95,6 @@ function BeskidPage () {
           whileInView={{y: 0, opacity: 1}}
           transition={{duration: 0.6}}
         >
-          <h1 className='main-title'>Планування котеджів BESKID</h1>
         </motion.div>
 
         {/* planning types section */}

@@ -1,4 +1,5 @@
-import mainImg from '../assets/beskidPage/images/beskid_page-banner.webp'
+import mainImg from '../assets/beskidPage/images/main-banner.webp'
+// import mainImg from '../assets/beskidPage/images/main-banner.png'
 import checkIcon from '../assets/beskidPage/icons/check.svg'
 import { useState } from 'react'
 import { motion } from 'framer-motion'
