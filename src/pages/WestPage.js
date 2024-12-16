@@ -186,7 +186,7 @@ function WestPage () {
               image={internalTypeImg}
               type="Внутрішній"
               rooms="4"
-              square="120 м²"
+              square="120 м² - 135 м²"
               area="1,65-1,8 сотих"
             />
             <HouseType

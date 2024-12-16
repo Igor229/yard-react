@@ -33,7 +33,8 @@ function About () {
                             whileInView={{y: 0, opacity: 1}}
                             transition={{duration: 0.5}}
                         >
-                            Дбаємо про ваш комфорт та добробут
+                            Таунхауси в Івано-Франківську <br/>
+                            Котеджі у Буковелі
                         </motion.p>
 
                         <motion.div className='text-container__actions'
