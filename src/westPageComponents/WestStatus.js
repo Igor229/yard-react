@@ -91,6 +91,8 @@ import que11Nov8 from '../assets/images/build-status/west-status/queue11/nov8.we
 import que11Nov9 from '../assets/images/build-status/west-status/queue11/nov9.webp'
 import que11Nov10 from '../assets/images/build-status/west-status/queue11/nov10.webp'
 import que11Nov11 from '../assets/images/build-status/west-status/queue11/nov11.webp'
+import que11December1 from '../assets/images/build-status/west-status/queue11/december1.webp'
+import que11December2 from '../assets/images/build-status/west-status/queue11/december2.webp'
 
 // queue12
 import que12July1 from '../assets/images/build-status/west-status/queue12/sept1.webp'
@@ -113,6 +115,9 @@ import que12Nov9 from '../assets/images/build-status/west-status/queue12/nov9.we
 import que12Nov10 from '../assets/images/build-status/west-status/queue12/nov10.webp'
 import que12Nov11 from '../assets/images/build-status/west-status/queue12/nov11.webp'
 import que12Nov12 from '../assets/images/build-status/west-status/queue12/nov12.webp'
+import que12December1 from '../assets/images/build-status/west-status/queue12/december1.webp'
+import que12December2 from '../assets/images/build-status/west-status/queue12/december2.webp'
+import que12December3 from '../assets/images/build-status/west-status/queue12/december3.webp'
 
   // cards data
 
@@ -379,6 +384,18 @@ const album10 = [
 
 const album11 = [
   {
+    img: que11December1,
+    month: 'Грудень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que11December2,
+    month: 'Грудень',
+    title: 'west town',
+    info: ''
+  },
+  {
     img: que11Nov9,
     month: 'Листопад',
     title: 'west town',
@@ -616,6 +633,24 @@ const album11 = [
 
 const album12 = [
   {
+    img: que12December1,
+    month: 'Грудень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que12December2,
+    month: 'Грудень',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que12December3,
+    month: 'Грудень',
+    title: 'west town',
+    info: ''
+  },
+  {
     img: que12Nov9,
     month: 'Листопад',
     title: 'west town',
@@ -829,6 +864,8 @@ function WestStatus() {
         <FsLightbox 
           toggler={togglerThree}
           sources={[
+            que11December1,
+            que11December2,
             que11Nov9,
             que11Nov10,
             que11Nov11,
@@ -874,6 +911,9 @@ function WestStatus() {
         <FsLightbox 
           toggler={togglerFour}
           sources={[
+            que12December1,
+            que12December2,
+            que12December3,
             que12Nov9,
             que12Nov10,
             que12Nov11,
