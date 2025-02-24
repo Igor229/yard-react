@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.432426ff.css",
-    "main.js": "/static/js/main.79d35294.js",
+    "main.js": "/static/js/main.2d8cfdc3.js",
     "static/js/787.3a6277e1.chunk.js": "/static/js/787.3a6277e1.chunk.js",
     "static/media/bg-video.MP4": "/static/media/bg-video.b0d77293e27fac262997.MP4",
     "static/media/manageGroupImg4.jpg": "/static/media/manageGroupImg4.650e55a38f0a492efd93.jpg",
@@ -41,16 +41,16 @@
     "static/media/december3.webp": "/static/media/december3.4d777652fe93c38598ee.webp",
     "static/media/jul5.webp": "/static/media/jul5.d3610da7079b979874ca.webp",
     "static/media/comfort-page-banner.webp": "/static/media/comfort-page-banner.fee10a83d9fd603b0953.webp",
-    "static/media/feb3.webp": "/static/media/feb3.db4a4b3bfbc59f11336b.webp",
+    "static/media/feb3.webp": "/static/media/feb3.7183e4814674d9154d3b.webp",
     "static/media/jul8.webp": "/static/media/jul8.c038793467d8f55e5704.webp",
     "static/media/september1.webp": "/static/media/september1.033a75f5784a001d1b86.webp",
     "static/media/september2.webp": "/static/media/september2.aafb8f17978d3a4d15d7.webp",
     "static/media/jun3.webp": "/static/media/jun3.cd8705c20a53a313c41e.webp",
     "static/media/may2.webp": "/static/media/may2.6e1564c62ca62dcae906.webp",
     "static/media/nov4.webp": "/static/media/nov4.add3d787e0f70916443e.webp",
-    "static/media/feb1.webp": "/static/media/feb1.a5d5f9268ffc585a90db.webp",
+    "static/media/feb1.webp": "/static/media/feb1.81800d977eb87e5d16aa.webp",
     "static/media/jun2.webp": "/static/media/jun2.0d933a0a21a92ef62648.webp",
-    "static/media/feb2.webp": "/static/media/feb2.d51077ea9557573144d0.webp",
+    "static/media/feb2.webp": "/static/media/feb2.ba79094d36ad020056f0.webp",
     "static/media/nov9.webp": "/static/media/nov9.9b3c01a612bbc42025fd.webp",
     "static/media/proposal.jpg": "/static/media/proposal.1dcbc61c4e67c8eae540.jpg",
     "static/media/0.webp": "/static/media/0.4908f63b80f6fc1f641e.webp",
@@ -68,7 +68,7 @@
     "static/media/8.webp": "/static/media/8.52f47a10d84c5ddb0ad3.webp",
     "static/media/nov1.webp": "/static/media/nov1.a1c25469631110bba24b.webp",
     "static/media/beskid-april3.webp": "/static/media/beskid-april3.01693f6db80c04bd7143.webp",
-    "static/media/feb4.webp": "/static/media/feb4.eb91842b27d30ba19d1c.webp",
+    "static/media/feb4.webp": "/static/media/feb4.27706f64a1cc1bfedaf8.webp",
     "static/media/jan4.webp": "/static/media/jan4.c9aa7e0adda344f8701c.webp",
     "static/media/beskid-november2-min.webp": "/static/media/beskid-november2-min.ed4f97f5c696b0567078.webp",
     "static/media/nov6.webp": "/static/media/nov6.1e30441af5b51f1c0263.webp",
@@ -161,11 +161,11 @@
     "static/media/menu-close.svg": "/static/media/menu-close.e20279ac4433a2ac04225d21f9064a29.svg",
     "static/media/rectangle.svg": "/static/media/rectangle.544c591b4e3ee02b53a6061123636c6d.svg",
     "main.432426ff.css.map": "/static/css/main.432426ff.css.map",
-    "main.79d35294.js.map": "/static/js/main.79d35294.js.map",
+    "main.2d8cfdc3.js.map": "/static/js/main.2d8cfdc3.js.map",
     "787.3a6277e1.chunk.js.map": "/static/js/787.3a6277e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.432426ff.css",
-    "static/js/main.79d35294.js"
+    "static/js/main.2d8cfdc3.js"
   ]
 }
