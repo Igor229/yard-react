@@ -23,17 +23,6 @@ function Home () {
     <main>
       <About />
 
-      <div className='ny-block wrapper'>
-        <div className='ny'>
-          <img src={newYearPhoto} className='ny-img' alt='ny'/>
-          <div className='ny-info'>
-            <p className='ny-info__untitle'>Акційна пропозиція </p>
-            <h2 className='ny-info__title'>Новий рік - у Новому домі!</h2>
-            <p className='ny-info__text'><b>-2 000$</b> на купівлю таунхауса 135 м² у WEST TOWN 12</p>
-          </div>
-        </div>
-      </div>
-
       <motion.section className='complexes'
         initial={{opacity: 0, y: 100, scale: 0.9}}
         whileInView={{opacity: 1, y: 0, scale: 1}}

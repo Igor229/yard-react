@@ -6,9 +6,18 @@
     margin-bottom: 60px;
 }
 
+.west__banner-image {
+    object-fit: cover;
+    object-position: 0 0;
+}
 
 @media screen and (max-width: 1280px) {
     .west-banner__action {
         padding: 0 40px;
+    }
+
+    .west__banner-image {
+        object-fit: cover;
+        object-position: center;
     }
 }
