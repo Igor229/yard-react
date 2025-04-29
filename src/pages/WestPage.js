@@ -10,6 +10,7 @@ import BackgroundYard from '../westPageComponents/BackgroundYard';
 import WPlanType from '../westPageComponents/WPlanType';
 import WestStatus from '../westPageComponents/WestStatus';
 import PreviousStatus from '../westPageComponents/PreviousStatus';
+import QuadroWest from '../westPageComponents/QuadroWest';
 
 import './WestPage.scss'
 import icons from '../assets/icons/sprite.svg'
@@ -145,6 +146,8 @@ function WestPage () {
             <MainSlider />
           </motion.div>
 
+            <QuadroWest />
+
           {/* Adventages Images */}
           <motion.div
             className="wrapper title-container box"
@@ -173,7 +176,7 @@ function WestPage () {
             transition={{ duration: 0.6 }}
           >
             <h1 className="main-title">
-              У нашому містечку ви можете обрати таунхаус
+            У нашому містечку ви можете обрати <br/>таунхаус / квадрохаус
             </h1>
           </motion.div>
           <motion.div
@@ -182,20 +185,7 @@ function WestPage () {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6 }}
           >
-            <HouseType
-              image={internalTypeImg}
-              type="Внутрішній"
-              rooms="4"
-              square="120 м² - 135 м²"
-              area="1,65-1,8 сотих"
-            />
-            <HouseType
-              image={externalTypeImg}
-              type="Крайній"
-              rooms="4"
-              square="120 м²"
-              area="2,5-2,8 сотих"
-            />
+            <HouseType/>
           </motion.div>
 
           {/* Planning Types Section */}
@@ -219,7 +209,7 @@ function WestPage () {
           >
             <div className="partners__info">
               <h1 className="partners__info-title">
-                Партнер містечка WEST TOWN - студія дизайну інтер’єру Monochrome
+                Партнер містечка WEST TOWN - <br/>студія дизайну інтер’єру Monochrome
                 Interior Design
               </h1>
               <p className="partners__info-text">

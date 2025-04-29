@@ -5,10 +5,8 @@ import News from '../components/News';
 import Map from '../components/Map';
 import { motion } from 'framer-motion';
 import Header from '../components/Header';
-import comfortCardPhoto from '../assets/images/home-comfort.webp'
-import westCardPhoto from '../assets/images/home-west.webp'
 import guestHouseCardPhoto from '../assets/images/home-guesthouse.webp'
-import newYearPhoto from '../assets/images/new-year.png'
+import ComplexCards from '../components/ComplexesSlider';
 
 //====================================
 function Home () {
@@ -30,9 +28,8 @@ function Home () {
       >
         <div className='wrapper'>
           <h2 className='main-title'>ТОП-1 на ринку таунхаусів в Івано-Франківську</h2>
-          <div className='complexes-up'>
-          <a href='#comfort-town' onClick={handleClickScroll}><ComplexCard header='COMFORT TOWN' location='Угорники' type='10 хв до Центру Івано-Франківська' image={comfortCardPhoto}/></a>
-          <a href='#west-town' onClick={handleClickScroll}><ComplexCard header='WEST TOWN' location='Крихівці' type='10 хв до міського озера' image={westCardPhoto}/></a>
+          <div>
+            <ComplexCards/>
           </div>
           <h2 className='main-title bes-title'>Будуємо котеджі в самому серці Карпат для інвестиції <br/> або власного проживання</h2>
             <div className='complexes-down'>
@@ -66,10 +63,6 @@ function Home () {
           whileInView={{opacity: 1, y: 0, scale: 1}}
           transition={{duration: 0.37}}
         >
-          <h2 className='main-title box'>Новини</h2>
-          <div className='news__container box' id='news'>
-            <News/>
-          </div>
         </motion.div>
       </motion.section>
 
