@@ -1,9 +1,8 @@
-// AIzaSyCtkYNyrw9YPYcMYCyiTGM0-WDLbqdTiO0
 import { useMemo } from "react"
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api"
 
-function BeskedMap() {
-    const center = useMemo(() => ({lat: 48.357040, lng: 24.424809}), [])
+function ComfortMap() {
+    const center = useMemo(() => ({lat: 48.921223, lng: 24.769727}), [])
     const containerStyle = {
         width: '100%',
         height: '400px'
@@ -24,4 +23,4 @@ function BeskedMap() {
     
 }
 
-export default BeskedMap
+export default ComfortMap
