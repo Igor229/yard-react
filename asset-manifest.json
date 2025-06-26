@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.22484c6a.css",
-    "main.js": "/static/js/main.dc896c34.js",
+    "main.js": "/static/js/main.293a7a90.js",
     "static/js/787.3a6277e1.chunk.js": "/static/js/787.3a6277e1.chunk.js",
     "static/media/bg-video.MP4": "/static/media/bg-video.b0d77293e27fac262997.MP4",
     "static/media/manageGroupImg4.jpg": "/static/media/manageGroupImg4.650e55a38f0a492efd93.jpg",
@@ -46,13 +46,13 @@
     "static/media/newmay5.webp": "/static/media/newmay5.ca469b9c23f69576ee18.webp",
     "static/media/september1.webp": "/static/media/september1.033a75f5784a001d1b86.webp",
     "static/media/september2.webp": "/static/media/september2.aafb8f17978d3a4d15d7.webp",
-    "static/media/jun3.webp": "/static/media/jun3.cd8705c20a53a313c41e.webp",
+    "static/media/jun3.webp": "/static/media/jun3.053fb8f3d699002c34f0.webp",
     "static/media/nov4.webp": "/static/media/nov4.8c82e73d5dbd5a35ec73.webp",
     "static/media/feb1.webp": "/static/media/feb1.81800d977eb87e5d16aa.webp",
     "static/media/mar1.webp": "/static/media/mar1.17233e5908e4de5d58e4.webp",
     "static/media/feb2.webp": "/static/media/feb2.ba79094d36ad020056f0.webp",
     "static/media/2.webp": "/static/media/2.50d2f2b1517ec0026711.webp",
-    "static/media/jun1.webp": "/static/media/jun1.9d26889ce3bf20cc462f.webp",
+    "static/media/jun1.webp": "/static/media/jun1.dc1100163045308e6416.webp",
     "static/media/nov9.webp": "/static/media/nov9.2ac12926afce1309605b.webp",
     "static/media/apr1.webp": "/static/media/apr1.a14ad080a729d11f642f.webp",
     "static/media/proposal.jpg": "/static/media/proposal.1dcbc61c4e67c8eae540.jpg",
@@ -63,6 +63,7 @@
     "static/media/december1.webp": "/static/media/december1.f14a4764e210e58806b6.webp",
     "static/media/beskid-april8.webp": "/static/media/beskid-april8.007f0aaebbfbfdad06e4.webp",
     "static/media/nov5.webp": "/static/media/nov5.dceae7c6b87cecabe297.webp",
+    "static/media/jun4.webp": "/static/media/jun4.e701e4bf1a677c5f8c0c.webp",
     "static/media/home-west_XIII.webp": "/static/media/home-west_XIII.def5bb22315ffacaa791.webp",
     "static/media/main.webp": "/static/media/main.267c047d38b9368e0701.webp",
     "static/media/march1.webp": "/static/media/march1.84ff73f41e006613d3b1.webp",
@@ -173,11 +174,11 @@
     "static/media/stoncks.svg": "/static/media/stoncks.3d1ce1c73db49ecf1fcaa3e62a2e1b51.svg",
     "static/media/menu-close.svg": "/static/media/menu-close.e20279ac4433a2ac04225d21f9064a29.svg",
     "main.22484c6a.css.map": "/static/css/main.22484c6a.css.map",
-    "main.dc896c34.js.map": "/static/js/main.dc896c34.js.map",
+    "main.293a7a90.js.map": "/static/js/main.293a7a90.js.map",
     "787.3a6277e1.chunk.js.map": "/static/js/787.3a6277e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22484c6a.css",
-    "static/js/main.dc896c34.js"
+    "static/js/main.293a7a90.js"
   ]
 }
