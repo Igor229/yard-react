@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.22484c6a.css",
-    "main.js": "/static/js/main.293a7a90.js",
+    "main.js": "/static/js/main.0843d3d5.js",
     "static/js/787.3a6277e1.chunk.js": "/static/js/787.3a6277e1.chunk.js",
     "static/media/bg-video.MP4": "/static/media/bg-video.b0d77293e27fac262997.MP4",
     "static/media/manageGroupImg4.jpg": "/static/media/manageGroupImg4.650e55a38f0a492efd93.jpg",
@@ -24,6 +24,7 @@
     "static/media/newmay6.webp": "/static/media/newmay6.cce6e7297b073c381616.webp",
     "static/media/newmay4.webp": "/static/media/newmay4.dd8d6ccd53b91a326c6f.webp",
     "static/media/may3.webp": "/static/media/may3.53fec9d1dd39b54feabb.webp",
+    "static/media/july1.webp": "/static/media/july1.de12a11bf4353f4fbe88.webp",
     "static/media/manageGroupImg3.jpg": "/static/media/manageGroupImg3.4d7ac6f5f4d8d06ca31d.jpg",
     "static/media/september3.webp": "/static/media/september3.6075c48a01b498521996.webp",
     "static/media/september5.webp": "/static/media/september5.85957eb3b311c81b21ab.webp",
@@ -36,16 +37,18 @@
     "static/media/may2.webp": "/static/media/may2.6e1564c62ca62dcae906.webp",
     "static/media/apr4.webp": "/static/media/apr4.334c885988306d2e84c0.webp",
     "static/media/december3.webp": "/static/media/december3.4d777652fe93c38598ee.webp",
-    "static/media/jul2.webp": "/static/media/jul2.d24268ba100483ead362.webp",
+    "static/media/jul2.webp": "/static/media/jul2.2b126522859c7980827d.webp",
     "static/media/mar4.webp": "/static/media/mar4.9ca75d745e1b09418ea7.webp",
     "static/media/comfort-page-banner.webp": "/static/media/comfort-page-banner.fee10a83d9fd603b0953.webp",
     "static/media/mar3.webp": "/static/media/mar3.d24e8bbaf09684517dc8.webp",
     "static/media/feb3.webp": "/static/media/feb3.7183e4814674d9154d3b.webp",
-    "static/media/jul1.webp": "/static/media/jul1.4a9e14ad7848a9d1abec.webp",
+    "static/media/jul1.webp": "/static/media/jul1.a9e0b039abd6059a1c03.webp",
     "static/media/mar5.webp": "/static/media/mar5.e101b8892009e587b0ab.webp",
+    "static/media/jul3.webp": "/static/media/jul3.5b7716c00695eaf6f891.webp",
     "static/media/newmay5.webp": "/static/media/newmay5.ca469b9c23f69576ee18.webp",
     "static/media/september1.webp": "/static/media/september1.033a75f5784a001d1b86.webp",
     "static/media/september2.webp": "/static/media/september2.aafb8f17978d3a4d15d7.webp",
+    "static/media/july3.webp": "/static/media/july3.ac78172170d428b3e485.webp",
     "static/media/jun3.webp": "/static/media/jun3.053fb8f3d699002c34f0.webp",
     "static/media/nov4.webp": "/static/media/nov4.8c82e73d5dbd5a35ec73.webp",
     "static/media/feb1.webp": "/static/media/feb1.81800d977eb87e5d16aa.webp",
@@ -57,7 +60,6 @@
     "static/media/apr1.webp": "/static/media/apr1.a14ad080a729d11f642f.webp",
     "static/media/proposal.jpg": "/static/media/proposal.1dcbc61c4e67c8eae540.jpg",
     "static/media/0.webp": "/static/media/0.4908f63b80f6fc1f641e.webp",
-    "static/media/jul3.webp": "/static/media/jul3.5b7716c00695eaf6f891.webp",
     "static/media/oct8.webp": "/static/media/oct8.964278ffa1f18a854d5e.webp",
     "static/media/jan5.webp": "/static/media/jan5.20f7cef0ecf522c7e11a.webp",
     "static/media/december1.webp": "/static/media/december1.f14a4764e210e58806b6.webp",
@@ -73,6 +75,7 @@
     "static/media/quadroWest.webp": "/static/media/quadroWest.fa2f99e89848563c2d15.webp",
     "static/media/nov7.webp": "/static/media/nov7.07340d51a7e42c557108.webp",
     "static/media/december2.webp": "/static/media/december2.c9cb62c9ddc966254f12.webp",
+    "static/media/july2.webp": "/static/media/july2.c486ae07835a2d05f44d.webp",
     "static/media/nov1.webp": "/static/media/nov1.a1c25469631110bba24b.webp",
     "static/media/beskid-april3.webp": "/static/media/beskid-april3.01693f6db80c04bd7143.webp",
     "static/media/feb4.webp": "/static/media/feb4.27706f64a1cc1bfedaf8.webp",
@@ -174,11 +177,11 @@
     "static/media/stoncks.svg": "/static/media/stoncks.3d1ce1c73db49ecf1fcaa3e62a2e1b51.svg",
     "static/media/menu-close.svg": "/static/media/menu-close.e20279ac4433a2ac04225d21f9064a29.svg",
     "main.22484c6a.css.map": "/static/css/main.22484c6a.css.map",
-    "main.293a7a90.js.map": "/static/js/main.293a7a90.js.map",
+    "main.0843d3d5.js.map": "/static/js/main.0843d3d5.js.map",
     "787.3a6277e1.chunk.js.map": "/static/js/787.3a6277e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22484c6a.css",
-    "static/js/main.293a7a90.js"
+    "static/js/main.0843d3d5.js"
   ]
 }
