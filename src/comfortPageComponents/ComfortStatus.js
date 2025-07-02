@@ -37,13 +37,37 @@ import comfortNewMay3 from '../assets/images/build-status/comfort-status/newmay3
 import comfortNewMay4 from '../assets/images/build-status/comfort-status/newmay4.webp'
 import comfortNewMay5 from '../assets/images/build-status/comfort-status/newmay5.webp'
 import comfortNewMay6 from '../assets/images/build-status/comfort-status/newmay6.webp'
+import comfortNewJuly1 from '../assets/images/build-status/comfort-status/july1.webp'
+import comfortNewJuly2 from '../assets/images/build-status/comfort-status/july2.webp'
+import comfortNewJuly3 from '../assets/images/build-status/comfort-status/july3.webp'
 
 
 //queue2
 import comfortJun1 from '../assets/images/build-status/comfort-status/queue2/jun1.webp'
 import comfortJun2 from '../assets/images/build-status/comfort-status/queue2/jun2.webp'
+import comfortJul1 from '../assets/images/build-status/comfort-status/queue2/jul1.webp'
+import comfortJul2 from '../assets/images/build-status/comfort-status/queue2/jul2.webp'
+import comfortJul3 from '../assets/images/build-status/comfort-status/queue2/jul3.webp'
 
   const album1 = [
+    {
+      img: comfortNewJuly1,
+      month: 'Липень 2025',
+      title: 'COMFORT TOWN',
+      info: ''
+    },
+    {
+      img: comfortNewJuly2,
+      month: 'Липень 2025',
+      title: 'COMFORT TOWN',
+      info: ''
+    },
+    {
+      img: comfortNewJuly3,
+      month: 'Липень 2025',
+      title: 'COMFORT TOWN',
+      info: ''
+    },
     {
       img: comfortNewMay1,
       month: 'Травень 2025',
@@ -228,6 +252,24 @@ import comfortJun2 from '../assets/images/build-status/comfort-status/queue2/jun
 
   const album2 = [
     {
+        img: comfortJul1,
+        month: 'Липень 2025',
+        title: 'COMFORT TOWN',
+        info: ''
+    },
+    {
+        img: comfortJul2,
+        month: 'Липень 2025',
+        title: 'COMFORT TOWN',
+        info: ''
+    },
+    {
+        img: comfortJul3,
+        month: 'Липень 2025',
+        title: 'COMFORT TOWN',
+        info: ''
+    },
+    {
         img: comfortJun1,
         month: 'Червень 2025',
         title: 'COMFORT TOWN',
@@ -279,6 +321,9 @@ function ComfortStatus() {
         <FsLightbox 
           toggler={togglerOne}
           sources={[
+            comfortNewJuly1,
+            comfortNewJuly2,
+            comfortNewJuly3,
             comfortNewMay1,
             comfortNewMay2,
             comfortNewMay3,
@@ -314,6 +359,9 @@ function ComfortStatus() {
         <FsLightbox 
           toggler={togglerTwo}
           sources={[
+            comfortJul1,
+            comfortJul2,
+            comfortJul3,
             comfortJun1,
             comfortJun2,
           ]}
