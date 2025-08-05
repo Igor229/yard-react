@@ -72,6 +72,12 @@ import que13Jun1 from '../assets/images/build-status/west-status/queue13/jun1.we
 import que13Jun2 from '../assets/images/build-status/west-status/queue13/jun2.webp'
 import que13Jun3 from '../assets/images/build-status/west-status/queue13/jun3.webp'
 import que13Jun4 from '../assets/images/build-status/west-status/queue13/jun4.webp'
+import que13Aug1 from '../assets/images/build-status/west-status/queue13/august1.webp'
+import que13Aug2 from '../assets/images/build-status/west-status/queue13/august2.webp'
+import que13Aug3 from '../assets/images/build-status/west-status/queue13/august3.webp'
+import que13Aug4 from '../assets/images/build-status/west-status/queue13/august4.webp'
+import que13Aug5 from '../assets/images/build-status/west-status/queue13/august5.webp'
+import que13Aug6 from '../assets/images/build-status/west-status/queue13/august6.webp'
 
 
   // cards data
@@ -386,6 +392,42 @@ const album12 = [
 
 const album13 = [
   {
+    img: que13Aug1,
+    month: 'Липень 2025',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que13Aug2,
+    month: 'Липень 2025',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que13Aug3,
+    month: 'Липень 2025',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que13Aug4,
+    month: 'Липень 2025',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que13Aug5,
+    month: 'Липень 2025',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que13Aug6,
+    month: 'Липень 2025',
+    title: 'west town',
+    info: ''
+  },
+  {
     img: que13Jun1,
     month: 'Червень 2025',
     title: 'west town',
@@ -554,6 +596,12 @@ function WestStatus() {
         <FsLightbox 
           toggler={togglerTwo}
           sources={[
+            que13Aug1,
+            que13Aug2,
+            que13Aug3,
+            que13Aug4,
+            que13Aug5,
+            que13Aug6,
             que13Jun1,
             que13Jun2,
             que13Jun3,
