@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.22484c6a.css",
-    "main.js": "/static/js/main.81b07e13.js",
+    "main.js": "/static/js/main.b6a12291.js",
     "static/js/787.3a6277e1.chunk.js": "/static/js/787.3a6277e1.chunk.js",
     "static/media/bg-video.MP4": "/static/media/bg-video.b0d77293e27fac262997.MP4",
     "static/media/manageGroupImg4.jpg": "/static/media/manageGroupImg4.650e55a38f0a492efd93.jpg",
@@ -124,7 +124,6 @@
     "static/media/external.webp": "/static/media/external.e79249533bffe07d3e39.webp",
     "static/media/15.webp": "/static/media/15.68c048eed2347da1645d.webp",
     "static/media/11.webp": "/static/media/11.b5949e2a87677c39f2eb.webp",
-    "static/media/9.webp": "/static/media/9.e9a0eba9d539af01eb53.webp",
     "static/media/TypeOne.png": "/static/media/TypeOne.a6b7f335dca52a686ea1.png",
     "static/media/west_banner_phone.webp": "/static/media/west_banner_phone.4c1eb2ae429f954b10a7.webp",
     "static/media/group_img2.webp": "/static/media/group_img2.79e6e9fd77d6b6cc0a16.webp",
@@ -133,6 +132,7 @@
     "static/media/TypeTwo.png": "/static/media/TypeTwo.c4a2620a4a2063ff52e8.png",
     "static/media/home-guesthouse.webp": "/static/media/home-guesthouse.3bfa3d32e1f5210d2edb.webp",
     "static/media/status-beskid2.webp": "/static/media/status-beskid2.1f254c9f51ddd903c734.webp",
+    "static/media/9.webp": "/static/media/9.e9a0eba9d539af01eb53.webp",
     "static/media/status-beskid3.webp": "/static/media/status-beskid3.0e76b6d5c08968c2e35b.webp",
     "static/media/135m2.webp": "/static/media/135m2.1b46bd7bb8af09eaac9f.webp",
     "static/media/west-banner.webp": "/static/media/west-banner.aca9deb6fd4f5ec1b1a0.webp",
@@ -156,11 +156,11 @@
     "static/media/stoncks.svg": "/static/media/stoncks.3d1ce1c73db49ecf1fcaa3e62a2e1b51.svg",
     "static/media/menu-close.svg": "/static/media/menu-close.e20279ac4433a2ac04225d21f9064a29.svg",
     "main.22484c6a.css.map": "/static/css/main.22484c6a.css.map",
-    "main.81b07e13.js.map": "/static/js/main.81b07e13.js.map",
+    "main.b6a12291.js.map": "/static/js/main.b6a12291.js.map",
     "787.3a6277e1.chunk.js.map": "/static/js/787.3a6277e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22484c6a.css",
-    "static/js/main.81b07e13.js"
+    "static/js/main.b6a12291.js"
   ]
 }
