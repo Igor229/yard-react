@@ -32,6 +32,14 @@ import que13Aug3 from '../assets/images/build-status/west-status/queue13/august3
 import que13Aug4 from '../assets/images/build-status/west-status/queue13/august4.webp'
 import que13Aug5 from '../assets/images/build-status/west-status/queue13/august5.webp'
 import que13Aug6 from '../assets/images/build-status/west-status/queue13/august6.webp'
+import que13Augs1 from '../assets/images/build-status/west-status/queue13/aug1.webp'
+import que13Augs2 from '../assets/images/build-status/west-status/queue13/aug2.webp'
+import que13Augs3 from '../assets/images/build-status/west-status/queue13/aug3.webp'
+import que13Augs4 from '../assets/images/build-status/west-status/queue13/aug4.webp'
+import que13Augs5 from '../assets/images/build-status/west-status/queue13/aug5.webp'
+import que13Augs6 from '../assets/images/build-status/west-status/queue13/aug6.webp'
+import que13Augs7 from '../assets/images/build-status/west-status/queue13/aug7.webp'
+import que13Augs8 from '../assets/images/build-status/west-status/queue13/aug8.webp'
 
 
   // cards data
@@ -69,6 +77,54 @@ const album14 = [
 ]
 
 const album13 = [
+  {
+    img: que13Augs1,
+    month: 'Серпень 2025',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que13Augs2,
+    month: 'Серпень 2025',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que13Augs3,
+    month: 'Серпень 2025',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que13Augs4,
+    month: 'Серпень 2025',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que13Augs5,
+    month: 'Серпень 2025',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que13Augs6,
+    month: 'Серпень 2025',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que13Augs7,
+    month: 'Серпень 2025',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que13Augs8,
+    month: 'Серпень 2025',
+    title: 'west town',
+    info: ''
+  },
   {
     img: que13Aug1,
     month: 'Липень 2025',
@@ -217,6 +273,14 @@ function WestStatus() {
         <FsLightbox 
           toggler={togglerOne}
           sources={[
+            que13Augs1,
+            que13Augs2,
+            que13Augs3,
+            que13Augs4,
+            que13Augs5,
+            que13Augs6,
+            que13Augs7,
+            que13Augs8,
             que13Aug1,
             que13Aug2,
             que13Aug3,
