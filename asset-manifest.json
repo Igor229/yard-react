@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.28d48455.css",
-    "main.js": "/static/js/main.9af6ebd4.js",
+    "main.js": "/static/js/main.9de79cea.js",
     "static/js/787.3a6277e1.chunk.js": "/static/js/787.3a6277e1.chunk.js",
     "static/media/manageGroupImg4.webp": "/static/media/manageGroupImg4.6eba19e1f749aefca32e.webp",
     "static/media/4.webp": "/static/media/4.f0a1fd0072f7ba20ee0a.webp",
@@ -13,6 +13,7 @@
     "static/media/september4.webp": "/static/media/september4.76dd70a95bfafc5f00d0.webp",
     "static/media/newmay6.webp": "/static/media/newmay6.cce6e7297b073c381616.webp",
     "static/media/newmay4.webp": "/static/media/newmay4.dd8d6ccd53b91a326c6f.webp",
+    "static/media/march_5.webp": "/static/media/march_5.28a3725542279603f279.webp",
     "static/media/may3.webp": "/static/media/may3.53fec9d1dd39b54feabb.webp",
     "static/media/july1.webp": "/static/media/july1.de12a11bf4353f4fbe88.webp",
     "static/media/september3.webp": "/static/media/september3.6075c48a01b498521996.webp",
@@ -50,6 +51,7 @@
     "static/media/aug7.webp": "/static/media/aug7.d8c366bf9a467a6c607f.webp",
     "static/media/2.webp": "/static/media/2.50d2f2b1517ec0026711.webp",
     "static/media/jun1.webp": "/static/media/jun1.dc1100163045308e6416.webp",
+    "static/media/march_3.webp": "/static/media/march_3.48b272ccec46d6fd7159.webp",
     "static/media/dec4.webp": "/static/media/dec4.289357b283efcc6eaefa.webp",
     "static/media/sept7.webp": "/static/media/sept7.fa0c3ed0523d033a77e1.webp",
     "static/media/dec2.webp": "/static/media/dec2.371119cabfc86fdc1b66.webp",
@@ -59,6 +61,7 @@
     "static/media/sept4.webp": "/static/media/sept4.0ee831d3dd67def43eea.webp",
     "static/media/sept10.webp": "/static/media/sept10.6edcb969fe0ea04415be.webp",
     "static/media/oct1.webp": "/static/media/oct1.3b49ca628eefe0a5809f.webp",
+    "static/media/march2.webp": "/static/media/march2.caadb923e55e8eec61f1.webp",
     "static/media/oct3_1.webp": "/static/media/oct3_1.d759d26e27ec8dace754.webp",
     "static/media/beskid-april8.webp": "/static/media/beskid-april8.007f0aaebbfbfdad06e4.webp",
     "static/media/august5.webp": "/static/media/august5.5a28bbd7c8c86b4e6968.webp",
@@ -76,6 +79,7 @@
     "static/media/sept2.webp": "/static/media/sept2.bddf96b604be99cb4df4.webp",
     "static/media/quadroWest.webp": "/static/media/quadroWest.fa2f99e89848563c2d15.webp",
     "static/media/sept6.webp": "/static/media/sept6.95b1db0dc12376939bbd.webp",
+    "static/media/march_4.webp": "/static/media/march_4.add139404c75616e8d15.webp",
     "static/media/july2.webp": "/static/media/july2.c486ae07835a2d05f44d.webp",
     "static/media/mountains.webp": "/static/media/mountains.7809f868d7dae2377c65.webp",
     "static/media/aug6.webp": "/static/media/aug6.24dc6dd20d12def5254a.webp",
@@ -96,6 +100,7 @@
     "static/media/newmay1.webp": "/static/media/newmay1.5929c31b243b31e04ffc.webp",
     "static/media/16.webp": "/static/media/16.f2ef91ede477985f02ae.webp",
     "static/media/decem8.webp": "/static/media/decem8.2bca11dedf551b64c843.webp",
+    "static/media/march_2.webp": "/static/media/march_2.474a91a6f657cbbd1546.webp",
     "static/media/aug4.webp": "/static/media/aug4.93775951df155af7068c.webp",
     "static/media/beskid-april9.webp": "/static/media/beskid-april9.42aadbf7bb93f6bc733b.webp",
     "static/media/newmay3.webp": "/static/media/newmay3.060d2bc81e491da571b5.webp",
@@ -111,6 +116,7 @@
     "static/media/5.webp": "/static/media/5.522e011f55a438f7fdf4.webp",
     "static/media/10.webp": "/static/media/10.e9a0eba9d539af01eb53.webp",
     "static/media/beskid-april4.webp": "/static/media/beskid-april4.677393e44ef9c296820e.webp",
+    "static/media/march3.webp": "/static/media/march3.13269773d838bd08342d.webp",
     "static/media/apr2.webp": "/static/media/apr2.ac237bb0d37d27662221.webp",
     "static/media/beskid-november4-min.webp": "/static/media/beskid-november4-min.f8d14c344d4e03728738.webp",
     "static/media/beskid-november3-min.webp": "/static/media/beskid-november3-min.aa12ee4dcc1646b94c05.webp",
@@ -135,6 +141,7 @@
     "static/media/febr5.webp": "/static/media/febr5.0603a1149d07eab2317d.webp",
     "static/media/oct7.webp": "/static/media/oct7.b525c340d3ea398597e4.webp",
     "static/media/febr2.webp": "/static/media/febr2.ca160491da4aea765cbd.webp",
+    "static/media/march_1.webp": "/static/media/march_1.c4bd55a39e76df954147.webp",
     "static/media/may6.webp": "/static/media/may6.7ca49786f6d603775ad7.webp",
     "static/media/oct6.webp": "/static/media/oct6.8fa147c67bace2bfc72e.webp",
     "static/media/jan5.webp": "/static/media/jan5.4ea76eab07a7630e8ec6.webp",
@@ -146,7 +153,6 @@
     "static/media/west-banner.webp": "/static/media/west-banner.38c2309be494ce7f3dd8.webp",
     "static/media/status-beskid4.webp": "/static/media/status-beskid4.d1f56afe22377a1ef852.webp",
     "static/media/decem16.webp": "/static/media/decem16.d93ad9701266acec55b3.webp",
-    "static/media/march2.webp": "/static/media/march2.caadb923e55e8eec61f1.webp",
     "static/media/decem20.webp": "/static/media/decem20.16cc2f641cec17089e44.webp",
     "static/media/8.webp": "/static/media/8.52f47a10d84c5ddb0ad3.webp",
     "static/media/march6.webp": "/static/media/march6.4c8a4445645fe0a9a0a6.webp",
@@ -159,7 +165,6 @@
     "static/media/febr4.webp": "/static/media/febr4.40e1cba80449a70815ab.webp",
     "static/media/instalments.webp": "/static/media/instalments.67daa2683241fc38f033.webp",
     "static/media/decem22.webp": "/static/media/decem22.a801d688632850f1b97a.webp",
-    "static/media/march3.webp": "/static/media/march3.13269773d838bd08342d.webp",
     "static/media/status-beskid1.webp": "/static/media/status-beskid1.fd9954c8872a0f825159.webp",
     "static/media/feb5.webp": "/static/media/feb5.e0869b8012520a110756.webp",
     "static/media/external.webp": "/static/media/external.e79249533bffe07d3e39.webp",
@@ -203,11 +208,11 @@
     "static/media/stoncks.svg": "/static/media/stoncks.3d1ce1c73db49ecf1fcaa3e62a2e1b51.svg",
     "static/media/menu-close.svg": "/static/media/menu-close.e20279ac4433a2ac04225d21f9064a29.svg",
     "main.28d48455.css.map": "/static/css/main.28d48455.css.map",
-    "main.9af6ebd4.js.map": "/static/js/main.9af6ebd4.js.map",
+    "main.9de79cea.js.map": "/static/js/main.9de79cea.js.map",
     "787.3a6277e1.chunk.js.map": "/static/js/787.3a6277e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28d48455.css",
-    "static/js/main.9af6ebd4.js"
+    "static/js/main.9de79cea.js"
   ]
 }
