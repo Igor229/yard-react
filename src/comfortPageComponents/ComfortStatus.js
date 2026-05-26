@@ -90,6 +90,12 @@ import comfortApril2 from '../assets/images/build-status/comfort-status/april2.w
 import comfortApril3 from '../assets/images/build-status/comfort-status/april3.webp'
 import comfortApril4 from '../assets/images/build-status/comfort-status/april4.webp'
 import comfortApril5 from '../assets/images/build-status/comfort-status/april5.webp'
+import comfortnMay1 from '../assets/images/build-status/comfort-status/nMay1.webp'
+import comfortnMay2 from '../assets/images/build-status/comfort-status/nMay2.webp'
+import comfortnMay3 from '../assets/images/build-status/comfort-status/nMay3.webp'
+import comfortnMay4 from '../assets/images/build-status/comfort-status/nMay4.webp'
+import comfortnMay5 from '../assets/images/build-status/comfort-status/nMay5.webp'
+import comfortnMay6 from '../assets/images/build-status/comfort-status/nMay6.webp'
 
 //queue2
 import comfortJun1 from '../assets/images/build-status/comfort-status/queue2/jun1.webp'
@@ -135,8 +141,49 @@ import comfortQueMar4 from '../assets/images/build-status/comfort-status/queue2/
 import comfortQueApril1 from '../assets/images/build-status/comfort-status/queue2/april1.webp'
 import comfortQueApril2 from '../assets/images/build-status/comfort-status/queue2/april2.webp'
 import comfortQueApril3 from '../assets/images/build-status/comfort-status/queue2/april3.webp'
+import comfortQueMay1 from '../assets/images/build-status/comfort-status/queue2/May1.webp'
+import comfortQueMay2 from '../assets/images/build-status/comfort-status/queue2/May2.webp'
+import comfortQueMay3 from '../assets/images/build-status/comfort-status/queue2/May3.webp'
+import comfortQueMay4 from '../assets/images/build-status/comfort-status/queue2/May4.webp'
+import comfortQueMay5 from '../assets/images/build-status/comfort-status/queue2/May5.webp'
 
   const album1 = [
+    {
+      img: comfortnMay1,
+      month: 'Травень 2026',
+      title: 'COMFORT TOWN',
+      info: ''
+    },
+    {
+      img: comfortnMay2,
+      month: 'Травень 2026',
+      title: 'COMFORT TOWN',
+      info: ''
+    },
+    {
+      img: comfortnMay3,
+      month: 'Травень 2026',
+      title: 'COMFORT TOWN',
+      info: ''
+    },
+    {
+      img: comfortnMay4,
+      month: 'Травень 2026',
+      title: 'COMFORT TOWN',
+      info: ''
+    },
+    {
+      img: comfortnMay5,
+      month: 'Травень 2026',
+      title: 'COMFORT TOWN',
+      info: ''
+    },
+    {
+      img: comfortnMay6,
+      month: 'Травень 2026',
+      title: 'COMFORT TOWN',
+      info: ''
+    },
     {
       img: comfortApril1,
       month: 'Квітень 2026',
@@ -639,6 +686,36 @@ import comfortQueApril3 from '../assets/images/build-status/comfort-status/queue
 
   const album2 = [
     {
+      img: comfortQueMay1,
+      month: 'Травень 2026',
+      title: 'COMFORT TOWN',
+      info: ''
+    },
+    {
+      img: comfortQueMay2,
+      month: 'Травень 2026',
+      title: 'COMFORT TOWN',
+      info: ''
+    },
+    {
+      img: comfortQueMay3,
+      month: 'Травень 2026',
+      title: 'COMFORT TOWN',
+      info: ''
+    },
+    {
+      img: comfortQueMay4,
+      month: 'Травень 2026',
+      title: 'COMFORT TOWN',
+      info: ''
+    },
+    {
+      img: comfortQueMay5,
+      month: 'Травень 2026',
+      title: 'COMFORT TOWN',
+      info: ''
+    },
+    {
       img: comfortQueApril1,
       month: 'Квітень 2026',
       title: 'COMFORT TOWN',
@@ -935,6 +1012,12 @@ function ComfortStatus() {
         <FsLightbox 
           toggler={togglerOne}
           sources={[
+            comfortnMay1,
+            comfortnMay2,
+            comfortnMay3,
+            comfortnMay4,
+            comfortnMay5,
+            comfortnMay6,
             comfortApril1,
             comfortApril2,
             comfortApril3,
@@ -1023,6 +1106,11 @@ function ComfortStatus() {
         <FsLightbox 
           toggler={togglerTwo}
           sources={[
+            comfortQueMay1,
+            comfortQueMay2,
+            comfortQueMay3,
+            comfortQueMay4,
+            comfortQueMay5,
             comfortQueApril1,
             comfortQueApril2,
             comfortQueApril3,
