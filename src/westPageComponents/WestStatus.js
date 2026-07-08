@@ -58,6 +58,11 @@ import que14May_4 from '../assets/images/build-status/west-status/queue14/May_4.
 import que14May_5 from '../assets/images/build-status/west-status/queue14/May_5.webp'
 import que14May_6 from '../assets/images/build-status/west-status/queue14/May_6.webp'
 import que14May_7 from '../assets/images/build-status/west-status/queue14/May_7.webp'
+import que14nJune1 from '../assets/images/build-status/west-status/queue14/June1.webp'
+import que14nJune2 from '../assets/images/build-status/west-status/queue14/June2.webp'
+import que14nJune3 from '../assets/images/build-status/west-status/queue14/June3.webp'
+import que14nJune4 from '../assets/images/build-status/west-status/queue14/June4.webp'
+import que14nJune5 from '../assets/images/build-status/west-status/queue14/June5.webp'
 
 //queue 13
 import que13Apr1 from '../assets/images/build-status/west-status/queue13/apr1.webp'
@@ -121,9 +126,41 @@ import que13April2 from '../assets/images/build-status/west-status/queue13/april
 import que13April3 from '../assets/images/build-status/west-status/queue13/april3.webp'
 import que13May_1 from '../assets/images/build-status/west-status/queue13/May_1.webp'
 import que13May_2 from '../assets/images/build-status/west-status/queue13/May_2.webp'
+import que13nJune1 from '../assets/images/build-status/west-status/queue13/June1.webp'
+import que13nJune2 from '../assets/images/build-status/west-status/queue13/June2.webp'
 
   // cards data
 const album14 = [
+  {
+    img: que14nJune1,
+    month: 'Червень 2026',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que14nJune2,
+    month: 'Червень 2026',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que14nJune3,
+    month: 'Червень 2026',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que14nJune4,
+    month: 'Червень 2026',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que14nJune5,
+    month: 'Червень 2026',
+    title: 'west town',
+    info: ''
+  },
   {
     img: que14May_1,
     month: 'Травень 2026',
@@ -432,6 +469,18 @@ const album14 = [
 ]
 
 const album13 = [
+  {
+    img: que13nJune1,
+    month: 'Червень 2026',
+    title: 'west town',
+    info: ''
+  },
+  {
+    img: que13nJune2,
+    month: 'Червень 2026',
+    title: 'west town',
+    info: ''
+  },
   {
     img: que13May_1,
     month: 'Травень 2026',
@@ -838,6 +887,8 @@ function WestStatus() {
         <FsLightbox 
           toggler={togglerOne}
           sources={[
+            que13nJune1,
+            que13nJune2,
             que13May_1,
             que13May_2,
             que13April1,
@@ -905,6 +956,11 @@ function WestStatus() {
         <FsLightbox 
           toggler={togglerTwo}
           sources={[
+            que14nJune1,
+            que14nJune2,
+            que14nJune3,
+            que14nJune4,
+            que14nJune5,
             que14May_1,
             que14May_2,
             que14May_3,
